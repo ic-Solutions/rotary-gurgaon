@@ -1,0 +1,256 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+    <meta name="author" content="Flashteq">
+    <meta name="description" content="Flashteq, Web designing">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet">
+    <!-- ============================== ICON ============================== -->
+    <link rel="icon" href="images/Logo.jpeg" type="image/jpeg" sizes="64x64">
+    <!-- ============================== JS ============================== -->
+
+    <title>
+        NGO Website
+    </title>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="css/font-awesome.min.css" rel="stylesheet" />-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet">
+
+    <!-- ============================== ICON ============================== -->
+    <link class="box-effect-small" rel="icon" href="images/brand-logo.png" type="image/png" sizes="64x64">
+
+    <script>
+		$(function(){
+		  new WOW().init();
+		});
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Javascript code for managing the navbar background color while scrolling
+            var scroll_start = 0;
+            var startchange = $('#join-us');
+            var offset = startchange.offset();
+            if (startchange.length) {
+                $(document).scroll(function () {
+                    scroll_start = $(this).scrollTop();
+                    if (scroll_start > offset.top) {
+                        $("#nav-wrapper").css('background-color', 'rgba(255, 255, 255, 0.9)');
+                        $("#nav-wrapper").addClass("box-effect-small");
+                        $(".nav-link").addClass("nav-link-dark");
+						$(".logo-first-text").addClass("text-danger");
+						$(".logo-second-text").addClass("text-secondary");
+                    } else {
+                        $('#nav-wrapper').css('background-color', 'transparent');
+                        $("#nav-wrapper").removeClass("box-effect-small");
+                        $(".nav-link").removeClass("nav-link-dark");
+						$(".logo-first-text").removeClass("text-danger");
+						$(".logo-second-text").removeClass("text-secondary");
+                    }
+                });
+            }
+
+            // checking if menu button is clicked in mobile mode
+            $(document).on("click", ".navbar-toggler", function () {
+                if (document.getElementById('nav-wrapper').clientHeight < 100)
+                {
+                    $("#nav-wrapper").css('background-color', 'rgba(255, 255, 255, 0.9)');
+                    $(".nav-link").addClass("nav-link-dark");
+                    $("#nav-wrapper").addClass("box-effect-small");
+                }
+                else
+                {
+                    $('#nav-wrapper').css('background-color', 'transparent');
+                    $("#nav-wrapper").removeClass("box-effect-small");
+                    $(".nav-link").removeClass("nav-link-dark");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <!--START OF NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav-wrapper">
+        <!--<a class="navbar-brand" href="/#home"><img src="images/Logo.jpeg" class="box-effect-large" style="border-radius:50px;" width="50" height="50"></a>-->
+			<table>
+				<tr>
+                    <!-- Logo text -->
+					<td>
+						<a class="navbar-brand" href="/#home" style="margin-right:0;">
+							<span class="text-white logo-first-text" style="font-size:22px;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;">Rotary Club</span>
+							<br />
+							<span class="text-white logo-second-text" style="font-size:11px;text-transform:none;font-family:inherit;">of Gurgaon Harmony Iberis</span>
+						</a>
+				    </td>
+
+                    <!-- Logo image -->
+					<td>
+						<a class="navbar-brand" href="/#home">
+							<img src="images/Logo.jpeg" class="box-effect-large" style="border-radius:50px;" width="60" height="60" />
+						</a>
+				    </td>
+				</tr>
+			</table>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <!-- Header Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav" id="mainNav">
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" id="nav-home" href="/#home">HOME <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" id="nav-aboutUs" href="/#about-us">ABOUT US</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" id="nav-aboutUs" href="/#focus-area">AREA OF FOCUS</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="team.html#team">OUR TEAM</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="third.html#upcoming-events">UPCOMING EVENTS</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="second.html#projects">PROJECTS & PLANS</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="second.html#gallery">GALLERY</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="#contactUS">CONTACT US</a>
+                </li>
+
+                <li class="nav-item" style="padding:2px 8px;">
+                    <a class="nav-link btn round-corner box-effect-small" id="btnJoinUs" href="fourth.html#join-us">JOIN US</a>
+                </li>
+            </ul>
+        </div>
+            <!-- End of Header Menu -->
+    </nav>
+    <!--END OF NAV-->
+
+
+    <!--JOIN US SECTION-->
+    <section class="section-pad theme-bg-red" id="join-us" style="height:100%;">
+        <div class="container">
+            <!--Join Us title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                    <h1 class="section-title" style="color:#444242;">JOIN US</h1>
+                </div>
+            </div>
+            <!--End of Join Us title-->
+
+            <br />
+
+            <!--Join Us sub title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 text-muted text-center">
+                    <h6 style="max-width: 600px;margin: auto;color:#444242;">Rotary is 1.2 million passionate individuals in 35,000+ clubs worldwide. We are both an international organization and a local community leader. Together we lead change in our own backyards and across the world.</h6>
+                    <br />
+                </div>
+            </div>
+            <!--End of Join Us sub title-->
+
+            <!--Join Us sub title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 text-muted text-center">
+                    <div class="card" style="background-color: rgba(0,0,0,0.6);color: lightgray;">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p style="font-size:16px;">Rotary club members are men and women of all ages and professional backgrounds who use their talents, skills, and energy to improve the lives of people in communities at home and around the world.
+
+Membership in a Rotary club is by invitation only. We want to make sure you join a club that best fits your passion and perspective.
+
+We can connect you with a club that's right for you and make it easy to get involved and on your way to membership immediately.</p>
+                                <footer class="blockquote-footer text-warning"><cite title="Source Title">Director</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End of Join Us sub title-->
+
+        </div>
+    </section>
+    <!--END OF JOIN US SECTION-->
+
+    <!--FOOTER-->
+    <section id="contactUS">
+        <div class="container-fluid box-effect-small-up footer text-center">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-6" style="padding-top:10px;">
+                        <span class="section-title">ROTARY</span>
+                        <hr class="text-muted" />
+                        <h6 class="text-muted">In all avenues of service, the Club intends to ensure that there is long term engagement and sustainability in the projects undertaken. This will reinforce the role of Rotary as a positive agent of change in our community.</h6>
+                    </div>
+
+                    <!-- Quick Links section -->
+                    <div class="col-md-3" style="padding-top:10px;">
+                        <span class="section-title">QUICK LINKS</span>
+                        <hr class="text-muted" />
+                        <ul class="list-group">
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotary.org" target="_blank">Rotary International</a></li>
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotarydistrict3011.org" target="_blank">Rotary District 3011</a></li>
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="#focus-area">Our Area of focus</a></li>
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="team.html#team">OUR TEAM</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="#videos">Videos</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="third.html#upcoming-events">Upcoming Events</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="second.html#projects">PROJECTS AND PLANS</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="second.html#gallery">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Quick Links section -->
+
+                    <!-- Connect section -->
+                    <div class="col-md-3" style="padding-top:10px;">
+                        <span class="section-title">CONNECT</span>
+                        <hr class="text-muted" />
+                        <ul class="list-group">
+                            <!-- Email -->
+                            <li class="list-group-item-footer"><a class="text-danger" style="font-size:16px;text-transform:lowercase;" href="#">rcghi2018@gmail.com</a></li>
+                            <!-- facebook -->
+                            <li class="list-group-item-footer fs-15px"><a target="_blank" href="#"><img style="width:25px;" src="images/fb.png" /> &nbsp;facebook</a></li>
+                            <!-- WhatsApp -->
+                            <li class="list-group-item-footer fs-15px"><a href="#" target="_blank"><img style="width:25px;" src="images/whatsapp.png" /> &nbsp;WhatsApp</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Connect section -->
+                </div>
+            </div>
+
+            <hr />
+
+			<div class="row text-center">
+                <div class="col-md-6 text-center"><span style="color:white;font-size:15px;">© 2019. All rights reserved</span></div>
+                <div class="col-md-6"><span style="color:white;font-size:15px;">Designed by <a target="_blank" style="text-decoration:none; color:orange;" href="http://icsoln.com/">icsoln.com</a></span></div>
+            </div>
+            <br />
+            <br />
+        </div>
+    </section>
+    <!--END OF FOOTER-->
+</body>
+</html>

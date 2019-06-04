@@ -1,0 +1,786 @@
+﻿<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+    <meta name="author" content="Flashteq">
+    <meta name="description" content="Flashteq, Web designing">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet">
+
+    <!-- ============================== ICON ============================== -->
+    <link rel="icon" href="images/Logo.jpeg" type="image/jpeg" sizes="64x64">
+    <!-- ============================== JS ============================== -->
+
+    <title>
+        NGO Website
+    </title>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="css/font-awesome.min.css" rel="stylesheet" />-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet">
+
+    <!-- ============================== ICON ============================== -->
+    <link class="box-effect-small" rel="icon" href="images/brand-logo.png" type="image/png" sizes="64x64">
+
+    <script>
+		$(function(){
+		  new WOW().init();
+		});
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Javascript code for managing the navbar background color while scrolling
+            var scroll_start = 0;
+            var startchange = $('#carouselExampleFade');
+            var offset = startchange.offset();
+            if (startchange.length) {
+                $(document).scroll(function () {
+                    scroll_start = $(this).scrollTop();
+                    if (scroll_start > offset.top) {
+                        $("#nav-wrapper").css('background-color', 'rgba(255, 255, 255, 0.9)');
+                        $("#nav-wrapper").addClass("box-effect-small");
+                        $(".nav-link").addClass("nav-link-dark");
+						$(".logo-first-text").addClass("text-danger");
+						$(".logo-second-text").addClass("text-secondary");
+                    } else {
+                        $('#nav-wrapper').css('background-color', 'transparent');
+                        $("#nav-wrapper").removeClass("box-effect-small");
+                        $(".nav-link").removeClass("nav-link-dark");
+						$(".logo-first-text").removeClass("text-danger");
+						$(".logo-second-text").removeClass("text-secondary");
+                    }
+                });
+            }
+
+            // checking if menu button is clicked in mobile mode
+            $(document).on("click", ".navbar-toggler", function () {
+                if (document.getElementById('nav-wrapper').clientHeight < 100)
+                {
+                    $("#nav-wrapper").css('background-color', 'rgba(255, 255, 255, 0.9)'); 
+                    $(".nav-link").addClass("nav-link-dark");
+                    $("#nav-wrapper").addClass("box-effect-small");
+                }
+                else
+                {
+                    $('#nav-wrapper').css('background-color', 'transparent');
+                    $("#nav-wrapper").removeClass("box-effect-small");
+                    $(".nav-link").removeClass("nav-link-dark");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+        <!--START OF NAV-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav-wrapper">
+			<table>
+				<tr>
+                    <!-- Logo text -->
+					<td>
+						<a class="navbar-brand" href="/#home" style="margin-right:0;">
+							<span class="text-white logo-first-text" style="font-size:22px;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;">Rotary Club</span>
+							<br />
+							<span class="text-white logo-second-text" style="font-size:11px;text-transform:none;font-family:inherit;">of Gurgaon Harmony Iberis</span>
+						</a>
+				    </td>
+                    <!-- Logo image -->
+					<td>
+						<a class="navbar-brand" href="/#home">
+							<img src="images/Logo.jpeg" class="box-effect-large" style="border-radius:50px;" width="60" height="60" />
+						</a>
+				    </td>
+				</tr>
+			</table>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Header Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav" id="mainNav">
+                    <li class="nav-item" style="padding:0 20px;">
+                        <a class="nav-link" id="nav-home" href="/#home">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item" style="padding:0 20px;">
+                        <a class="nav-link" id="nav-aboutUs" href="/#about-us">ABOUT US</a>
+                    </li>
+
+                    <li class="nav-item" style="padding:0 20px;">
+                        <a class="nav-link" id="nav-aboutUs" href="/#focus-area">AREA OF FOCUS</a>
+                    </li>
+
+                    <li class="nav-item" style="padding:0 20px;">
+                        <a class="nav-link" href="team.html#team">OUR TEAM</a>
+                    </li>
+
+                    <li class="nav-item" style="padding:0 20px;">
+                        <a class="nav-link" href="third.html#upcoming-events">UPCOMING EVENTS</a>
+                    </li>
+
+                    <li class="nav-item" style="padding:0 20px;">
+                        <a class="nav-link" href="second.html#projects">PROJECTS & PLANS</a>
+                    </li>
+
+                    <li class="nav-item" style="padding:0 20px;">
+                        <a class="nav-link" href="second.html#gallery">GALLERY</a>
+                    </li>
+
+                    <li class="nav-item" style="padding:0 20px;">
+                        <a class="nav-link" href="#contactUS">CONTACT US</a>
+                    </li>
+
+                    <li class="nav-item" style="padding:2px 8px;">
+                        <a class="nav-link btn round-corner box-effect-small" id="btnJoinUs" href="fourth.html#join-us" >JOIN US</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End of Header Menu -->
+        </nav>
+        <!--END OF NAV-->
+
+        <!--Carousel-->
+        <section id="home">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="height:100%;">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <!-- first slide -->
+                    <div class="carousel-item active">
+                        <div style="background: linear-gradient(45deg, rgba(0,0,0, 0.4),rgba(252, 112, 82, 0.8)), url(slider-images/bg-1.jpg) center top no-repeat; background-size:cover; width:100%;" class="d-block w-100 h-100"></div>
+                        <div class="carousel-caption d-md-block vertical-middle wow fadeInRight">
+                            <a class="btn btn-green box-effect-large" href="#focus-area">GET STARTED</a>
+                        </div>
+                    </div>
+                    <!-- second slide -->
+                    <div class="carousel-item">
+                        <div style="background: linear-gradient(45deg, rgba(0,0,0, 0.4),rgba(252, 112, 82, 0.8)), url(slider-images/bg-3.jpg) center top no-repeat; background-size:cover; width:100%;" class="d-block w-100 h-100"></div>
+                        <div class="carousel-caption d-md-block vertical-middle wow fadeInRight">
+                            <a class="btn btn-green box-effect-large" href="#focus-area">GET STARTED</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left Arrow -->
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <!-- Right Arrow -->
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <!--End of Carousel-->
+
+        <!--AREA OF FOCUS SECTION-->
+        <section class="section-pad" id="focus-area">
+            <div class="container">
+            <!--Area of focus title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                    <h1 class="section-title">OUR AREAS OF FOCUS</h1>
+                </div>
+            </div>
+            <!--End of area of focus title-->
+
+            <br />
+
+            <!--Area of focus sub title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 text-muted text-center">
+                    <h6 style="max-width: 600px;margin: auto;">We are 1.2 million members, organised in 35,000+ clubs.</h6>
+                    <br />
+                </div>
+            </div>
+            <!--End of Area of focus sub title-->
+
+            <br />
+
+            <!--Area of focus Card code-->
+                <div class="row">
+                    <!-- Fight disease section -->
+                    <div class="col-12 col-md-4" style="padding-top:10px;">
+                        <div class="card box-effect-small wow jackInTheBox">
+                            <img src="rotary-images/home-causes-disease.jpg" class="card-img-top" alt="..." style="display: block;max-width: 100%;height: auto;">
+                            <div class="card-body" style="height:inherit; min-height:492px;">
+                                <h5 class="card-title text-danger">Fighting Disease</h5>
+                                <p class="text-muted" style="font-size:14px;display:inline-block; margin-bottom:0;">
+Our health is everything. Yet 400 million people in the world can’t afford or don’t have access to basic health care. We believe good health care is everyone’s right.
+<br /><br />
+Disease results in misery, pain, and poverty for millions of people worldwide. That’s why treating and preventing disease is so important to us. We lead efforts both large and small. We set up temporary clinics, blood donation centers, and training facilities in underserved communities struggling with outbreaks and health care access. We design and build infrastructure that allows doctors, patients, and governments to work together.
+<br /><br />
+Our members combat diseases like malaria, HIV/AIDS, Alzheimer’s, multiple sclerosis, diabetes, and polio. Prevention is important, which is why we <div id="collapse1" class="collapse text-muted" style="font-size:14px;">also focus on health education and bringing people routine hearing, vision, and dental care.
+<br /><br />
+<u>HOW ROTARY MAKES HELP HAPPEN</u>
+<br /><br />
+Disease does not prevent itself. We educate and equip communities to stop the spread of life-threatening diseases. Rotary members have hundreds of health projects underway around the world at any given time. 
+</div>
+<br />
+<button data-toggle="collapse" class="btn btn-outline-danger btn-sm" data-target="#collapse1">Read More</button>
+								</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Fight disease section -->
+
+                    <!-- Providing Clean Water section -->
+                    <div class="col-12 col-md-4" style="padding-top:10px;">
+                        <div class="card box-effect-small wow jackInTheBox">
+                            <img src="rotary-images/home-causes-water.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="height:inherit; min-height:492px;">
+                                <h5 class="card-title text-danger">Providing Clean Water</h5>
+                                <p class="text-muted" style="font-size:14px;">
+Clean water, sanitation, and hygiene education are basic necessities for a healthy environment and a productive life.
+<br /><br />
+When people have access to clean water and sanitation, waterborne diseases decrease, children stay healthier and attend school more regularly, and mothers can spend less time carrying water and more time helping their families.
+<br /><br />
+
+<u>HOW ROTARY MAKES HELP HAPPEN</u>
+<br /><br />
+Through water, sanitation, and hygiene (WASH) programs, Rotary’s people of action mobilize resources, form partnerships, and invest in infrastructure and training that yield long-term change.
+								</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Providing Clean Water section -->
+
+                    <!-- Saving Mothers & Children Section -->
+                    <div class="col-12 col-md-4" style="padding-top:10px;">
+                        <div class="card box-effect-small wow jackInTheBox">
+                            <img src="rotary-images/home-causes-children.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="height:inherit; min-height:492px;">
+                                <h5 class="card-title text-danger">Saving Mothers & Children</h5>
+                                <p class="text-muted" style="font-size:14px;">
+Rotary makes high-quality health care available to vulnerable mothers and children so they can live longer and grow stronger.
+<br /><br />
+We expand access to quality care, so mothers and children everywhere can have the same opportunities for a healthy future. An estimated 5.9 million children under the age of five die each year because of malnutrition, inadequate health care, and poor sanitation — all of which can be prevented.
+<br /><br />
+<u>HOW ROTARY MAKES HELP HAPPEN</u>
+<br /><br />
+Rotary provides education, immunizations, birth kits, and mobile health clinics. Women are taught how to prevent mother-to-infant HIV transmission, how to breast-feed, and how to protect themselves and their children from disease.
+								</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Saving Mothers & Children Section -->
+                </div>
+                <div class="row">
+                    <!-- Basic Education & Literacy section -->
+                    <div class="col-12 col-md-4" style="padding-top:10px;">
+                        <div class="card box-effect-small wow jackInTheBox">
+                            <img src="rotary-images/home-causes-education.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="height:inherit; min-height:435px;">
+                                <h5 class="card-title text-success">Basic Education & Literacy</h5>
+                                <p class="text-muted" style="font-size:14px;">
+A Rotary grant helps bring tablet technology to students on Taveuni Island, Fiji.
+<br /><br />
+Worldwide, 67 million children have no access to education, and more than 775 million people over the age of 15 are illiterate. Our members support educational projects that provide technology, teacher training, vocational training teams, student meal programs, and low-cost textbooks to communities. Our goal is to strengthen the capacity of communities to support basic education and literacy, reduce gender disparity in education, and increase adult literacy.
+								</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Basic Education & Literacy section -->
+
+                    <!-- Local Community Development section -->
+                    <div class="col-12 col-md-4" style="padding-top:10px;">
+                        <div class="card box-effect-small wow jackInTheBox">
+                            <img src="rotary-images/home-causes-economies.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="height:inherit; min-height:435px;">
+                                <h5 class="card-title text-success">Local Community Development</h5>
+                                <p class="text-muted" style="font-size:14px;">
+Economic and Community Development
+<br /><br />
+Rotary members help Indian weavers achieve better wages and working conditions.
+<br /><br />
+Nearly 1.4 billion employed people live on less than $1.25 a day. Our members promote economic and community development and reduce poverty in underserved communities through training, well-paying jobs, and access to financial management institutions. Projects range from providing people with equipment to vocational training. Our members work to strengthen local entrepreneurs and community leaders, particularly women, in impoverished communities.
+								</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Local Community Development section -->
+
+                    <!-- Peace & Conflict Prevention/Resolution section -->
+                    <div class="col-12 col-md-4" style="padding-top:10px;">
+                        <div class="card box-effect-small wow jackInTheBox">
+                            <img src="rotary-images/home-causes-peace.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="height:inherit; min-height:435px;">
+                                <h5 class="card-title text-success">Peace & Conflict Prevention/Resolution</h5>
+                                <p class="text-muted" style="font-size:14px;display:inline-block;margin-bottom:0;">
+Of the 60 million people displaced by armed conflict or persecution, 90% are civilians. Half of those civilians are children. That’s millions of reasons why Rotary is so engaged in service projects, fellowships and other Rotary-sponsored campaigns in pursuit of peace in our world.
+
+<br /><br />
+<u>How Rotary makes help happen</u>
+<br /><br />
+We train adults and young leaders to prevent and mediate conflict. We aid refugees who have fled dangerous areas. Rotarians also address the underlying structural causes of conflict by relieving millions of people suffering from poverty, <div id="collapse2" class="collapse text-muted" style="font-size:14px;">inequality, ethnic tensions, lack of access to education and unequal distribution of resources. 
+ <br /><br />
+In yet another program to achieve worldwide peace, up to 100 Rotary Peace Fellows are selected to attend Rotary Peace Centers to participate in master's degree programs at one of the partner universities. Rotary Peace Fellows study subjects related to the root causes of conflict and explore innovative solutions that address real-world needs. There are more than 1,000 peace fellowship alumni are working in over 100 countries. </div>
+									<br />
+									<button data-toggle="collapse" class="btn btn-outline-success btn-sm" data-target="#collapse2">Read More</button>
+								</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Peace & Conflict Prevention/Resolution section -->
+                </div>
+            </div>
+            <!--End of Area of focus Card code-->
+        </section>
+        <!--END OF AREA OF FOCUS SECTION-->
+    
+        <!--<hr />-->
+
+        <!--ABOUT US SECTION-->
+        <section class="section-pad theme-bg-red" id="about-us">
+            <div class="container">
+
+                <!--About Us title-->
+                <div class="row text-center">
+                    <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                        <h1 class="section-title" style="color:#444242;">About US</h1>
+                    </div>
+                </div>
+                <!--End of About Us title-->
+
+                <br />
+                <br />
+
+                <div class="row">
+                    <div class="col-md-5" style="margin-top:5px;">
+                        <!-- About us image -->
+                        <img src="images/about-us.jpg" class="img img-thumbnail box-effect-large wow fadeInLeft" style="width:100%; border-bottom-right-radius:0; border-bottom-left-radius:0;" />
+                        <br />
+                        <!-- About us box -->
+						<div class="card box-effect-large wow fadeInLeft" style="border-top-right-radius:0; border-top-left-radius:0;">
+							<div class="card-body" style="border-top-right-radius:0; border-top-left-radius:0;">
+								
+									<span class="badge badge-secondary badge-pill text-light box-effect-small" style="padding:10px 10px;">President</span>
+									<br /><br />
+									<span class="text-muted">Rtn. Dr. Raj Kamal Bhargava</span> 
+									<br />
+									<i class="fa fa-mobile fa-2x text-info" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;<span class="text-danger fs-15px"><b>+91 93500 76538</b></span>
+								<hr />
+								
+									<span class="badge badge-secondary badge-pill text-light box-effect-small" style="padding:10px 10px;">Secretary</span>
+									<br /><br />
+									<span class="text-muted">Rtn. Mukta Malhotra</span>  
+									<br />
+									<i class="fa fa-mobile fa-2x text-info" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;<span class="text-danger fs-15px"><b>+91 98181 87407</b></span>
+							</div>
+						</div>
+                        <!-- End of About us box -->
+                    </div>
+                    <div class="col-md-7" style="margin-top:5px;">
+                        <div class="list-group box-effect-small wow fadeInRight">
+                            <a href="#about-us" class="list-group-item list-group-item-action bg-danger text-white">
+									<div class="container-fluid">
+                                        <!-- Meeting Dates -->
+										<div class="row">
+											<div class="col-4 col-md-4">
+												<span class="badge bg-white text-danger badge-pill" style="padding:7px 7px;font-family: Source Sans Pro;">MEETING DATES</span>
+											</div>
+											<div class="col-8 col-md-8">
+												<span>We meet every 2nd and 4th Wednesday of the Month, 7 – 8.30 pm</span>
+											</div>
+										</div>
+
+										<hr />
+                                        <!-- Venue -->
+										<div class="row">
+											<div class="col-4 col-md-4">
+												<span class="badge bg-white badge-pill text-danger" style="padding:7px 7px;font-family:Source Sans Pro;">VENUE</span>
+											</div>
+											<div class="col-8 col-md-8">
+												<span>DLF Club 5, Opposite Trinity Tower, DLF Phase 5, Sector 43, Gurugram, Haryana 122003</span>
+											</div>
+										</div>
+									</div>
+                            </a>
+                            <a href="#about-us" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1 text-danger">Rotary</h5>
+                                </div>
+                                <p class="mb-1" style="font-size:14px;">
+										It all began when attorney Paul P. Harris called together a meeting of three business acquaintances in downtown Chicago, United States, at Harris's friend Gustave Loehr's office in the Unity Building on Dearborn Street on February 23, 1905.  In addition to Harris and Loehr (a mining engineer and freemason), Silvester Schiele (a coal merchant), and Hiram E. Shorey (a tailor) were the other two who attended this first meeting.   Harris presented an idea—the formation of a businessman's club for social purposes. The other three men shared Harris' enthusiasm for the idea, and agreed to meet again two weeks later, when they would bring other friends. The members chose the name Rotary because initially they rotated subsequent weekly club meetings to each other's offices, although within a year, the Chicago club became so large it became necessary to adopt the now-common practice of a regular meeting place.								</p>
+                            </a>
+                            <a href="#about-us" class="list-group-item list-group-item-action">
+                                <p class="mb-1" style="font-size:14px;">
+									The <span class="text-danger">Rotary Club of Gurgaon Harmony Iberis</span> was founded by five Rotarians, a lady and 4 gentlemen of whom 3 were Past Presidents of their Clubs. They bring with them collectively over 50 years of Rotary experience. 17 persons, 15 men and 2 ladies, soon joined and so there are 22 Charter Members.  The binding factor amongst them was a common vision to form a Rotary Club based on the tenets of the 4 Way Test, where each member is given due respect regardless of background and experience. A "harmonious" club is necessary to ensure the long term sustainability and survival of the club. The members are committed to ensuring <span class="text-danger">"Harmony"</span> while fostering all other Rotary values. The members come from a diverse range of vocations including industry, banking and finance, real estate, education and consulting etc.  In the next Rotary year the club intends to expand its membership to 40 members.<br /><br />
+
+In all avenues of service, the Club intends to ensure that there is long term engagement and sustainability in the projects undertaken. This will reinforce the role of Rotary as a positive agent of change in our community.
+<br /><br />
+The Club Charter was presented on 12 November 2018 and the Club # 89710 was born.
+								
+								</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--END OF ABOUT US SECTION-->
+
+        <!--<hr />-->
+
+        <!--VIDEO SECTION-->
+            <section class="section-pad" id="videos">
+                <div class="container">
+                    <!--Video title-->
+                    <div class="row text-center">
+                        <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                            <h1 class="section-title">Videos</h1>
+                        </div>
+                    </div>
+                    <!--End of Video title-->
+
+                    <br />
+
+                    <!--Video sub title-->
+                    <div class="row text-center">
+                        <div class="col-12 col-md-12 text-muted text-center">
+                            <h6 style="max-width: 600px;margin: auto;">Introductory videos on Rotary Club of Gurgaon Harmony Iberis.</h6>
+                            <br />
+                        </div>
+                    </div>
+                    <!--End of Video sub title-->
+
+                    <br />
+
+                    <div class="row">
+                        <div class="col-12 col-md-4 wow fadeInUp" style="padding-top:10px;">
+                            <!-- Video 1 -->
+							<video id="myVideo1" class="box-effect-small" style="width:100%; height:200px;" controls>
+								<source src="videos/video-1.mp4" type="video/mp4">
+                            </video>
+                            <!-- End of Video 1 -->
+                        </div>
+                        <div class="col-12 col-md-4 wow fadeInUp" style="padding-top:10px;">
+                            <!-- Video 2 -->
+							<video id="myVideo2" class="box-effect-small" style="width:100%; height:200px;" controls>
+								<source src="videos/video-2.mp4" type="video/mp4">
+                            </video>
+                            <!-- End of Video 2 -->
+                        </div>
+                        <div class="col-12 col-md-4 wow fadeInUp" style="padding-top:10px;">
+                            <!-- Video 3 -->
+							<video id="myVideo3" class="box-effect-small" style="width:100%; height:200px;" controls>
+								<source src="videos/video-3.mp4" type="video/mp4">
+                            </video>
+                            <!-- End of Video 3 -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!--END OF VIDEO SECTION-->
+
+
+        <!--CLUB CHARTER SECTION-->
+            <section class="section-pad" id="videos">
+                <div class="container">
+                    <!--Club Charter title-->
+                    <div class="row text-center">
+                        <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                            <h1 class="section-title">Club Charter</h1>
+                        </div>
+                    </div>
+                    <!--End of Club Charter title-->
+
+                    <br />
+
+                    <div class="row">
+                        <!-- Club Charter image 1 -->
+                        <div class="col-12 col-md-6">
+                            <img class="wow fadeInLeft" src="club-charter-images/cc1.jpg" style="width:100%; height:350px;" />
+                        </div>  
+                        <!-- Club Charter image 2 -->
+                        <div class="col-12 col-md-6">
+                            <img class="wow fadeInRight" src="club-charter-images/cc2.jpg" style="width:100%; height:350px;" />
+                        </div>
+                    </div>
+					
+					<hr />
+					
+					<div class="row">
+                        <!-- Club Member image 1 -->
+                        <div class="col-12 col-md-6 text-center">
+                            <img class="img img-thumbnail box-effect-small wow fadeInLeft" src="club-members/RTN. DR RAJ KAMAL BHARGAVA - Charter President.JPG" />
+							<br /><br />
+							<b><h6>RTN. DR RAJ KAMAL BHARGAVA</h6></b>
+							<h6 class="text-muted">Charter President</h6>
+                        </div>  
+                        <!-- Club Member image 2 -->
+                        <div class="col-12 col-md-6 text-center">
+                            <img class="img img-thumbnail box-effect-small wow fadeInRight" src="club-members/RTN. MUKTA MALHOTRA - Charter Secretary.JPG" />
+							<br /><br />
+							<b><h6>RTN. MUKTA MALHOTRA</h6></b>
+							<h6 class="text-muted">Charter Secretary</h6>
+                        </div>
+					</div>
+					
+					<br />
+					<br />
+					<!-- All club member images -->
+					<div class="row text-center">
+						<div class="col-12 col-md-1 text-center"></div>
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. ABDUL AZIZ SEYID.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. ABDUL AZIZ SEYID</h6></b>
+                        </div>  
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. AMIT DHANUKA.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. AMIT DHANUKA</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. ANJALI PANDEY.JPG" style="width:160px; height:180px;"  />
+							<br />
+							<b><h6 class="text-muted">RTN. ANJALI PANDEY</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. ANUJ KHANNA.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. ANUJ KHANNA</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. BALJINDER PAUL SINGH.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. BALJINDER PAUL SINGH</h6></b>
+                        </div>
+						<div class="col-12 col-md-1 text-center"></div>
+					</div>
+
+					<div class="row text-center">
+						<div class="col-12 col-md-1 text-center"></div>
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. LALIT SAWHNEY.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. LALIT SAWHNEY</h6></b>
+                        </div>  
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. MANOJ KUMAR GOYAL.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. MANOJ KUMAR GOYAL</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. MUKESH BHARGAVA.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. MUKESH BHARGAVA</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. NEEL KAMAL BHARGAVA.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. NEEL KAMAL BHARGAVA</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. NEERA JOLLY.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. NEERA JOLLY</h6></b>
+                        </div>
+						<div class="col-12 col-md-1 text-center"></div>
+					</div>
+					
+					<div class="row text-center">
+						<div class="col-12 col-md-1 text-center"></div>
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. RAMANDEEP SINGH.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. RAMANDEEP SINGH</h6></b>
+                        </div>  
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. RAVI KHANNA.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. RAVI KHANNA</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. ROHIT KAPUR.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. ROHIT KAPUR</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. SANJAY KUMAR BANSAL.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. SANJAY KUMAR BANSAL</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInLeft">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. SANJAY SETIA.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. SANJAY SETIA</h6></b>
+                        </div>
+						<div class="col-12 col-md-1 text-center"></div>
+					</div>
+					
+					<div class="row text-center">
+						<div class="col-12 col-md-1 text-center"></div>
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. DR. TARVINDER BIR SINGH BUXI.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. DR. TARVINDER BIR SINGH BUXI</h6></b>
+                        </div>  
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. VARINDER PAL SINGH.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. VARINDER PAL SINGH</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. VIKAS SINGH.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. VIKAS SINGH</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. VIMAL SINGHANIA.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. VIMAL SINGHANIA</h6></b>
+                        </div>
+                        <div class="col-12 col-md-2 text-center wow fadeInRight">
+                            <img class="img img-thumbnail box-effect-small" src="club-members/RTN. VISHAL VARMA.JPG" style="width:160px; height:180px;" />
+							<br />
+							<b><h6 class="text-muted">RTN. VISHAL VARMA</h6></b>
+                        </div>
+						<div class="col-12 col-md-1 text-center"></div>
+					</div>
+					<!-- End of All club member images -->
+					
+					<hr />
+
+                </div>
+            </section>
+            <!--END OF CLUB CHARTER SECTION-->
+
+            <!--CLUB FLAG SECTION-->
+            <section class="section-pad" id="videos">
+                <div class="container">
+                    <!--Club Flag title-->
+                    <div class="row text-center">
+                        <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                            <h1 class="section-title">Club Flag</h1>
+                        </div>
+                    </div>
+                    <!--End of Club Flag title-->
+
+                    <br />
+
+                    <!-- Club flag image -->
+                    <div class="row">
+                        <div class="col-12 col-md-12 text-center">
+                            <img class="box-effect-large wow jackInTheBox" src="images/club-flag.jpg" style="width:320px;height:450px; border-radius:10px;" />
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--END OF CLUB FLAG SECTION-->
+
+            <!--BULLETIN SECTION-->
+            <section class="section-pad" id="videos">
+                <div class="container">
+                    <!--Bulletins title-->
+                    <div class="row text-center">
+                        <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                            <h1 class="section-title">Bulletins</h1>
+                        </div>
+                    </div>
+                    <!--End of Bulletins title-->
+
+                    <br />
+
+                    <div class="row">
+                        <div class="col-12 col-md-12 text-center">
+                            <div class="list-group">
+                                <!-- Jan 2019 bulletin -->
+                              <a href="documents/1033316-Bulletin_Jan198copy.pdf" target="_blank" class="list-group-item list-group-item-action"><h6>January 2019</h6></a>
+                              <!-- Feb 2019 bulletin -->
+                              <a href="documents/Bulletin_Feb19(8copy).pdf" target="_blank" class="list-group-item list-group-item-action"><h6>February 2019</h6></a>
+                              <!-- Mar 2019 bulletin -->
+                              <a href="documents/1033317-Bulletin_Mar198copy.pdf" target="_blank" class="list-group-item list-group-item-action"><h6>March 2019</h6></a>
+                              <!-- Apr 2019 bulletin -->
+                              <a href="documents/1062851-Bulletin_April-2019.pdf" target="_blank" class="list-group-item list-group-item-action"><h6>April 2019</h6></a>
+                              <!-- May 2019 bulletin -->
+                              <a href="documents/1062852-Bulletin-May-2019.pdf" target="_blank" class="list-group-item list-group-item-action"><h6>May 2019</h6></a>
+                            </div>                            
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+            <!--END OF BULLETIN SECTION-->
+
+        <hr />
+
+
+    <!--FOOTER-->
+    <section id="contactUS">
+        <div class="container-fluid box-effect-small-up footer text-center">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-6" style="padding-top:10px;">
+                        <span class="section-title">ROTARY</span>
+                        <hr class="text-muted" />
+                        <h6 class="text-muted">In all avenues of service, the Club intends to ensure that there is long term engagement and sustainability in the projects undertaken. This will reinforce the role of Rotary as a positive agent of change in our community.</h6>
+                    </div>
+                    <!-- Quick Link section -->
+                    <div class="col-md-3" style="padding-top:10px;">
+                        <span class="section-title">QUICK LINKS</span>
+                        <hr class="text-muted" />
+                        <ul class="list-group">
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotary.org" target="_blank">Rotary International</a></li>
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotarydistrict3011.org" target="_blank">Rotary District 3011</a></li>
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="#focus-area">Our Area of focus</a></li>
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="team.html#team">OUR TEAM</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="#videos">Videos</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="third.html#upcoming-events">Upcoming Events</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="second.html#projects">PROJECTS AND PLANS</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="second.html#gallery">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Quick Link section -->
+
+                    <!-- Connect section -->
+                    <div class="col-md-3" style="padding-top:10px;">
+                        <span class="section-title">CONNECT</span>
+                        <hr class="text-muted" />
+                        <ul class="list-group">
+                            <!-- Email -->
+                            <li class="list-group-item-footer"><a class="text-danger" style="font-size:16px;text-transform:lowercase;" href="#">rcghi2018@gmail.com</a></li>
+                            <!-- Facebook -->
+                            <li class="list-group-item-footer fs-15px"><a target="_blank" href="#"><img style="width:25px;" src="images/fb.png" /> &nbsp;facebook</a></li>
+                            <!-- Whatsapp -->
+                            <li class="list-group-item-footer fs-15px"><a href="#" target="_blank"><img style="width:25px;" src="images/whatsapp.png" /> &nbsp;WhatsApp</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Connect section -->
+                </div>
+            </div>
+
+            <hr />
+
+			<div class="row text-center">
+                <div class="col-md-6 text-center"><span style="color:white;font-size:15px;">© 2019. All rights reserved</span></div>
+                <div class="col-md-6"><span style="color:white;font-size:15px;">Designed by <a target="_blank" style="text-decoration:none; color:orange;" href="http://icsoln.com/">icsoln.com</a></span></div>
+            </div>
+            <br />
+            <br />
+        </div>
+    </section>
+    <!--END OF FOOTER-->
+
+</body>
+</html>

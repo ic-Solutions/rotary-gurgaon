@@ -1,0 +1,1575 @@
+﻿<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+    <meta name="author" content="Flashteq">
+    <meta name="description" content="Flashteq, Web designing">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet">
+    <!-- ============================== ICON ============================== -->
+    <link rel="icon" href="images/Logo.jpeg" type="image/jpeg" sizes="64x64">
+    <!-- ============================== JS ============================== -->
+    <title>
+        NGO Website
+    </title>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+
+    <!-- ============================== ICON ============================== -->
+    <link class="box-effect-small" rel="icon" href="images/brand-logo.png" type="image/png" sizes="64x64">
+
+    <script>
+		$(function(){
+		  new WOW().init();
+		});
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Javascript code for managing the navbar background color while scrolling
+            var scroll_start = 0;
+            var startchange = $('#projects');
+            var offset = startchange.offset();
+            if (startchange.length) {
+                $(document).scroll(function () {
+                    scroll_start = $(this).scrollTop();
+                    if (scroll_start > offset.top) {
+                        $("#nav-wrapper").css('background-color', 'rgba(255, 255, 255, 0.9)');
+                        $("#nav-wrapper").addClass("box-effect-small");
+                        $(".nav-link").addClass("nav-link-dark");
+						$(".logo-first-text").addClass("text-danger");
+						$(".logo-second-text").addClass("text-secondary");
+                    } else {
+                        $('#nav-wrapper').css('background-color', 'transparent');
+                        $("#nav-wrapper").removeClass("box-effect-small");
+                        $(".nav-link").removeClass("nav-link-dark");
+						$(".logo-first-text").removeClass("text-danger");
+						$(".logo-second-text").removeClass("text-secondary");
+                    }
+                });
+            }
+
+            // checking if menu button is clicked in mobile mode
+            $(document).on("click", ".navbar-toggler", function () {
+                if (document.getElementById('nav-wrapper').clientHeight < 100)
+                {
+                    $("#nav-wrapper").css('background-color', 'rgba(255, 255, 255, 0.9)');
+                    $(".nav-link").addClass("nav-link-dark");
+                    $("#nav-wrapper").addClass("box-effect-small");
+                }
+                else
+                {
+                    $('#nav-wrapper').css('background-color', 'transparent');
+                    $("#nav-wrapper").removeClass("box-effect-small");
+                    $(".nav-link").removeClass("nav-link-dark");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <!--START OF NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav-wrapper">
+        <!--<a class="navbar-brand" href="/#home"><img src="images/Logo.jpeg" class="box-effect-large" style="border-radius:50px;" width="50" height="50"></a>-->
+			<table>
+				<tr>
+                    <!-- Logo text -->
+					<td>
+						<a class="navbar-brand" href="/#home" style="margin-right:0;">
+							<span class="text-white logo-first-text" style="font-size:22px;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;">Rotary Club</span>
+							<br />
+							<span class="text-white logo-second-text" style="font-size:11px;text-transform:none;font-family:inherit;">of Gurgaon Harmony Iberis</span>
+						</a>
+				    </td>
+
+                    <!-- Logo image -->
+					<td>
+						<a class="navbar-brand" href="/#home">
+							<img src="images/Logo.jpeg" class="box-effect-large" style="border-radius:50px;" width="60" height="60" />
+						</a>
+				    </td>
+				</tr>
+			</table>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+             <!-- Header Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav" id="mainNav">
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" id="nav-home" href="/#home">HOME <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" id="nav-aboutUs" href="/#about-us">ABOUT US</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" id="nav-aboutUs" href="/#focus-area">AREA OF FOCUS</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="team.html#team">OUR TEAM</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="third.html#upcoming-events">UPCOMING EVENTS</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="second.html#projects">PROJECTS & PLANS</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="second.html#gallery">GALLERY</a>
+                </li>
+
+                <li class="nav-item" style="padding:0 20px;">
+                    <a class="nav-link" href="#contactUS">CONTACT US</a>
+                </li>
+
+                <li class="nav-item" style="padding:2px 8px;">
+                    <a class="nav-link btn round-corner box-effect-small" id="btnJoinUs" href="fourth.html#join-us">JOIN US</a>
+                </li>
+            </ul>
+        </div>
+            <!-- End of Header Menu -->
+    </nav>
+    <!--END OF NAV-->
+
+    <!--PROJECT SECTION-->
+    <section class="section-pad theme-bg-red" id="projects">
+
+		<br />
+		<br />
+	
+        <div class="container">
+            <!--Projects title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                    <h1 class="section-title" style="color:#444242;">PROJECTS AND PLANS </h1>
+                </div>
+            </div>
+            <!--End of Projects title-->
+
+            <br />
+
+            <!--Projects sub title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 text-muted text-center">
+                    <h6 style="max-width: 600px;margin: auto;color:#444242;">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</h6>
+                    <br />
+                </div>
+            </div>
+            <!--End of Projects sub title-->
+
+            <br />
+
+			<div class="alert alert-light text-center box-effect-small" style="margin-bottom:0;" role="alert">
+				<h5 style="margin-bottom:0;">PROJECTS 2018-19</h5>
+			</div>
+
+			<!--Projects Card code-->
+            <div class="row">
+                 <div class="col-12 col-md-12" style="padding-top:10px;">
+                     <div class="card box-effect-small wow jackInTheBox">
+                        <img src="project-images/karunashraya.jpg" class="card-img-top" alt="..." height="200" >
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Club Service Avenue</h5>
+							<ul class="list-group">
+							  <li class="list-group-item">Classification Survey completed and classification assigned to every member.</li>
+								<li class="list-group-item">Club Website <span class="text-danger"><a href="http://www.rotaryharmonyiberis.com" target="_blank">www.rotaryharmonyiberis.com</a></span> being launched in June 2019</li>
+							  <li class="list-group-item">Monthly Bulletin has been published for the Months of January, February, March, April and May 2019.</li>
+							  <li class="list-group-item">Continuing efforts for bringing new members: Focus on Lady members</li>
+							</ul>							
+                        </div>
+                    </div>
+                </div>
+			</div>
+
+            <div class="row">
+                 <div class="col-12 col-md-12" style="padding-top:10px;">
+                     <div class="card box-effect-small wow jackInTheBox">
+                        <img src="project-images/karunashraya.jpg" class="card-img-top" alt="..." height="200" >
+                        <div class="card-body" >
+                            <h5 class="card-title text-danger">Community Service Avenue</h5>
+							<ul class="list-group">
+							  <li class="list-group-item">Five Blood Donation Camps have been held, on 10 Feb at Magnolias Club, on 31 Mar at  DLF Club 5, and on 26 Apr at Bank of America (3 locations). Target for Blood collection before 30 June 2019 is 400 units. Thalassemia awareness talks are part of BDCs.</li>
+							  <li class="list-group-item">A Health & Lifestyle Style Coffee Evening was organized at Magnolias Club on 19 Mar, with 6 speakers. More such talks are planned to be held at IBS and KR Mangalam University with speakers and experts from Sir Ganga Ram Hospital. Health Camp and Mammography scanning camps will be held at Sikanderpur Village and Chakkarpur Village in coming weeks.</li>
+							  <li class="list-group-item">Having discussions with Vivekanand Arogya Kendra for augmenting facilities at their Dialysis Centre.</li>
+							  <li class="list-group-item">Two Wheel Chairs have been donated on 6 Apr, for use by senior citizens in Malibu Town condominium</li>
+							  <li class="list-group-item">Three Cataract Surgery camps have been organized at Arunodaya Deseret Hospital on 16 Mar, 6 Apr and 24 May giving benefits to 15 senior citizens. One more camp will be held in coming weeks.</li>
+							  <li class="list-group-item">WinS Project is under implementation at Govt. School, Bajghera Village.</li>
+							</ul>
+                        </div>
+                    </div>
+                </div>
+			</div>
+
+            <div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+                     <div class="card box-effect-small wow jackInTheBox">
+                        <img src="project-images/karunashraya.jpg" class="card-img-top" alt="..." height="200" >
+                        <div class="card-body" >
+                            <h5 class="card-title text-danger">Vocational Service Avenue</h5>
+							<ul class="list-group">
+							  <li class="list-group-item">Vocational Project for Sewing Training was conducted at Boutique International. And, Sewing Centres have been inaugurated at Khandsa Village and Dundahera Village, Gurugram.</li>
+							  <li class="list-group-item">Two more events are planned in Sikanderpur and Chakkarpur villages.</li>
+							</ul>							
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                 <div class="col-12 col-md-12" style="padding-top:10px;">
+                     <div class="card box-effect-small wow jackInTheBox">
+                        <img src="project-images/karunashraya.jpg" class="card-img-top" alt="..." height="200" >
+                        <div class="card-body" >
+                            <h5 class="card-title text-danger">International Service Avenue</h5>
+								<ul class="list-group">
+								  <li class="list-group-item">Director Rtn Sanjay Setia, currently on a visit to US, is meeting Rotary Clubs for developing cooperation and partnership.</li>
+								  <li class="list-group-item">Will host Teams from other Districts visiting RI District 3011</li>
+								</ul>
+                        </div>
+                    </div>
+                </div>
+			</div>
+
+            <div class="row">
+                 <div class="col-12 col-md-12" style="padding-top:10px;">
+                     <div class="card box-effect-small wow jackInTheBox">
+                        <img src="project-images/karunashraya.jpg" class="card-img-top" alt="..." height="200" >
+                        <div class="card-body" >
+                            <h5 class="card-title text-danger">Youth Service Avenue</h5>
+								<ul class="list-group">
+								  <li class="list-group-item">Discussion have been held with Scottish High School to start an Interact Club and with K R Mangalam University to start a Rotaract Club.</li>
+								</ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--End of Projects Card code-->
+		
+		<br />
+		<br />
+
+        <!--Start of Plan Card code-->
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-12">
+					<div class="alert alert-light text-center box-effect-small" style="margin-bottom:0;" role="alert">
+						<h5 style="margin-bottom:0;">PLANS FOR CLUB COMMITTEES 2019-20</h5>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. MUKTA MALHOTRA</span>
+							<br />
+							<span class="text-muted">RTN. ABDUL AZIZ SEYID</span>
+							<br />
+							<span class="text-muted">RTN. ANJALI PANDEY</span>
+							<hr />
+							<h5 class="card-title text-danger">CLUB ADMINISTRATION COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Full fill all District and RI administrative requirements</li>
+								<li class="list-group-item">Promote  Fellowship</li>
+								<li class="list-group-item">Track attendance and communicate with absentee members</li>
+								<li class="list-group-item">Organise weekly programmes to improve attendance and fellowship.</li>
+							</ul> 
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. DR. TARVINDER BIR SINGH BUXI</span>
+							<br />
+							<span class="text-muted">RTN. R S ATROLEY</span>
+							<br />
+							<span class="text-muted">RTN. VIMAL SINGHANIA</span>
+							<hr />							
+							<h5 class="card-title text-danger">HEALTH SERVICE PROJECTS COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Identify projects, arrange for funds and execution of the projects.</li>
+								<li class="list-group-item">Initiate and maintain dialogue with other Clubs for develop new projects</li>
+								<li class="list-group-item">Ensure continuous support to ongoing projects of the Club</li>
+								<li class="list-group-item">Bring in support from Corporates, other NGOs and individual etc.</li>
+								<li class="list-group-item">Organise camps for Health Check-up, Blood Donation and Cataract Surgeries.</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>				
+			
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">						
+						<div class="card-body" >
+							<span class="text-muted">RTN. ABDUL AZIZ SEYID</span>
+							<br />
+							<span class="text-muted">RTN. BALJINDER PAUL SINGH</span>
+							<br />
+							<span class="text-muted">RTN. ANUJ KHANNA</span>
+							<hr />										
+							<h5 class="card-title text-danger">WINS PROJECT COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Identify Schools requiring WinS Wash Stations</li>
+								<li class="list-group-item">Identify& Provide necessary Support at schools post installation.</li>
+								<li class="list-group-item">Ensure Star 1 status for all “WinS” schools</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>				
+							
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. ANJALI PANDEY </span>
+							<br />
+							<span class="text-muted">RTN. VIKAS SINGH</span>
+							<br />
+							<span class="text-muted">RTN. SANJAY SETIA</span>
+							<hr />							
+							<h5 class="card-title text-danger">CLUB COMMUNICATIONS COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Maintain and periodically update the Club website</li>
+								<li class="list-group-item">Publish the Club Bulletin monthly, on a timely basis</li>
+								<li class="list-group-item">Provide information to District about events of the Club</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>					
+				
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. ROHIT KAPUR </span>
+							<br />
+							<span class="text-muted">RTN. ABDUL AZIZ SEYID</span>
+							<br />
+							<span class="text-muted">RTN. VARINDER PAL SINGH</span>
+							<hr />							
+							<h5 class="card-title text-danger">PUBLIC RELATIONS COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Create rapport between media persons and the Club. Coordinate with the media to secure proper publicity for the club’s activities and enhance Rotary image..</li>
+								<li class="list-group-item">Periodically sharing Rotary history, goals and activities and events with media persons</li>
+								<li class="list-group-item">Advise Board and all Club members on activities and programmes</li>
+								<li class="list-group-item">Use web based promotion methodologies</li>
+								<li class="list-group-item">Communicate with select corporate houses to bring in Rotary in their CSR programmes</li>
+								<li class="list-group-item">Keep close contact and liaison with District PR chair.</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. MUKTA MALHOTRA </span>
+							<br />
+							<span class="text-muted">RTN. VIMAL KUMAR SINGHANIA</span>
+							<br />
+							<span class="text-muted">RTN. RAVI KHANNA</span>
+							<hr />								
+							<h5 class="card-title text-danger">MEMBERSHIP COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Membership increase to have about 25 members on 30 June</li>
+								<li class="list-group-item">Encourage all members to look for suitable persons in their respective circles of business and community etc.</li>
+								<li class="list-group-item">Conduct programmes for member development</li>
+								<li class="list-group-item">Implement member awareness activities about RI and District programmes</li>
+								<li class="list-group-item">Assist Board in induction of new members.</li>
+								<li class="list-group-item">Promote membership retention.</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+			
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. SANJAY BANSAL </span>
+							<br />
+							<span class="text-muted">RTN. VIMAL KUMAR SINGHANIA</span>
+							<br />
+							<span class="text-muted">RTN. AMIT DHANUKA</span>
+							<hr />								
+							<h5 class="card-title text-danger">ROTARY FOUNDATION COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Set Club goals and targets for contributions to TRF and Polio Fund </li>
+								<li class="list-group-item">Organise Fund Raising activities</li>
+								<li class="list-group-item">Dissemination of information about TRF & Programmes</li>
+								<li class="list-group-item">Work with PR Committee to promote Rotary Ideals</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+			
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. DR. RAJ KAMAL BHARGAVA </span>
+							<hr />							
+							<h5 class="card-title text-danger">CLUB TRAINER</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Organise Pre-Induction talks for prospective members</li>
+								<li class="list-group-item">Organise programmes for Club Members, families, Interactors and Rotaractors</li>
+								<li class="list-group-item">Share with Members about RI Webinars</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+			
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. VIMAL KUMAR SINGHANIA</span>
+							<br />
+							<span class="text-muted">RTN. MANOJ GOYAL</span>
+							<hr />							
+							<h5 class="card-title text-danger">POLIO PLUS COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Organise Club's participation in all NIDs / SNID activities</li>
+								<li class="list-group-item">Represent Club in District events for Polio Eradication</li>
+								<li class="list-group-item">Share Club's activity plans with the PR Committee, Bulletin Committee and the Web Committee</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+			
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. R S ATROLEY </span>
+							<br />
+							<span class="text-muted">RTN. DR. RAJ KAMAL BHARGAVA</span>
+							<br />
+							<span class="text-muted">RTN. ROHIT KAPUR</span>
+							<hr />							
+							<h5 class="card-title text-danger">LITERACY & TEACH COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Active Support  to TEACH  program</li>
+								<li class="list-group-item">Improve quality of education in adopted schools</li>
+								<li class="list-group-item">Advocacy of Literacy by partnership with Govt. / Other NGOs</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. RAMANDEEP SINGH </span>
+							<br />
+							<span class="text-muted">RTN. VISHAL VARMA</span>
+							<br />
+							<span class="text-muted">RTN. ABDUL AZIZ SEYID</span>
+							<hr />							
+							<h5 class="card-title text-danger">VOCATIONAL SERVICE COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Recognize Outstanding Vocational Achievers in the Community at Club Functions</li>
+								<li class="list-group-item">Nominate candidates for Rotary District Vocational Awards</li>
+								<li class="list-group-item">Create new Vocational / Training centers and Sustain existing Vocational and Sustain existing Vocational Counseling & Training Centres</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+						
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. SANJAY SETIA </span>
+							<br />
+							<span class="text-muted">RTN. AMIT DHANUKA</span>
+							<hr />
+							
+							<h5 class="card-title text-danger">INTERNATIONAL SERVICE COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Participate in Friendship Exchange Programs with Rotary Clubs in other countries by sponsor club members to visit Rotary clubs in other countries.</li>
+								<li class="list-group-item">Host Friendship Exchange team members/ Inviting Exchange teams</li>
+								<li class="list-group-item">Register for International RI Convention</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+			
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. RAVI KHANNA </span>
+							<br />
+							<span class="text-muted">RTN. DR. RAJ KAMAL BHARGAVA</span>
+							<br />
+							<span class="text-muted">RTN. ROHIT KAPUR</span>
+							<hr />
+							
+							<h5 class="card-title text-danger">YOUTH SERVICE COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Form Interact Clubs. Guiding /mentoring the Interactors to  take up  social work activities and sponsor the clubs to  attend Rotary District events</li>
+								<li class="list-group-item">Form Rotaract Clubs, guiding /mentoring the Rotaractors to  take up  social work activities and sponsor the clubs to  attend Rotary District events</li>
+								<li class="list-group-item">Sponsor Rotaract Club(s)  to attend Rotary District functions</li>
+								<li class="list-group-item">Involve Interactors / Rotaractors in special Club meetings/ Projects</li>
+								<li class="list-group-item">Sponsor youth(s) to attend multi-district RYLA / DILA</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+			
+			<div class="row">
+				<div class="col-12 col-md-12" style="padding-top:10px;">
+					<div class="card box-effect-small wow jackInTheBox">
+						<div class="card-body" >
+							<span class="text-muted">RTN. MUKTA MALHOTRA </span>
+							<br />
+							<span class="text-muted">RTN. RAVI KHANNA</span>
+							<br />
+							<span class="text-muted">RTN. ANUJ KHANNA</span>
+							<hr />
+							
+							<h5 class="card-title text-danger">SPORTS COMMITTEE</h5>
+							<ul class="list-group">
+								<li class="list-group-item">Promoting fellowship and a healthy spirit of competition, the Sports Committee strives to have regular events that are open to all members of the Club.</li>
+								<li class="list-group-item">Motivate members to participate in the Rotary District Cricket Tournament –organized by District time to time.</li>
+								<li class="list-group-item">Motivate Interact Clubs to participate in the District Interact Badminton Tournament by District every year.</li>
+							</ul> 
+						</div>
+					</div>
+				</div>				
+			</div>	
+			
+		</div>
+        <!--End of Plans Card code-->
+		
+    </section>
+    <!--END OF PROJECT SECTION-->
+
+    <!--GALLERY SECTION-->
+    <section class="section-pad" id="gallery">
+        <div class="container-fluid text-center">
+            <!--Rotary Category title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                    <h3 class="section-title">GALLERY</h3>
+                </div>
+            </div>
+            <!--End of Rotary Category title-->
+
+            <br />
+
+            <!--Rotary Category sub title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 text-muted text-center">
+                    <h6 style="max-width: 600px;margin: auto;color:#444242;">Some Quick Glimpse of our work</h6>
+                    <br />
+                </div>
+            </div>
+            <!--End of Rotary Category sub title-->
+
+			<br />
+            
+            <!-- Dec 2018 gallery section -->
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-12">
+						<div class="alert alert-success text-center box-effect-small" style="margin-bottom:0;" role="alert">
+							<h5 style="margin-bottom:0;">DECEMBER - 2018</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br />
+			
+			<div class="row no-gutters">
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2018/1.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/dec-2018/1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2018/2.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/dec-2018/2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2018/3.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/dec-2018/3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2018/4.jpg" class="gallery-popup">
+                            <img src="gallery/dec-2018/4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2018/5.jpg" class="gallery-popup">
+                            <img src="gallery/dec-2018/5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2018/6.jpg" class="gallery-popup">
+                            <img src="gallery/dec-2018/6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2018/7.jpg" class="gallery-popup">
+                            <img src="gallery/dec-2018/7.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2018/8.jpg" class="gallery-popup">
+                            <img src="gallery/dec-2018/8.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2018/9.jpg" class="gallery-popup">
+                            <img src="gallery/dec-2018/9.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Dec 2018 gallery section -->
+
+			<br />
+            <hr />
+            <!-- Jan 2019 gallery section -->
+           
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-12">
+						<div class="alert alert-success text-center box-effect-small" style="margin-bottom:0;" role="alert">
+							<h5 style="margin-bottom:0;">JAN - 2019</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br /> 
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-6"> 
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/1.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/jan-2019/1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/2.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/jan-2019/2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/4.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/5.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/6.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/7.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/7.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/8.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/8.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/9.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/9.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/10.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/10.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/11.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/11.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/12.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/12.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/13.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/13.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/14.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/14.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/15.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/15.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/16.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/16.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/17.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/17.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/18.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/18.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/19.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/19.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/20.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/20.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/21.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/21.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/22.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/22.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/23.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/23.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/24.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/24.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/jan-2019/25.jpg" class="gallery-popup">
+                            <img src="gallery/jan-2019/25.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>	
+            <!-- End of Jan 2019 gallery section -->
+			
+			<br />
+            <hr />
+            <!-- Feb 2019 gallery section -->
+            
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-12">
+						<div class="alert alert-success text-center box-effect-small" style="margin-bottom:0;" role="alert">
+							<h5 style="margin-bottom:0;">FEB - 2019</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br /> 
+			
+			<div class="row no-gutters">
+                <div class="col-lg-4 col-md-6"> 
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/1.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/feb-2019/1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/2.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/feb-2019/2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/3.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/feb-2019/3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/4.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/5.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/6.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/7.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/7.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/8.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/8.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/9.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/9.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/10.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/10.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/11.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/11.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/12.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/12.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/13.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/13.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/14.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/14.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/15.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/15.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/feb-2019/16.jpg" class="gallery-popup">
+                            <img src="gallery/feb-2019/16.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>	
+            <!-- End of Feb 2019 gallery section -->
+
+			<br />
+			<hr />
+
+            <!-- Mar 2019 gallery section -->
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-12">
+						<div class="alert alert-success text-center box-effect-small" style="margin-bottom:0;" role="alert">
+							<h5 style="margin-bottom:0;">MAR - 2019</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br /> 
+			<div class="row no-gutters">
+                <div class="col-lg-4 col-md-6"> 
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/1.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/mar-2019/1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/2.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/mar-2019/2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/3.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/mar-2019/3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/5.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/6.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/7.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/7.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/8.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/8.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/10.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/10.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/11.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/11.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/12.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/12.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/13.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/13.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/14.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/14.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/15.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/15.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/16.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/16.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/17.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/17.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/18.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/18.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/19.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/19.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/20.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/20.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/21.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/21.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/22.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/22.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/23.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/23.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/24.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/24.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/mar-2019/25.jpg" class="gallery-popup">
+                            <img src="gallery/mar-2019/25.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+			</div>
+            <!-- End of Mar 2019 gallery section -->
+			
+			<br />
+			<hr />
+			
+            <!-- Apr 2019 gallery section -->
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-12">
+						<div class="alert alert-success text-center box-effect-small" style="margin-bottom:0;" role="alert">
+							<h5 style="margin-bottom:0;">APRIL - 2019</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br /> 
+			
+			<div class="row no-gutters">
+                <div class="col-lg-4 col-md-6"> 
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/1.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/apr-2019/1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/2.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/apr-2019/2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/3.jpg" class="gallery-popup wow jackInTheBox">
+                            <img src="gallery/apr-2019/3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/4.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/5.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/6.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/7.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/7.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/8.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/8.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/9.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/9.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/10.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/10.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/11.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/11.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/12.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/12.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/13.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/13.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/14.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/14.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/15.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/15.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/16.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/16.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/17.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/17.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/18.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/18.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/19.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/19.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/20.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/20.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/21.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/21.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/22.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/22.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/23.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/23.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/24.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/24.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/25.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/25.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/26.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/26.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/27.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/27.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/apr-2019/28.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/28.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item wow fadeInUp">
+                        <a href="gallery/dec-2019/29.jpg" class="gallery-popup">
+                            <img src="gallery/apr-2019/29.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>			
+            <!-- End of Apr 2019 gallery section -->
+        </div>
+    </section>
+    <!--END OF GALLERY SECTION-->
+    <hr />
+
+    <!--FOOTER-->
+    <section id="contactUS">
+        <div class="container-fluid box-effect-small-up footer text-center">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-6" style="padding-top:10px;">
+                        <span class="section-title">ROTARY</span>
+                        <hr class="text-muted" />
+                        <h6 class="text-muted">In all avenues of service, the Club intends to ensure that there is long term engagement and sustainability in the projects undertaken. This will reinforce the role of Rotary as a positive agent of change in our community.</h6>
+                    </div>
+                    <!-- Quick Links section -->
+                    <div class="col-md-3" style="padding-top:10px;">
+                        <span class="section-title">QUICK LINKS</span>
+                        <hr class="text-muted" />
+                        <ul class="list-group">
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotary.org" target="_blank">Rotary International</a></li>
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotarydistrict3011.org" target="_blank">Rotary District 3011</a></li>
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="#focus-area">Our Area of focus</a></li>
+                            <li class="list-group-item-footer fs-15px text-danger"><a href="team.html#team">OUR TEAM</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="#videos">Videos</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="third.html#upcoming-events">Upcoming Events</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="second.html#projects">PROJECTS AND PLANS</a></li>
+                            <li class="list-group-item-footer fs-15px"><a href="second.html#gallery">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Quick Links section -->
+
+                    <!-- Connect section -->
+                    <div class="col-md-3" style="padding-top:10px;">
+                        <span class="section-title">CONNECT</span>
+                        <hr class="text-muted" />
+                        <ul class="list-group">
+                            <!-- Email -->
+                            <li class="list-group-item-footer"><a class="text-danger" style="font-size:16px;text-transform:lowercase;" href="#">rcghi2018@gmail.com</a></li>
+                            <!-- facebook -->
+                            <li class="list-group-item-footer fs-15px"><a target="_blank" href="#"><img style="width:25px;" src="images/fb.png" /> &nbsp;facebook</a></li>
+                            <!-- whatsapp -->
+                            <li class="list-group-item-footer fs-15px"><a href="#" target="_blank"><img style="width:25px;" src="images/whatsapp.png" /> &nbsp;WhatsApp</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Connect section -->
+                </div>
+            </div>
+
+            <hr />
+
+			<div class="row text-center">
+                <div class="col-md-6 text-center"><span style="color:white;font-size:15px;">© 2019. All rights reserved</span></div>
+                <div class="col-md-6"><span style="color:white;font-size:15px;">Designed by <a target="_blank" style="text-decoration:none; color:orange;" href="http://icsoln.com/">icsoln.com</a></span></div>
+            </div>
+            <br />
+            <br />
+        </div>
+    </section>
+    <!--END OF FOOTER-->
+	
+</body>
+</html>
