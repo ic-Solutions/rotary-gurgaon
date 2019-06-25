@@ -205,10 +205,44 @@
             {% endfor %}
 
 
+
+
+            <!--Upcoming Events title-->
+            <div class="row text-center">
+                <div class="col-12 col-md-12 underline" style="margin-top:20px;">
+                    <h1 class="section-title text-white" >UPCOMING BIRTHDAYS & ANNIVERSARIES</h1>
+                </div>
+            </div>
+            <!--End of Upcoming Events title-->
+
+            <br />
+
+
+            {% for item in site.data.birthdays %}
+                    <div class="card box-effect-large">
+                        <div class="card-header">
+                          {% if item.type == 'birth' %}
+                            <span class="badge badge-success badge-pill fs-15px" style="padding:10px;">BIRTHDAY {{item.number}}</span>
+                            {% else %}
+                            <span class="badge badge-info badge-pill fs-15px" style="padding:10px;">ANNIVERSARY {{item.number}}</span>
+                            {% endif %}
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{item.name}}</h5>
+                            <hr />
+                            <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHEN - <i class="fa fa-calendar" aria-hidden="true"></i> {{item.date}}</a></h6>
+
+                        </div>
+                    </div>
+                    <br>
+            {% endfor %}
+
+
+
         </div>
     </section>
     <!--END OF UPCOMING EVENTS SECTION-->
-    <hr />
+
 
     <!--FOOTER-->
     <section id="contactUS">
