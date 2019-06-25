@@ -1,4 +1,8 @@
-﻿<html>
+---
+# this is an empty front matter
+---
+
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
@@ -81,7 +85,7 @@
     <!--START OF NAV-->
     <nav class="navbar navbar-expand-lg navbar-light" id="nav-wrapper">
         <!--<a class="navbar-brand" href="/#home"><img src="images/Logo.jpeg" class="box-effect-large" style="border-radius:50px;" width="50" height="50"></a>-->
-		
+
 			<table>
 				<tr>
                     <!-- Logo text -->
@@ -101,7 +105,7 @@
 				    </td>
 				</tr>
 			</table>
-		
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -177,56 +181,29 @@
 
             <br />
 
-            <!-- Meeting 1 -->
-            <div class="card box-effect-large">
-                <div class="card-header">
-                    <span class="badge badge-success badge-pill fs-15px" style="padding:10px;">MEETING 1</span>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Speaker Meeting on Wednesday, 12th June 2019 at 7 pm</h5>
-                    <hr />
-                    <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHEN - <i class="fa fa-calendar" aria-hidden="true"></i> 12th June 2019 at 7 pm</a></h6>
-                    <br />
-                    <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHERE - <i class="fa fa-map-marker" aria-hidden="true"></i> DLF 5 Club, Club Drive, Off Golf Course Road, Gurgaon</a></h6>
-                </div>
-            </div>
-            <!-- End of Meeting 1 -->
-			
-			<br />
-			
-            <!-- Event 1 -->
-            <div class="card box-effect-large">
-                <div class="card-header">
-                    <span class="badge badge-danger badge-pill fs-15px" style="padding:10px;">EVENT</span>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Board Meeting on Saturday, 15th June 2019 at 6.30 pm</h5>
-                    <hr />
-                    <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHEN - <i class="fa fa-calendar" aria-hidden="true"></i> 15th June 2019 at 6.30 pm</a></h6>
-                    <br />
-                    <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHERE - <i class="fa fa-map-marker" aria-hidden="true"></i> Rtn. Lalit Sawhney’s Residence</a></h6>
-                </div>
-            </div>
-            <!-- End of Event 1 -->
 
-            <br />
 
-            <!-- Meeting 2 -->
-            <div class="card box-effect-large">
-                <div class="card-header">
-                    <span class="badge badge-success badge-pill fs-15px" style="padding:10px;">MEETING 2</span>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Speaker Meeting on Wednesday, 26th June 2019 at 7 pm</h5>
-                    <hr />
-                    <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHEN - <i class="fa fa-calendar" aria-hidden="true"></i> 26th June 2019 at 7 pm</a></h6>
-                    <br />
-                    <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHERE - <i class="fa fa-map-marker" aria-hidden="true"></i> DLF 5 Club, Club Drive, Off Golf Course Road, Gurgaon </a></h6>
-                </div>
-            </div>
-            <!-- End of Meeting 2 -->
 
-            <br />
+            {% for item in site.data.events reversed %}
+                    <div class="card box-effect-large">
+                        <div class="card-header">
+                          {% if item.type == 'meeting' %}
+                            <span class="badge badge-success badge-pill fs-15px" style="padding:10px;">Meeting {{item.number}}</span>
+                            {% else %}
+                            <span class="badge badge-danger badge-pill fs-15px" style="padding:10px;">Event {{item.number}}</span>
+                            {% endif %}
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{item.title}}</h5>
+                            <hr />
+                            <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHEN - <i class="fa fa-calendar" aria-hidden="true"></i> {{item.when}}</a></h6>
+                            <br />
+                            <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHERE - <i class="fa fa-map-marker" aria-hidden="true"></i> {{item.where}}</a></h6>
+                        </div>
+                    </div>
+                    <br>
+            {% endfor %}
+
 
         </div>
     </section>
