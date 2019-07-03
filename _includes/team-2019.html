@@ -1,0 +1,11 @@
+<div class="row justify-content-center">
+{% for item in site.data.team-2019 %}
+  <div class="col-6 col-md-4">
+      <div class="team-member">
+        <img height="300" width="220" src="{{item.image}}" alt="{{item.name}}" style="object-fit: cover; border: 5px solid #eee">
+        <h6 class="text-white m-0"><strong>{{item.name}}</strong></h6>
+        <p class="text-white">{{item.position}}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
