@@ -1,63 +1,21 @@
 
-- title: Speaker Meeting on Wednesday, 12th June 2019 at 7 pm
-  description:
-  type: meeting
-  number: 1
-  when: 12th June 2019 at 7 pm
-  where: DLF 5 Club, Club Drive, Off Golf Course Road, Gurgaon
-
-- title: Board Meeting on Saturday, 15th June 2019 at 6.30 pm
-  description:
-  type: event
-  number: 1
-  when: 15th June 2019 at 6.30 pm
-  where: Rtn. Lalit Sawhney’s Residence
-
-- title: Speaker Meeting on Wednesday, 26th June 2019 at 7 pm
-  description:
-  type: meeting
-  number: 2
-  when: 26th June 2019 at 7 pm
-  where: DLF 5 Club, Club Drive, Off Golf Course Road, Gurgaon
-
-- title: Regular Club Meeting on Wednesday, 26th June 2019 at 7 pm
-  description:
-  type: meeting
-  number: 3
-  when: 26th June 2019 at 7 pm
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
-
 - title: Regular Club Meeting on Wednesday, 10th July 2019 at 7 pm
   description:
   type: meeting
-  number: 4
+  number: 2
   when: 10th July 2019 at 7 pm
   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
 
 - title: Regular Club Meeting on Wednesday, 24th July 2019 at 7 pm
   description:
   type: meeting
-  number: 5
+  number: 1
   when: 24th July 2019 at 7 pm
   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
-
-- title: Cataract Surgeries camp
-  description:
-  type: event
-  number: 2
-  when: 22nd June 2019, 11 am
-  where: Arunodaya Deseret Eye Hospital, Sector 55, Plot# NH 4, Gurugram-122011
-
-- title: Muchas Gracias (a sweet ending for a new beginning)
-  description:
-  type: event
-  number: 3
-  when: 29th June 2019, 2.30pm onwards
-  where: Taj Palace, Diplomatic Enclave, New Delhi
 
 - title: UDAAN - Installation Ceremony of District Governor 2019-20
   description:
   type: event
-  number: 4
+  number: 1
   when: 1st July 2019
   where: Hotel Taj Palace, Sardar Patel Marg, New Delhi.
