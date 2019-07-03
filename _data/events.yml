@@ -1,21 +1,21 @@
 
-- title: Regular Club Meeting on Wednesday, 10th July 2019 at 7 pm
-  description:
-  type: meeting
-  number: 2
-  when: 10th July 2019 at 7 pm
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
-
-- title: Regular Club Meeting on Wednesday, 24th July 2019 at 7 pm
-  description:
-  type: meeting
-  number: 1
-  when: 24th July 2019 at 7 pm
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
-
 - title: UDAAN - Installation Ceremony of District Governor 2019-20
   description:
   type: event
   number: 1
   when: 1st July 2019
   where: Hotel Taj Palace, Sardar Patel Marg, New Delhi.
+
+- title: Regular Club Meeting on Wednesday, 10th July 2019 at 7 pm
+  description:
+  type: meeting
+  number: 1
+  when: 10th July 2019 at 7 pm
+  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
+- title: Regular Club Meeting on Wednesday, 24th July 2019 at 7 pm
+  description:
+  type: meeting
+  number: 2
+  when: 24th July 2019 at 7 pm
+  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
