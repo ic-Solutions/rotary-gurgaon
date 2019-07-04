@@ -308,3 +308,14 @@ img {
 .about-pic {
   width: 120px;
 }
+
+.nav-project {
+  list-style: none;
+}
+
+.nav-project li{
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
