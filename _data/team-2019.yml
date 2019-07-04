@@ -1,51 +1,97 @@
-- name: Rtn Lalit Sawhney
-  position: President
-  image:  /club-members/Lalit-Sawhney.jpg
+board:
+    - name: Rtn Lalit Sawhney
+      position: President
+      image:  /club-members/Lalit-Sawhney.jpg
 
-- name: Rtn Abdul Aziz Seyid
-  position: Secretary
-  image:  /club-members/Pic-Abdul-Aziz.jpg
+    - name: Rtn Abdul Aziz Seyid
+      position: Secretary
+      image:  /club-members/Pic-Abdul-Aziz.jpg
 
-- name: Rtn Mukta Malhotra
-  position: Vice President & President Elect
-  image:  /club-members/RTN-MUKTA-MALHOTRA-Charter-Secretary.JPG
+    - name: Rtn Mukta Malhotra
+      position: Vice President & President Elect
+      image:  /club-members/RTN-MUKTA-MALHOTRA-Charter-Secretary.JPG
 
-- name: Rtn Dr. Raj Kamal Bhargava
-  position: Immediate Past President
-  image:  /club-members/RTN. DR RAJ KAMAL BHARGAVA - Charter President.JPG
+    - name: Rtn Dr. Raj Kamal Bhargava
+      position: Immediate Past President
+      image:  /club-members/RTN. DR RAJ KAMAL BHARGAVA - Charter President.JPG
 
-- name: Rtn Anjali Pandey
-  position: Joint Secretary
-  image:  /club-members/RTN. ANJALI PANDEY.JPG
+    - name: Rtn Anjali Pandey
+      position: Joint Secretary
+      image:  /club-members/RTN. ANJALI PANDEY.JPG
 
-- name: Rtn Vimal Singhania
-  position: Treasurer
-  image:  /club-members/RTN. VIMAL SINGHANIA.JPG
+    - name: Rtn Vimal Singhania
+      position: Treasurer
+      image:  /club-members/RTN. VIMAL SINGHANIA.JPG
 
-- name: Rtn Mukta Malhotra
-  position: Director, Club Service
-  image:  /club-members/RTN-MUKTA-MALHOTRA-Charter-Secretary.JPG
+    - name: Rtn Mukta Malhotra
+      position: Director, Club Service
+      image:  /club-members/RTN-MUKTA-MALHOTRA-Charter-Secretary.JPG
 
-- name: Rtn Mukesh Bhargava
-  position: Director, Community Service
-  image:  /club-members/RTN. MUKESH BHARGAVA.JPG
+    - name: Rtn Mukesh Bhargava
+      position: Director, Community Service
+      image:  /club-members/RTN. MUKESH BHARGAVA.JPG
 
-- name: Rtn Neel Kamal Bhargava
-  position: Director, Vocational Service
-  image:  /club-members/RTN. NEEL KAMAL BHARGAVA.JPG
+    - name: Rtn Neel Kamal Bhargava
+      position: Director, Vocational Service
+      image:  /club-members/RTN. NEEL KAMAL BHARGAVA.JPG
 
-- name: Rtn Sanjay Setia
-  position: Director, International Service
-  image:  /club-members/RTN. SANJAY SETIA.JPG
+    - name: Rtn Sanjay Setia
+      position: Director, International Service
+      image:  /club-members/RTN. SANJAY SETIA.JPG
 
-- name: Rtn Rohit Kapur
-  position: Director, Youth Service
-  image:  /club-members/RTN. ROHIT KAPUR.JPG
+    - name: Rtn Rohit Kapur
+      position: Director, Youth Service
+      image:  /club-members/RTN. ROHIT KAPUR.JPG
 
-- name: Rtn Manoj Goyal
-  position: Sergeant-at-Arms
-  image:  /club-members/RTN. MANOJ KUMAR GOYAL.JPG
+    - name: Rtn Manoj Goyal
+      position: Sergeant-at-Arms
+      image:  /club-members/RTN. MANOJ KUMAR GOYAL.JPG
 
-- name: Rtn Dr. Raj Kamal Bhargava
-  position: Club Trainer
-  image:  /club-members/RTN. DR RAJ KAMAL BHARGAVA - Charter President.JPG
+    - name: Rtn Dr. Raj Kamal Bhargava
+      position: Club Trainer
+      image:  /club-members/RTN. DR RAJ KAMAL BHARGAVA - Charter President.JPG
+
+chairs:
+    - name: Rtn Mukta Malhotra
+      position: Chairperson, Membership & Club Administration
+      image:  /club-members/RTN-MUKTA-MALHOTRA-Charter-Secretary.JPG
+
+    - name: Rtn Sanjay Bansal
+      position: Chairman, Rotary Foundation
+      image:  /club-members/RTN. SANJAY KUMAR BANSAL.JPG
+
+    - name: Rtn Rohit Kapur
+      position: Chairman, Public Relations
+      image:  /club-members/RTN. ROHIT KAPUR.JPG
+
+    - name: Rtn Dr. T B S Buxi
+      position: Chairman, Service Projects – Health
+      image:  /club-members/RTN. DR. TARVINDER BIR SINGH BUXI.JPG
+
+    - name: Rtn Abdul Aziz Seyid
+      position: Chairman, WASH in Schools (WinS)
+      image:  /club-members/RTN-ABDUL-AZIZ-SEYID-1.JPG
+
+    - name: Rtn Anjali Pandey
+      position: Chairperson, Club Communications
+      image:  /club-members/RTN. ANJALI PANDEY.JPG
+
+    - name: Rtn R S Atroley
+      position: Chairman, Literacy (TEACH)
+      image:  /club-members/atroley.png
+
+    - name: Rtn Mukta Malhotra
+      position: Chairperson, Sports
+      image:  /club-members/RTN-MUKTA-MALHOTRA-Charter-Secretary.JPG
+
+    - name: Rtn Ramandeep Singh
+      position: Chairman, Vocational Service
+      image:  /club-members/ramandeep.png
+
+    - name: Rtn Ravi Khanna
+      position: Chairman, Youth Service
+      image:  /club-members/RTN. RAVI KHANNA.JPG
+
+    - name: Rtn Sanjay Setia
+      position: Chairman, International Service
+      image:  /club-members/RTN. SANJAY SETIA.JPG
