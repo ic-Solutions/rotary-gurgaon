@@ -195,10 +195,15 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">{{item.title}}</h5>
+                            {% if item.description %}<p>{{item.description}}</p>{% endif %}
                             <hr />
-                            <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHEN - <i class="fa fa-calendar" aria-hidden="true"></i> {{item.when}}</a></h6>
+                            {% if item.speaker %}
+                            <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> SPEAKER - {{item.speaker}}</a></h6>
+                            <br>
+                            {% endif %}
+                            <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> WHEN - {{item.when}}</a></h6>
                             <br />
-                            <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted">WHERE - <i class="fa fa-map-marker" aria-hidden="true"></i> {{item.where}}</a></h6>
+                            <h6><a href="#" style="text-decoration:none;font-size:15px;" class="text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i> WHERE - {{item.where}}</a></h6>
                         </div>
                     </div>
                     <br>

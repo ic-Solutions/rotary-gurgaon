@@ -6,16 +6,31 @@
   when: 1st July 2019
   where: Hotel Taj Palace, Sardar Patel Marg, New Delhi.
 
-- title: Regular Club Meeting on Wednesday, 10th July 2019 at 7 pm
+- title: Regular Club Meeting
   description:
   type: meeting
   number: 1
-  when: 10th July 2019 at 7 pm
+  when: Wednesday, 10th July 2019 at 7 pm
   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
 
-- title: Regular Club Meeting on Wednesday, 24th July 2019 at 7 pm
+- title: Regular Club Meeting
   description:
   type: meeting
   number: 2
-  when: 24th July 2019 at 7 pm
+  when: Wednesday, 24th July 2019 at 7 pm
+  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
+- title: Regular Club Meeting
+  description: Concerns related to Elder Care.
+  speaker: Ms. Mala Shankardas, winner of the 2019 R S Wolf Memorial Award, conferred by the International Network for Prevention of Elder Abuse.
+  type: meeting
+  number: 3
+  when: Wednesday, 14th August 2019 at 7 pm
+  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
+- title: Regular Club Meeting
+  description:
+  type: meeting
+  number: 4
+  when: Wednesday, 28th August 2019 at 7 pm
   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
