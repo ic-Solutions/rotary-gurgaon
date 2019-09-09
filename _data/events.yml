@@ -1,36 +1,20 @@
-
-- title: UDAAN - Installation Ceremony of District Governor 2019-20
-  description:
-  type: event
-  number: 1
-  when: 1st July 2019
-  where: Hotel Taj Palace, Sardar Patel Marg, New Delhi.
-
-- title: Regular Club Meeting
-  description:
+- title: Community Service Project
+  description: Installation of Sanitary Napkin Vending Machine
   type: meeting
   number: 1
-  when: Wednesday, 10th July 2019 at 7 pm
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+  when: Saturday, 7th September 2019
+  where: Govt. Model Sanskriti Sr. Sec. School (behind Vyappar Kendra) Sector 43 Gurugram
 
-- title: Regular Club Meeting
+- title: Club Assembly
   description:
   type: meeting
   number: 2
-  when: Wednesday, 24th July 2019 at 7 pm
+  when: Wednesday, 11th September 2019 at 7 pm
   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
 
-- title: Regular Club Meeting
-  description: 'Subject: Concerns related to Elder Care.'
-  speaker: Ms. Mala Shankardas, winner of the 2019 R S Wolf Memorial Award, conferred by the International Network for Prevention of Elder Abuse.
+- title: Official Visit of the District Governor
+  description: Installation of Office Bearers
   type: meeting
   number: 3
-  when: Wednesday, 14th August 2019 at 7 pm
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
-
-- title: Regular Club Meeting
-  description:
-  type: meeting
-  number: 4
-  when: Wednesday, 28th August 2019 at 7 pm
+  when: Friday, 20th September 2019 at 7 pm
   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
