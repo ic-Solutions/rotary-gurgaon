@@ -823,34 +823,11 @@
       <div class="row">
         <div class="col-12 col-md-12 text-center">
           <div class="list-group">
-            <!-- Jan 2019 bulletin -->
-            <a href="/documents/1033316-Bulletin_Jan198copy.pdf" target="_blank" class="list-group-item list-group-item-action">
-              <h6>January 2019</h6>
-            </a>
-            <!-- Feb 2019 bulletin -->
-            <a href="/documents/Bulletin_Feb19.pdf" target="_blank" class="list-group-item list-group-item-action">
-              <h6>February 2019</h6>
-            </a>
-            <!-- Mar 2019 bulletin -->
-            <a href="/documents/1033317-Bulletin_Mar198copy.pdf" target="_blank" class="list-group-item list-group-item-action">
-              <h6>March 2019</h6>
-            </a>
-            <!-- Apr 2019 bulletin -->
-            <a href="/documents/1062851-Bulletin_April-2019.pdf" target="_blank" class="list-group-item list-group-item-action">
-              <h6>April 2019</h6>
-            </a>
-            <!-- May 2019 bulletin -->
-            <a href="/documents/1062852-Bulletin-May-2019.pdf" target="_blank" class="list-group-item list-group-item-action">
-              <h6>May 2019</h6>
-            </a>
-            <!-- June 2019 bulletin -->
-            <a href="/documents/Bulletin June 2019.pdf" target="_blank" class="list-group-item list-group-item-action">
-              <h6>June 2019</h6>
-            </a>
-            <!-- July 2019 bulletin -->
-            <a href="/documents/Bulletin-July-2019.pdf" target="_blank" class="list-group-item list-group-item-action">
-              <h6>July 2019</h6>
-            </a>
+            {% for item in site.data.bulletins %}
+              <a href="/bulletins/{{item.pdf}}" target="_blank" class="list-group-item list-group-item-action">
+                <h6>{{item.month}}</h6>
+              </a>
+            {% endfor %}
           </div>
         </div>
       </div>
