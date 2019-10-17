@@ -1,11 +1,29 @@
-- name: Rtn. Rohit Kapur
-  type: birth
-  date: 5 September
+# - name: Rtn. Rohit Kapur
+#   type: birth
+#   date: 5 September
 
-- name: Rtn. Superna Malhotra
-  type: birth
-  date: 16 September
+# - name: Rtn. Superna Malhotra
+#   type: birth
+#   date: 16 September
 
-- name: IPP Rtn. Raj Kamal Bhargava
+# - name: IPP Rtn. Raj Kamal Bhargava
+#   type: birth
+#   date: 20 September
+
+
+
+- name: R’anne Poonam Setia & Rtn. Sanjay Setia
+  type: anniversary
+  date: 13 October
+
+- name: R’anne  Jayshree Sawhney & Rtn Lalit Sawhney
+  type: anniversary
+  date: 14 October
+
+- name: R’anne Neetu Ruia
   type: birth
-  date: 20 September
+  date: 27 October
+
+- name: R’anne Poonam Setia
+  type: birth
+  date: 31 October

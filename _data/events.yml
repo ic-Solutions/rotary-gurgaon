@@ -1,20 +1,60 @@
-- title: Community Service Project
-  description: Installation of Sanitary Napkin Vending Machine
+# - title: Community Service Project
+#   description: Installation of Sanitary Napkin Vending Machine
+#   type: meeting
+#   number: 1
+#   when: Saturday, 7th September 2019
+#   where: Govt. Model Sanskriti Sr. Sec. School (behind Vyappar Kendra) Sector 43 Gurugram
+
+# - title: Club Assembly
+#   description:
+#   type: meeting
+#   number: 2
+#   when: Wednesday, 11th September 2019 at 7 pm
+#   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
+# - title: Official Visit of the District Governor
+#   description: Installation of Office Bearers
+#   type: meeting
+#   number: 3
+#   when: Friday, 20th September 2019 at 7 pm
+#   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
+
+- title: Board Meeting
+  description:
   type: meeting
   number: 1
-  when: Saturday, 7th September 2019
-  where: Govt. Model Sanskriti Sr. Sec. School (behind Vyappar Kendra) Sector 43 Gurugram
+  when: Monday, 30th September 2019 at 6 pm
+  where: Residence of President, Rtn. Lalit Sawhney Flat A-122, The Crest, Golf Course Road, Sector 54, Gurgaon
 
-- title: Club Assembly
+
+- title: Speaker PP Rtn Dr Pushpa Sethi will speak on ‘Key to Mental and Physical Fitness in Midlife’
   description:
   type: meeting
   number: 2
-  when: Wednesday, 11th September 2019 at 7 pm
+  when: Wednesday, 9th October 2019 at 7 pm
   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
 
-- title: Official Visit of the District Governor
-  description: Installation of Office Bearers
+
+- title: Project TEACH - Donation of Books, Tables and Chairs
+  description:
   type: meeting
   number: 3
-  when: Friday, 20th September 2019 at 7 pm
+  when: Friday, 11th October 2019 at 11 am
+  where: Govt. Model Sanskriti Primary School, Sushant Lok, Gurgaon
+
+
+- title: Project TEACH - Donation of Books
+  description:
+  type: meeting
+  number: 4
+  when: Friday, 11th October 2019 at 12 noon
+  where: Kota School, Behind DT Mega Mall, Golf Course Road, Gurgaon
+
+
+- title: Regular Club Meeting 
+  description:
+  type: meeting
+  number: 5
+  when: Wednesday, 23rd October 2019 at 7 pm
   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
