@@ -36,19 +36,19 @@
   <link class="box-effect-small" rel="icon" href="images/brand-logo.png" type="image/png" sizes="64x64">
 
   <script>
-    $(function() {
+    $(function () {
       new WOW().init();
     });
   </script>
 
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       // Javascript code for managing the navbar background color while scrolling
       var scroll_start = 0;
       var startchange = $('#team');
       var offset = startchange.offset();
       if (startchange.length) {
-        $(document).scroll(function() {
+        $(document).scroll(function () {
           scroll_start = $(this).scrollTop();
           if (scroll_start > offset.top) {
             $("#nav-wrapper").css('background-color', 'rgba(255, 255, 255, 0.9)');
@@ -67,7 +67,7 @@
       }
 
       // checking if menu button is clicked in mobile mode
-      $(document).on("click", ".navbar-toggler", function() {
+      $(document).on("click", ".navbar-toggler", function () {
         if (document.getElementById('nav-wrapper').clientHeight < 100) {
           $("#nav-wrapper").css('background-color', 'rgba(255, 255, 255, 0.9)');
           $(".nav-link").addClass("nav-link-dark");
@@ -90,9 +90,11 @@
         <!-- Logo text -->
         <td>
           <a class="navbar-brand" href="/#home" style="margin-right:0;">
-            <span class="text-white logo-first-text" style="font-size:22px;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;">Rotary Club</span>
+            <span class="text-white logo-first-text"
+              style="font-size:22px;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;">Rotary Club</span>
             <br />
-            <span class="text-white logo-second-text" style="font-size:11px;text-transform:none;font-family:inherit;">of Gurgaon Harmony Iberis</span>
+            <span class="text-white logo-second-text" style="font-size:11px;text-transform:none;font-family:inherit;">of
+              Gurgaon Harmony Iberis</span>
           </a>
         </td>
 
@@ -104,7 +106,8 @@
         </td>
       </tr>
     </table>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -168,45 +171,45 @@
 
 
       {% include team-2020.html %}
-      <br>
+      <!-- <br>
       <hr>
-      {% include team-2019.html %}
+      {% include team-2019.html %} -->
       <br>
       <hr>
       {% include board-members-2019.html %}
 
 
-    <!-- Club representation section -->
-    <div class="container text-center">
-      <!--team sub title-->
-      <div class="row text-center">
-        <div class="col-12 col-md-12 text-muted text-center">
-          <h6 style="max-width: 600px;margin: auto;color:#444242;">
-            CLUB REPRESENTATION BEYOND CLUB LEVEL
-          </h6>
-          <br />
-        </div>
-      </div>
-      <!--End of team sub title-->
-
-      <div class="row text-center" style="display: inline-block;">
-        <div class="card box-effect-large wow jackInTheBox text-center" style="display:block;">
-          <br />
-          <img src="team-images/club-rep.png" class="card-img-top" alt="..." height="200" style="width:42%;">
-          <div class="card-body" style="height:200px;">
-            <h5 class="card-title text-danger">PP Rtn Vimal Singhania</h5>
-            <hr />
-            <p class="card-text-custom text-muted">
-              District Polio Plus Subcommittee Zonal Chair (Zone 13)
-              <br />
-              District Team – Polio Plus, RI District 3011
-            </p>
+      <!-- Club representation section -->
+      <div class="container text-center">
+        <!--team sub title-->
+        <div class="row text-center">
+          <div class="col-12 col-md-12 text-muted text-center">
+            <h6 style="max-width: 600px;margin: auto;color:#444242;">
+              CLUB REPRESENTATION BEYOND CLUB LEVEL
+            </h6>
+            <br />
           </div>
         </div>
-      </div>
+        <!--End of team sub title-->
 
-    </div>
-    <!-- End of Club representation section -->
+        <div class="row text-center" style="display: inline-block;">
+          <div class="card box-effect-large wow jackInTheBox text-center" style="display:block;">
+            <br />
+            <img src="team-images/club-rep.png" class="card-img-top" alt="..." height="200" style="width:42%;">
+            <div class="card-body" style="height:200px;">
+              <h5 class="card-title text-danger">PP Rtn Vimal Singhania</h5>
+              <hr />
+              <p class="card-text-custom text-muted">
+                District Polio Plus Subcommittee Zonal Chair (Zone 13)
+                <br />
+                District Team – Polio Plus, RI District 3011
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- End of Club representation section -->
 
   </section>
 
@@ -218,7 +221,9 @@
           <div class="col-md-6" style="padding-top:10px;">
             <span class="section-title">ROTARY</span>
             <hr class="text-muted" />
-            <h6 class="text-muted">In all avenues of service, the Club intends to ensure that there is long term engagement and sustainability in the projects undertaken. This will reinforce the role of Rotary as a positive agent of change in our
+            <h6 class="text-muted">In all avenues of service, the Club intends to ensure that there is long term
+              engagement and sustainability in the projects undertaken. This will reinforce the role of Rotary as a
+              positive agent of change in our
               community.</h6>
           </div>
           <!-- Quick link section -->
@@ -226,8 +231,10 @@
             <span class="section-title">QUICK LINKS</span>
             <hr class="text-muted" />
             <ul class="list-group">
-              <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotary.org" target="_blank">Rotary International</a></li>
-              <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotarydistrict3011.org" target="_blank">Rotary District 3011</a></li>
+              <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotary.org"
+                  target="_blank">Rotary International</a></li>
+              <li class="list-group-item-footer fs-15px text-danger"><a href="http://www.rotarydistrict3011.org"
+                  target="_blank">Rotary District 3011</a></li>
               <li class="list-group-item-footer fs-15px text-danger"><a href="#focus-area">Our Areas of focus</a></li>
               <li class="list-group-item-footer fs-15px text-danger"><a href="team.html#team">OUR TEAM</a></li>
               <li class="list-group-item-footer fs-15px"><a href="#videos">Videos</a></li>
@@ -244,9 +251,12 @@
             <hr class="text-muted" />
             <ul class="list-group">
               <!-- Email -->
-              <li class="list-group-item-footer"><a class="text-danger" style="font-size:16px;text-transform:lowercase;" href="#">rcghi2018@gmail.com</a></li>
+              <li class="list-group-item-footer"><a class="text-danger" style="font-size:16px;text-transform:lowercase;"
+                  href="#">rcghi2018@gmail.com</a></li>
               <!-- facebook -->
-              <li class="list-group-item-footer fs-15px"><a target="_blank" href="https://www.facebook.com/rcgurgaonharmony.iberis.3"><img style="width:25px;" src="images/fb.png" /> &nbsp;facebook</a></li>
+              <li class="list-group-item-footer fs-15px"><a target="_blank"
+                  href="https://www.facebook.com/rcgurgaonharmony.iberis.3"><img style="width:25px;"
+                    src="images/fb.png" /> &nbsp;facebook</a></li>
               <!-- whatsapp -->
               <!-- <li class="list-group-item-footer fs-15px"><a href="#" target="_blank"><img style="width:25px;" src="images/whatsapp.png" /> &nbsp;WhatsApp</a></li> -->
             </ul>
@@ -258,8 +268,10 @@
       <hr />
 
       <div class="row text-center">
-        <div class="col-md-6 text-center"><span style="color:white;font-size:15px;">© 2019. All rights reserved</span></div>
-        <div class="col-md-6"><span style="color:white;font-size:15px;">Designed by <a target="_blank" style="text-decoration:none; color:orange;" href="http://icsoln.com/">ICS</a></span></div>
+        <div class="col-md-6 text-center"><span style="color:white;font-size:15px;">© 2019. All rights reserved</span>
+        </div>
+        <div class="col-md-6"><span style="color:white;font-size:15px;">Designed by <a target="_blank"
+              style="text-decoration:none; color:orange;" href="http://icsoln.com/">ICS</a></span></div>
       </div>
       <br />
       <br />
