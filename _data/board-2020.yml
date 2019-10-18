@@ -1,0 +1,72 @@
+main:
+  - position: President
+    name: Rtn Lalit Sawhney
+
+  - position: Secretary
+    name: Rtn Abdul Aziz Seyid
+
+  - position: President Elect (2020-2021)
+    name: Rtn Mukta Malhotra
+
+  - position: Vice President
+    name: Rtn Mukta Malhotra
+
+  - position: Joint Secretary
+    name: Rtn Anjali Pandey
+
+  - position: Treasurer
+    name: Rtn Vimal Singhania
+
+  - position: Sergeant-at-Arms
+    name: Rtn Vikas Singh
+
+avenues:
+  - position: Club Service
+    name: Rtn Mukta Malhotra
+    co: Rtn Anjali Pandey
+
+  - position: Community Service
+    name: Rtn R S Atroley
+    co: Rtn Superna Malhotra
+
+  - position: Vocational Service
+    name: Rtn Neel Kamal Bhargava
+    co: Rtn Ramandeep Singh
+
+  - position: International Service
+    name: Rtn Mukesh Bhargava
+    co: Rtn Hemant K Ruia
+
+  - position: New Generation
+    name: Rtn Neera Jolly
+    co: Rtn Rohit Kapur
+
+commitee:
+  - position: Club Administration (part of Club Service)
+    name: Rtn Mukta Malhotra
+    co: Rtn Anjali Pandey
+
+  - position: Membership (part of Club Service)
+    name: Rtn Mukta Malhotra
+    co: Rtn Vimal Kumar Singhania
+
+  - position: Rotary Foundation (part of International Service)
+    name: Rtn Vimal Kumar Singhania
+    co: Rtn R S Atroley
+
+  - position: Public Image
+    name: Rtn Rohit Kapur
+    co: Rtn Abdul Aziz Seyid
+
+  - position: Literacy / TEACH (part of Community Service)
+    name: Rtn Superna Malhotra
+    co: Rtn Vikas Singh
+
+  - position: WASH in Schools (part of Community Service)
+    name: Rtn Abdul Aziz Seyid
+    co: Rtn Hemant K Ruia
+
+
+
+
+
