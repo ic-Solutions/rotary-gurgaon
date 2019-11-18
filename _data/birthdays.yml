@@ -1,3 +1,54 @@
+- name: Rtn Anjali Pandey & Mr Kuldeep Pandey
+  type: anniversary
+  date: 26 November
+
+- name: Rtn Neera Jolly
+  type: birth
+  date: 27 November
+
+- name: Rtn Superna Malhotra & Mr. Mukesh Malhotra
+  type: anniversary
+  date: 28 November
+
+- name: R’anne Ruchi Singh
+  type: birth
+  date: 30 November
+
+- name: R’anne Shivani & Rtn Rohit Kapur
+  type: anniversary
+  date: 04 December
+
+- name: Mr. N.K. Jolly
+  type: birth
+  date: 12 December
+
+- name: R’anne Jayshree Sawhney
+  type: birth
+  date: 19 December
+
+- name: Rtn Hemant Kumar Ruia
+  type: birth
+  date: 22 December
+
+- name: R’anne Harveen & Rtn Ramandeep Singh
+  type: anniversary
+  date: 23 December
+# - name: R’anne Poonam Setia & Rtn. Sanjay Setia
+#   type: anniversary
+#   date: 13 October
+
+# - name: R’anne  Jayshree Sawhney & Rtn Lalit Sawhney
+#   type: anniversary
+#   date: 14 October
+
+# - name: R’anne Neetu Ruia
+#   type: birth
+#   date: 27 October
+
+# - name: R’anne Poonam Setia
+#   type: birth
+#   date: 31 October
+
 # - name: Rtn. Rohit Kapur
 #   type: birth
 #   date: 5 September
@@ -10,20 +61,3 @@
 #   type: birth
 #   date: 20 September
 
-
-
-- name: R’anne Poonam Setia & Rtn. Sanjay Setia
-  type: anniversary
-  date: 13 October
-
-- name: R’anne  Jayshree Sawhney & Rtn Lalit Sawhney
-  type: anniversary
-  date: 14 October
-
-- name: R’anne Neetu Ruia
-  type: birth
-  date: 27 October
-
-- name: R’anne Poonam Setia
-  type: birth
-  date: 31 October
