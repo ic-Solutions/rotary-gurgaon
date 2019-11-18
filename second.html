@@ -1581,6 +1581,57 @@
       </div>
     {% endfor %}
     </div>
+
+    <br />
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <div class="alert alert-success text-center box-effect-small" style="margin-bottom:0;" role="alert">
+            <h5 style="margin-bottom:0;">AUGUST - 2019</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters my-4">
+      {% for item in site.data.gallery.august %}
+        <div class="col-lg-4 col-md-6">
+          <div class="gallery-item wow fadeInUp">
+            <a href="/gallery/aug-2019/{{item}}" class="gallery-popup wow jackInTheBox">
+              <img src="/gallery/aug-2019/{{item}}" alt="" style="object-fit: cover">
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+  
+
+      <br />
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <div class="alert alert-success text-center box-effect-small" style="margin-bottom:0;" role="alert">
+              <h5 style="margin-bottom:0;">SEPTEMBER - 2019</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row no-gutters my-4">
+        {% for item in site.data.gallery.september %}
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="/gallery/sept-2019/{{item}}" class="gallery-popup wow jackInTheBox">
+                <img src="/gallery/sept-2019/{{item}}" alt="" style="object-fit: cover">
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+    
+
       <!-- End of Apr 2019 gallery section -->
     </div>
   </section>
