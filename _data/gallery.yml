@@ -30,71 +30,157 @@ august:
   - "Flag exchange2 (1).jpg"
   - "Spkr meet (3).jpg"
 september:
-  - 'BDC Zonal (1)a.jpg'     
-  - 'Installation (14).JPG'
-  - 'BDC Zonal (1).jpg'      
-  - 'Installation (15).JPG'
-  - 'BDC Zonal (2)a.jpg'     
-  - 'Installation (16).JPG'
-  - 'BDC Zonal (2).jpg'      
-  - 'Installation (17).JPG'
-  - 'BDC Zonal (3)a.jpg'     
-  - 'Installation (18).JPG'
-  - 'BDC Zonal (3).jpg'      
-  - 'Installation (19).JPG'
-  - 'BDC Zonal (4).jpg'      
-  - 'Installation (1).JPG'
-  - 'Board Meeting (2).jpg'  
-  - 'Installation (20).JPG'
-  - 'Board Meeting (3).jpg'  
-  - 'Installation (21).JPG'
-  - 'Board Meeting (4).jpg'  
-  - 'Installation (22).JPG'
-  - 'Board Meeting (5).jpg'  
-  - 'Installation (23).JPG'
-  - 'Board Meeting (6).jpg'  
-  - 'Installation (24).JPG'
-  - 'Flag Exchange (1).jpg'  
-  - 'Installation (25).JPG'
-  - 'Flag Exchange (2).jpg'  
-  - 'Installation (26).JPG'
-  - 'Flag Exchange (3).jpg'  
-  - 'Installation (27).JPG'
-  - 'GOV (10).JPG'           
-  - 'Installation (28).JPG'
-  - 'GOV (11).JPG'           
-  - 'Installation (29).JPG'
-  - 'GOV (12).JPG'           
-  - 'Installation (2).JPG'
-  - 'GOV (13).JPG'           
-  - 'Installation (30).JPG'
-  - 'GOV (14).JPG'           
-  - 'Installation (31).JPG'
-  - 'GOV (15).JPG'           
-  - 'Installation (32).JPG'
-  - 'GOV (1).JPG'            
-  - 'Installation (33).JPG'
-  - 'GOV (2).JPG'            
-  - 'Installation (3).JPG'
-  - 'GOV (3).JPG'            
-  - 'Installation (4).JPG'
-  - 'GOV (4).JPG'            
-  - 'Installation (5).JPG'
-  - 'GOV (5).JPG'            
-  - 'Installation (6).JPG'
-  - 'GOV (6).JPG'            
-  - 'Installation (7).JPG'
-  - 'GOV (7).JPG'            
-  - 'Installation (8).JPG'
-  - 'GOV (8).JPG'            
-  - 'Installation (9).JPG'
-  - 'GOV (9).JPG'            
-  - 'Napkin event (1).jpg'
-  - 'Installation (10).JPG'  
-  - 'Napkin event (2).jpg'
-  - 'Installation (11).JPG'  
-  - 'Napkin event (3).jpg'
-  - 'Installation (12).JPG'  
-  - 'Napkin event (4).jpg'
-  - 'Installation (13).JPG'  
-  - 'Napkin event (5).jpg'
+  - "BDC Zonal (1)a.jpg"
+  - "Installation (14).JPG"
+  - "BDC Zonal (1).jpg"
+  - "Installation (15).JPG"
+  - "BDC Zonal (2)a.jpg"
+  - "Installation (16).JPG"
+  - "BDC Zonal (2).jpg"
+  - "Installation (17).JPG"
+  - "BDC Zonal (3)a.jpg"
+  - "Installation (18).JPG"
+  - "BDC Zonal (3).jpg"
+  - "Installation (19).JPG"
+  - "BDC Zonal (4).jpg"
+  - "Installation (1).JPG"
+  - "Board Meeting (2).jpg"
+  - "Installation (20).JPG"
+  - "Board Meeting (3).jpg"
+  - "Installation (21).JPG"
+  - "Board Meeting (4).jpg"
+  - "Installation (22).JPG"
+  - "Board Meeting (5).jpg"
+  - "Installation (23).JPG"
+  - "Board Meeting (6).jpg"
+  - "Installation (24).JPG"
+  - "Flag Exchange (1).jpg"
+  - "Installation (25).JPG"
+  - "Flag Exchange (2).jpg"
+  - "Installation (26).JPG"
+  - "Flag Exchange (3).jpg"
+  - "Installation (27).JPG"
+  - "GOV (10).JPG"
+  - "Installation (28).JPG"
+  - "GOV (11).JPG"
+  - "Installation (29).JPG"
+  - "GOV (12).JPG"
+  - "Installation (2).JPG"
+  - "GOV (13).JPG"
+  - "Installation (30).JPG"
+  - "GOV (14).JPG"
+  - "Installation (31).JPG"
+  - "GOV (15).JPG"
+  - "Installation (32).JPG"
+  - "GOV (1).JPG"
+  - "Installation (33).JPG"
+  - "GOV (2).JPG"
+  - "Installation (3).JPG"
+  - "GOV (3).JPG"
+  - "Installation (4).JPG"
+  - "GOV (4).JPG"
+  - "Installation (5).JPG"
+  - "GOV (5).JPG"
+  - "Installation (6).JPG"
+  - "GOV (6).JPG"
+  - "Installation (7).JPG"
+  - "GOV (7).JPG"
+  - "Installation (8).JPG"
+  - "GOV (8).JPG"
+  - "Installation (9).JPG"
+  - "GOV (9).JPG"
+  - "Napkin event (1).jpg"
+  - "Installation (10).JPG"
+  - "Napkin event (2).jpg"
+  - "Installation (11).JPG"
+  - "Napkin event (3).jpg"
+  - "Installation (12).JPG"
+  - "Napkin event (4).jpg"
+  - "Installation (13).JPG"
+  - "Napkin event (5).jpg"
+october:
+  - "2 Spkr Anjana.jpg"
+  - "1 Spkr Anjana.jpg"
+  - "3 Spkr Anjana.jpg"
+  - "BC Roop Polymers (1).jpg"
+  - "BC Roop Polymers (2).jpg"
+  - "BC Roop Polymers (3).jpg"
+  - "BC Roop Polymers (4).jpg"
+  - "BC Roop Polymers (5).jpg"
+  - "BC Roop Polymers (6).jpg"
+  - "BC Roop Polymers (7).jpg"
+  - "BC Roop Polymers (8).jpg"
+  - "Dist Diwali.jpg"
+  - "GML image1.jpeg"
+  - "GML image2.jpeg"
+  - "GML image3.jpeg"
+  - "GML image7.jpeg"
+  - "GML TEACH event 11 Oct (15).jpg"
+  - "GML TEACH event 11 Oct (17).jpg"
+  - "GML TEACH event 11 Oct (21).jpg"
+  - "GML TEACH event 11 Oct (2).jpg"
+  - "GML TEACH event 11 Oct (4).jpg"
+  - "Lepra event (1).jpg"
+  - "Lepra event (2).jpg"
+  - "Meeting 9 Oct (1).jpg"
+  - "Meeting 9 Oct (4).jpg"
+  - "RILM_rcghi (1).jpg"
+  - "RILM_rcghi (2).jpg"
+  - "TEACH event 11 Oct (10).jpg"
+  - "TEACH event 11 Oct (11).jpg"
+  - "TEACH event 11 Oct (12).jpg"
+  - "TEACH event 11 Oct (13).jpg"
+  - "TEACH event 11 Oct (14).jpg"
+  - "TEACH event 11 Oct (15).jpg"
+  - "TEACH event 11 Oct (16).jpg"
+  - "TEACH event 11 Oct (18).jpg"
+  - "TEACH event 11 Oct (19).jpg"
+  - "TEACH event 11 Oct (1).jpg"
+  - "TEACH event 11 Oct (20).jpg"
+  - "TEACH event 11 Oct (22).jpg"
+  - "TEACH event 11 Oct (3).jpg"
+  - "TEACH event 11 Oct (5).jpg"
+  - "TEACH event 11 Oct (6).jpg"
+  - "TEACH event 11 Oct (7).jpg"
+  - "TEACH event 11 Oct (8).jpg"
+  - "TEACH event 11 Oct (9).jpg"
+  - "unnamed (1).jpg"
+  - "unnamed (2).jpg"
+  - "unnamed.jpg"
+
+november:
+  - "1.jpg"
+  - "Earth Saviour (1).jpg"
+  - "fb (10).jpg"
+  - "fb (11).jpg"
+  - "fb (12).jpg"
+  - "fb (13).jpg"
+  - "fb (1).jpg"
+  - "fb1.jpg"
+  - "fb (2).jpg"
+  - "fb (3).jpg"
+  - "fb (4).jpg"
+  - "fb (5).jpg"
+  - "fb (6).jpg"
+  - "fb (7).jpg"
+  - "fb (8).jpg"
+  - "fb (9).jpg"
+  - IMG-20191125-WA0034.jpg
+  - IMG-20191125-WA0035.jpg
+  - IMG-20191125-WA0036.jpg
+  - IMG-20191125-WA0037.jpg
+  - IMG-20191125-WA0044.jpg
+  - IMG-20191125-WA0045.jpg
+  - IMG-20191125-WA0054.jpg
+  - IMG-20191125-WA0055.jpg
+  - IMG-20191125-WA0056.jpg
+  - IMG-20191125-WA0057.jpg
+  - IMG-20191130-WA0022.jpg
+  - IMG-20191130-WA0025.jpg
+  - "Mega BDC (3).jpg"
+  - "Mega BDC (4).jpg"
+  - "PEM-II (1).jpg"
+  - "PEM-II (2).jpg"
+  - "RI President felicitation 1.jpg"
+  - "RI President felicitation.jpg"
+  - "TRF3.jpg"
