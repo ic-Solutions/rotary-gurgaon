@@ -1,58 +1,94 @@
-- title: Mega Blood Donation Drive by Rotary Clubs Zones 15 & 16
-  description: Mega Blood Donation Drive by Rotary Clubs Zones 15 & 16
+- title: Cataract Surgeries Camp
   type: meeting
   number: 1
-  when: Wednesday, 6 November 2019 at 9 am
-  where: Keysight Technologies, Manesar
+  when: Monday, 3 February 2020 at 12 noon
+  where: Arunodaya Deseret Eye Hospital, Sector 55, Gurugram-122011
 
-- title: Felicitation Ceremony of Rtn Shekhar Mehta, RI President Nominee 2021-22
-  description:
+- title: "“Aadish” District Team Training Seminar"
   type: meeting
   number: 2
-  when: Friday, 8 November 2019 at 5.30pm
-  where: The Andaaz Hotel, Aerocity, New Delhi
+  when: Saturday, 8 February 2020 at 3 pm
+  where: Fortune Select Global Hotel, MG Road, Gurugram
 
-- title: Board Meeting
-  description:
+- title: Club Assembly, Dinner
   type: meeting
   number: 3
-  when: Saturday, 9 November 2019 at 6.30pm
-  where: Residence of Rtn R.S. Atroley 215A, The Magnolias, DLF Golf Links, DLF V, Opposite AMEX Building, Golf Course Road, Gurgaon
-
-- title: Charter Day Celebrations
-  description:
-  type: meeting
-  number: 4
-  when: Wednesday, 13 November 2019at 7 pm
-  where: The Pavillion, DLF Golf Club, Golf Course Road, Gurgaon
-
-- title: Mega Blood Donation Drive with Rotary Clubs of Zone 15 & 16
-  description:
-  type: meeting
-  number: 5
-  when: Wednesday, 20 November 2019 at 10.30 am
-  where: Boston Scientific Technology & Engineering Services Private Ltd.  (3rd Floor, Bestech Business Tower, Sector 48, Sohna Road. Gurgaon)
-
-- title: Mega Blood Donation Drive with Rotary Clubs of Zone 15 & 16
-  description:
-  type: meeting
-  number: 6
-  when: Monday, 25 November 2019 at 10.30 am
-  where: Ansal University , Golf Course Road Gurgaon, near AIT Chowk / Metro Station Sector 54 Chowk, Gurgaon
-
-- title: Club Meeting
-  description:
-  type: meeting
-  number: 7
-  when: Wednesday, 27 November 2019 at 7 pm
+  when: Wednesday, 12 February 2020 at 7 pm
   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
 
-- title: Mega Blood Donation Drive with Rotary Clubs of Zone 15 & 16
-  description:
+- title: Rotary India Centennial Summit 2020
   type: meeting
-  number: 8
-  when: Friday, 6 December 2019 at 10.30 am
-  where: HDFC Bank, Bank House, Sector 53 Golf Course Road, Gurgaon
+  number: 4
+  when: 14-16 February 2020
+  where: Biswa Bangla Convention Centre, Kolkata
+
+- title: District Conference
+  type: meeting
+  number: 5
+  when: 21-23 February 2020
+  where: Hotel Leela Ambience, Gurgaon
+
+- title: Club Meeting
+  type: meeting
+  number: 6
+  when: Wednesday, 26 February 2020 at 7 pm
+  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+# - title: Mega Blood Donation Drive by Rotary Clubs Zones 15 & 16
+#   description: Mega Blood Donation Drive by Rotary Clubs Zones 15 & 16
+#   type: meeting
+#   number: 1
+#   when: Wednesday, 6 November 2019 at 9 am
+#   where: Keysight Technologies, Manesar
+
+# - title: Felicitation Ceremony of Rtn Shekhar Mehta, RI President Nominee 2021-22
+#   description:
+#   type: meeting
+#   number: 2
+#   when: Friday, 8 November 2019 at 5.30pm
+#   where: The Andaaz Hotel, Aerocity, New Delhi
+
+# - title: Board Meeting
+#   description:
+#   type: meeting
+#   number: 3
+#   when: Saturday, 9 November 2019 at 6.30pm
+#   where: Residence of Rtn R.S. Atroley 215A, The Magnolias, DLF Golf Links, DLF V, Opposite AMEX Building, Golf Course Road, Gurgaon
+
+# - title: Charter Day Celebrations
+#   description:
+#   type: meeting
+#   number: 4
+#   when: Wednesday, 13 November 2019at 7 pm
+#   where: The Pavillion, DLF Golf Club, Golf Course Road, Gurgaon
+
+# - title: Mega Blood Donation Drive with Rotary Clubs of Zone 15 & 16
+#   description:
+#   type: meeting
+#   number: 5
+#   when: Wednesday, 20 November 2019 at 10.30 am
+#   where: Boston Scientific Technology & Engineering Services Private Ltd.  (3rd Floor, Bestech Business Tower, Sector 48, Sohna Road. Gurgaon)
+
+# - title: Mega Blood Donation Drive with Rotary Clubs of Zone 15 & 16
+#   description:
+#   type: meeting
+#   number: 6
+#   when: Monday, 25 November 2019 at 10.30 am
+#   where: Ansal University , Golf Course Road Gurgaon, near AIT Chowk / Metro Station Sector 54 Chowk, Gurgaon
+
+# - title: Club Meeting
+#   description:
+#   type: meeting
+#   number: 7
+#   when: Wednesday, 27 November 2019 at 7 pm
+#   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
+# - title: Mega Blood Donation Drive with Rotary Clubs of Zone 15 & 16
+#   description:
+#   type: meeting
+#   number: 8
+#   when: Friday, 6 December 2019 at 10.30 am
+#   where: HDFC Bank, Bank House, Sector 53 Golf Course Road, Gurgaon
+
 # - title: Board Meeting
 #   description:
 #   type: meeting

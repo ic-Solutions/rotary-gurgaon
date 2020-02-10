@@ -1,38 +1,77 @@
-- name: Rtn Anjali Pandey & Mr Kuldeep Pandey
+- name: Rtn. Abdul Aziz Seyid
+  date: 1 February
+  type: birth
+
+- name: R’anne Madhu Bhargava
+  date: 13 February
+  type: birth
+
+- name: R’anne Aradhana Bhargava
+  date: 17 February
+  type: birth
+
+- name: Rtn. Mukta Malhotra
+  date: 25 February
+  type: birth
+
+- name: R'anne Rashmi Datt
+  date: 3 March
+  type: birth
+
+- name: Mr Kuldeep Pandey
+  date: 5 March
+  type: birth
+
+- name: Rtn. Lalit Sawhney
+  date: 22 March
+  type: birth
+
+- name: R’anne Ruchi Singh & Rtn. Vikas Singh
+  date: 1 February
   type: anniversary
-  date: 26 November
 
-- name: Rtn Neera Jolly
-  type: birth
-  date: 27 November
-
-- name: Rtn Superna Malhotra & Mr. Mukesh Malhotra
+- name: R'anne Neeru Atroley & Rtn R S Atroley
+  date: 15 February
   type: anniversary
-  date: 28 November
 
-- name: R’anne Ruchi Singh
-  type: birth
-  date: 30 November
-
-- name: R’anne Shivani & Rtn Rohit Kapur
+- name: R’anne Neetu & Rtn Hemant Kumar Ruia
+  date: 27 February
   type: anniversary
-  date: 04 December
+# - name: Rtn Anjali Pandey & Mr Kuldeep Pandey
+#   type: anniversary
+#   date: 26 November
 
-- name: Mr. N.K. Jolly
-  type: birth
-  date: 12 December
+# - name: Rtn Neera Jolly
+#   type: birth
+#   date: 27 November
 
-- name: R’anne Jayshree Sawhney
-  type: birth
-  date: 19 December
+# - name: Rtn Superna Malhotra & Mr. Mukesh Malhotra
+#   type: anniversary
+#   date: 28 November
 
-- name: Rtn Hemant Kumar Ruia
-  type: birth
-  date: 22 December
+# - name: R’anne Ruchi Singh
+#   type: birth
+#   date: 30 November
 
-- name: R’anne Harveen & Rtn Ramandeep Singh
-  type: anniversary
-  date: 23 December
+# - name: R’anne Shivani & Rtn Rohit Kapur
+#   type: anniversary
+#   date: 04 December
+
+# - name: Mr. N.K. Jolly
+#   type: birth
+#   date: 12 December
+
+# - name: R’anne Jayshree Sawhney
+#   type: birth
+#   date: 19 December
+
+# - name: Rtn Hemant Kumar Ruia
+#   type: birth
+#   date: 22 December
+
+# - name: R’anne Harveen & Rtn Ramandeep Singh
+#   type: anniversary
+#   date: 23 December
 # - name: R’anne Poonam Setia & Rtn. Sanjay Setia
 #   type: anniversary
 #   date: 13 October
