@@ -1,0 +1,52 @@
+board:
+    - name: Rtn Mukta Malhotra
+      position: President
+      image: /club-members/RTN-MUKTA-MALHOTRA-Charter-Secretary.JPG
+
+    - name: Rtn Anjali Pandey
+      position: Secretary
+      image:  /club-members/RTN. ANJALI PANDEY.JPG
+
+    - name: IPP Rtn Lalit Sawhney
+      position: Immediate Past President
+      image: /club-members/Lalit-Sawhney.jpg
+
+    - name: Rtn R. S. Atroley
+      position: President 2021-22
+      image: /club-members/atroley.png
+
+    - name: Rtn Abdul Aziz Seyid
+      position: Vice President
+      image:  /club-members/Pic-Abdul-Aziz.jpg
+
+    - name: Rtn Vimal Singhania
+      position: Treasurer
+      image:  /club-members/RTN. VIMAL SINGHANIA.JPG
+
+    - name: Rtn Neera Jolly
+      position: Joint Secretary
+      image: /club-members/RTN. NEERA JOLLY.JPG
+
+    - name: Rtn Vikas Singh
+      position: Sergeant-at-Arms
+      image:  /club-members/RTN. VIKAS SINGH.JPG
+
+    - name: IPP Rtn Lalit Sawhney
+      position: Director, Club Service
+      image: /club-members/Lalit-Sawhney.jpg
+
+    - name: Rtn Neel Kamal Bhargava
+      position: Director, Vocational Service
+      image:  /club-members/RTN. NEEL KAMAL BHARGAVA.JPG
+
+    - name: Rtn R S Atroley
+      position: Director, Community Service
+      image:  /club-members/atroley.png
+
+    - name: PP Rtn Vimal Singhania
+      position: Director, International Service
+      image:  /club-members/RTN. VIMAL SINGHANIA.JPG
+
+    - name: Rtn Neera Jolly
+      position: Director, Youth Service
+      image:  /club-members/RTN. NEERA JOLLY.JPG
