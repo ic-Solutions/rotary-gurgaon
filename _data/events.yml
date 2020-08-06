@@ -1,38 +1,60 @@
-- title: Cataract Surgeries Camp
+- title: Club Meeting
   type: meeting
   number: 1
-  when: Monday, 3 February 2020 at 12 noon
-  where: Arunodaya Deseret Eye Hospital, Sector 55, Gurugram-122011
-
-- title: "“Aadish” District Team Training Seminar"
-  type: meeting
-  number: 2
-  when: Saturday, 8 February 2020 at 3 pm
-  where: Fortune Select Global Hotel, MG Road, Gurugram
-
-- title: Club Assembly, Dinner
-  type: meeting
-  number: 3
-  when: Wednesday, 12 February 2020 at 7 pm
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
-
-- title: Rotary India Centennial Summit 2020
-  type: meeting
-  number: 4
-  when: 14-16 February 2020
-  where: Biswa Bangla Convention Centre, Kolkata
-
-- title: District Conference
-  type: meeting
-  number: 5
-  when: 21-23 February 2020
-  where: Hotel Leela Ambience, Gurgaon
+  when: Wednesday, 12 August 2020 at 4.30 pm 
+  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003 
 
 - title: Club Meeting
   type: meeting
-  number: 6
-  when: Wednesday, 26 February 2020 at 7 pm
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+  number: 2
+  when: Wednesday, 26 August 2020 at 4.30 pm
+  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003 
+
+- title: GOV & Installation Ceremony 2020-21 
+  type: meeting
+  number: 3
+  when: Saturday, 12 September 2020 at 3.30 pm
+  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003 
+
+
+
+
+# - title: Cataract Surgeries Camp
+#   type: meeting
+#   number: 1
+#   when: Monday, 3 February 2020 at 12 noon
+#   where: Arunodaya Deseret Eye Hospital, Sector 55, Gurugram-122011
+
+# - title: "“Aadish” District Team Training Seminar"
+#   type: meeting
+#   number: 2
+#   when: Saturday, 8 February 2020 at 3 pm
+#   where: Fortune Select Global Hotel, MG Road, Gurugram
+
+# - title: Club Assembly, Dinner
+#   type: meeting
+#   number: 3
+#   when: Wednesday, 12 February 2020 at 7 pm
+#   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
+# - title: Rotary India Centennial Summit 2020
+#   type: meeting
+#   number: 4
+#   when: 14-16 February 2020
+#   where: Biswa Bangla Convention Centre, Kolkata
+
+# - title: District Conference
+#   type: meeting
+#   number: 5
+#   when: 21-23 February 2020
+#   where: Hotel Leela Ambience, Gurgaon
+
+# - title: Club Meeting
+#   type: meeting
+#   number: 6
+#   when: Wednesday, 26 February 2020 at 7 pm
+#   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
 # - title: Mega Blood Donation Drive by Rotary Clubs Zones 15 & 16
 #   description: Mega Blood Donation Drive by Rotary Clubs Zones 15 & 16
 #   type: meeting
