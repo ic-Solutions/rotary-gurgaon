@@ -197,132 +197,35 @@
 
 
                     <div class="alert alert-light text-center box-effect-small" id="projects" role="alert" style="margin-bottom:0;">
-                        <h5 style="margin-bottom:0;">PROJECTS 2018-20</h5>
+                        <h5 style="margin-bottom:0;">PROJECTS 2020</h5>
                     </div>
 
                     <!--Projects Card code-->
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <img alt="..." class="card-img-top" height="200" src="project-images/karunashraya.jpg">
-                                <div class="card-body">
-                                    <h5 class="card-title text-danger">Club Service Avenue</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Classification Survey completed and classification assigned to every member.</li>
-                                        <li class="list-group-item">Club Website
-                                            <span class="text-danger">
-                                                <a href="http://www.rotaryharmonyiberis.com" target="_blank">www.rotaryharmonyiberis.com</a>
-                                            </span>
-                                            being launched in June 2019</li>
-                                        <li class="list-group-item">Monthly Bulletin has been published for the Months of January, February, March, April and May 2019.</li>
-                                        <li class="list-group-item">Continuing efforts for bringing new members: Focus on Lady members</li>
-                                        <li class="list-group-item">Club chartered on 12November 2018 with 22 members. As on 30 June 2019, we have 23 members.</li>
-                                        <li class="list-group-item">Regular Club Meetings – twice in a month</li>
-                                        <li class="list-group-item">Board Meeting – once in a month</li>
-                                        <li class="list-group-item">Focus on strengthening fellowship and ensuring the effective functioning of the club. Striving to enroll all members for PHF membership.</li>
-                                        <li class="list-group-item">Regular contacts with prospective members to attend our regular club meetings to improve membership growth.
-                                        </li>
-                                    </ul>
+                    {% for item in site.data.projects %}
+                        <div class="row">
+                            <div class="col-12 col-md-12" style="padding-top:10px;">
+                                <div class="card box-effect-small wow jackInTheBox">
+                                    <!-- <img alt="" class="card-img-top" height="500" src="project-images/karunashraya.jpg"> -->
+                                    <div class="card-body">
+                                        <h5 class="card-title text-danger">{{item.name}}</h5>
+                                        <ul class="list-group">
+                                            {% for desc in item.description %}
+                                                <li class="list-group-item">{{desc}}</li>
+                                            {% endfor %}
+                                            {% if item.list %}
+                                                    <ul class="ml-4 mt-2">
+                                                        {% for list in item.list %}
+                                                            <li>{{list}}</li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                {% endif %}
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    {% endfor %}
 
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <img alt="..." class="card-img-top" height="200" src="project-images/karunashraya.jpg">
-                                <div class="card-body">
-                                    <h5 class="card-title text-danger">Community Service Avenue</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Five Blood Donation Camps have been held, on 10 Feb at Magnolias Club, on 31 Mar at DLF Club 5, and on 26 Apr at Bank of America (3 locations). Target for Blood collection before 30 June 2019 is 400 units.
-                                                                                                                                                      Thalassemia awareness talks are part of BDCs.</li>
-                                        <li class="list-group-item">A Health & Lifestyle Style Coffee Evening was organized at Magnolias Club on 19 Mar, with 6 speakers. More such talks are planned to be held at IBS and KR Mangalam University with speakers and experts from
-                                                                                                                                                      Sir Ganga Ram Hospital. Health Camp and Mammography scanning camps will be held at Sikanderpur Village and Chakkarpur Village in coming weeks.</li>
-                                        <li class="list-group-item">Having discussions with Vivekanand Arogya Kendra for augmenting facilities at their Dialysis Centre.</li>
-                                        <li class="list-group-item">Two Wheel Chairs have been donated on 6 Apr, for use by senior citizens in Malibu Town condominium</li>
-                                        <li class="list-group-item">Three Cataract Surgery camps have been organized at Arunodaya Deseret Hospital on 16 Mar, 6 Apr and 24 May giving benefits to 15 senior citizens. One more camp will be held in coming weeks.</li>
-                                        <li class="list-group-item">WinS Project is under implementation at Govt. School, Bajghera Village.</li>
-                                        <li class="list-group-item">30 Cataract Surgeries done as yet.</li>
-                                        <li class="list-group-item">WinS & Wash – will install hand wash stations in Govt. Schools.</li>
-                                        <li class="list-group-item">TEACH – helping 10 needy people for their Education.</li>
-                                        <li class="list-group-item">Blood Donation / Eye Checkup / Dental Checkup Camps.</li>
-                                        <li class="list-group-item">Participation in SNID/ NID.</li>
-                                        <li class="list-group-item">Supporting Blind School and Special children school.</li>
-                                        <li class="list-group-item">Tree Plantation.</li>
-                                        <li class="list-group-item">Covers the projects and activities the club undertakes to improve the life in its community.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <img alt="..." class="card-img-top" height="200" src="project-images/karunashraya.jpg">
-                                <div class="card-body">
-                                    <h5 class="card-title text-danger">Vocational Service Avenue</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Vocational Project for Sewing Training was conducted at Boutique International. And, Sewing Centres have been inaugurated at Khandsa Village and Dundahera Village, Gurugram.</li>
-                                        <li class="list-group-item">Two more events are planned in Sikanderpur and Chakkarpur villages.</li>
-                                        <li class="list-group-item">Established Sewing Center at Khandsa village to provide training and skill up gradation of the weaker section of the local and nearby communities of the society.</li>
-                                        <li class="list-group-item">Will be participating in all District Seminars/ Conferences.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <img alt="..." class="card-img-top" height="200" src="project-images/karunashraya.jpg">
-                                <div class="card-body">
-                                    <h5 class="card-title text-danger">International Service Avenue</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Director Rtn Sanjay Setia, currently on a visit to US, is meeting Rotary Clubs for developing cooperation and partnership. Established contacts with other Rotary clubs overseas for projects. Encompasses actions taken to expand Rotary’s humanitarian reach around the globe and promote world understanding and peace.</li>
-                                        <li class="list-group-item">Will host Teams from other Districts visiting RI District 3011</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <img alt="..." class="card-img-top" height="200" src="project-images/karunashraya.jpg">
-                                <div class="card-body">
-                                    <h5 class="card-title text-danger">Youth Service Avenue</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Discussion has been held with Scottish High School to start an Interact Club and with K R Mangalam University to start a Rotaract Club. Conduct leadership workshops for Interactors. Recognizes the positive change implemented by youth and young adults through leadership development activities such as DILA, RYLA, Rotaract and Interact Club service projects, and creating international understanding with Rotary Youth Exchange.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <img alt="..." class="card-img-top" height="200" src="project-images/karunashraya.jpg">
-                                <div class="card-body">
-                                    <h5 class="card-title text-danger">Areas of Focus of Rotary International Projects</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Peace and conflict prevention/resolution</li>
-                                        <li class="list-group-item">Disease prevention and treatment</li>
-                                        <li class="list-group-item">Water and Sanitation</li>
-                                        <li class="list-group-item">Maternal and child health</li>
-                                        <li class="list-group-item">Basic education and literacy</li>
-                                        <li class="list-group-item">Economic and community development</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
                 <!--End of Projects Card code-->
 
@@ -334,323 +237,32 @@
                     <div class="row">
                         <div class="col-12 col-md-12">
                             <div class="alert alert-light text-center box-effect-small" role="alert" style="margin-bottom:0;">
-                                <h5 style="margin-bottom:0;">PLANS FOR CLUB COMMITTEES 2019-20</h5>
+                                <h5 style="margin-bottom:0;">PLANS FOR CLUB COMMITTEES 2020</h5>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. MUKTA MALHOTRA</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. ABDUL AZIZ SEYID</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. ANJALI PANDEY</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">CLUB ADMINISTRATION COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Full fill all District and RI administrative requirements</li>
-                                        <li class="list-group-item">Promote Fellowship</li>
-                                        <li class="list-group-item">Track attendance and communicate with absentee members</li>
-                                        <li class="list-group-item">Organise weekly programmes to improve attendance and fellowship.</li>
-                                    </ul>
+                    {% for item in site.data.plans %}
+                        <div class="row">
+                            <div class="col-12 col-md-12" style="padding-top:10px;">
+                                <div class="card box-effect-small wow jackInTheBox">
+                                    <div class="card-body">
+                                        {% for member in item.members %}
+                                            <h5 class="text-muted">{{member}}</h5>
+                                        {% endfor %}
+                                     
+                                        <hr/>
+                                        <h5 class="card-title text-danger">{{item.name}}</h5>
+                                        <ul class="list-group">
+                                            {% for desc in item.description %}
+                                                <li class="list-group-item">{{desc}}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. DR. TARVINDER BIR SINGH BUXI</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. R S ATROLEY</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. VIMAL SINGHANIA</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">HEALTH SERVICE PROJECTS COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Identify projects, arrange for funds and execution of the projects.</li>
-                                        <li class="list-group-item">Initiate and maintain dialogue with other Clubs for develop new projects</li>
-                                        <li class="list-group-item">Ensure continuous support to ongoing projects of the Club</li>
-                                        <li class="list-group-item">Bring in support from Corporates, other NGOs and individual etc.</li>
-                                        <li class="list-group-item">Organise camps for Health Check-up, Blood Donation and Cataract Surgeries.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. ABDUL AZIZ SEYID</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. BALJINDER PAUL SINGH</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. ANUJ KHANNA</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">WINS PROJECT COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Identify Schools requiring WinS Wash Stations</li>
-                                        <li class="list-group-item">Identify& Provide necessary Support at schools post installation.</li>
-                                        <li class="list-group-item">Ensure Star 1 status for all “WinS” schools</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. ANJALI PANDEY
-                                    </span>
-                                    <br/>
-                                    <span class="text-muted">RTN. VIKAS SINGH</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. SANJAY SETIA</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">CLUB COMMUNICATIONS COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Maintain and periodically update the Club website</li>
-                                        <li class="list-group-item">Publish the Club Bulletin monthly, on a timely basis</li>
-                                        <li class="list-group-item">Provide information to District about events of the Club</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. ROHIT KAPUR
-                                    </span>
-                                    <br/>
-                                    <span class="text-muted">RTN. ABDUL AZIZ SEYID</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. VARINDER PAL SINGH</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">PUBLIC RELATIONS COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Create rapport between media persons and the Club. Coordinate with the media to secure proper publicity for the club’s activities and enhance Rotary image..</li>
-                                        <li class="list-group-item">Periodically sharing Rotary history, goals and activities and events with media persons</li>
-                                        <li class="list-group-item">Advise Board and all Club members on activities and programmes</li>
-                                        <li class="list-group-item">Use web based promotion methodologies</li>
-                                        <li class="list-group-item">Communicate with select corporate houses to bring in Rotary in their CSR programmes</li>
-                                        <li class="list-group-item">Keep close contact and liaison with District PR chair.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. MUKTA MALHOTRA
-                                    </span>
-                                    <br/>
-                                    <span class="text-muted">RTN. VIMAL KUMAR SINGHANIA</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. RAVI KHANNA</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">MEMBERSHIP COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Membership increase to have about 25 members on 30 June</li>
-                                        <li class="list-group-item">Encourage all members to look for suitable persons in their respective circles of business and community etc.</li>
-                                        <li class="list-group-item">Conduct programmes for member development</li>
-                                        <li class="list-group-item">Implement member awareness activities about RI and District programmes</li>
-                                        <li class="list-group-item">Assist Board in induction of new members.</li>
-                                        <li class="list-group-item">Promote membership retention.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. SANJAY BANSAL
-                                    </span>
-                                    <br/>
-                                    <span class="text-muted">RTN. VIMAL KUMAR SINGHANIA</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. AMIT DHANUKA</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">ROTARY FOUNDATION COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Set Club goals and targets for contributions to TRF and Polio Fund
-                                        </li>
-                                        <li class="list-group-item">Organise Fund Raising activities</li>
-                                        <li class="list-group-item">Dissemination of information about TRF & Programmes</li>
-                                        <li class="list-group-item">Work with PR Committee to promote Rotary Ideals</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. DR. RAJ KAMAL BHARGAVA
-                                    </span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">CLUB TRAINER</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Organise Pre-Induction talks for prospective members</li>
-                                        <li class="list-group-item">Organise programmes for Club Members, families, Interactors and Rotaractors</li>
-                                        <li class="list-group-item">Share with Members about RI Webinars</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. VIMAL KUMAR SINGHANIA</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. MANOJ GOYAL</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">POLIO PLUS COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Organise Club's participation in all NIDs / SNID activities</li>
-                                        <li class="list-group-item">Represent Club in District events for Polio Eradication</li>
-                                        <li class="list-group-item">Share Club's activity plans with the PR Committee, Bulletin Committee and the Web Committee</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. R S ATROLEY
-                                    </span>
-                                    <br/>
-                                    <span class="text-muted">RTN. DR. RAJ KAMAL BHARGAVA</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. ROHIT KAPUR</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">LITERACY & TEACH COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Active Support to TEACH program</li>
-                                        <li class="list-group-item">Improve quality of education in adopted schools</li>
-                                        <li class="list-group-item">Advocacy of Literacy by partnership with Govt. / Other NGOs</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. RAMANDEEP SINGH
-                                    </span>
-                                    <br/>
-                                    <span class="text-muted">RTN. VISHAL VARMA</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. ABDUL AZIZ SEYID</span>
-                                    <hr/>
-                                    <h5 class="card-title text-danger">VOCATIONAL SERVICE COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Recognize Outstanding Vocational Achievers in the Community at Club Functions</li>
-                                        <li class="list-group-item">Nominate candidates for Rotary District Vocational Awards</li>
-                                        <li class="list-group-item">Create new Vocational / Training centers and Sustain existing Vocational and Sustain existing Vocational Counseling & Training Centres</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. SANJAY SETIA
-                                    </span>
-                                    <br/>
-                                    <span class="text-muted">RTN. AMIT DHANUKA</span>
-                                    <hr/>
-
-                                    <h5 class="card-title text-danger">INTERNATIONAL SERVICE COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Participate in Friendship Exchange Programs with Rotary Clubs in other countries by sponsor club members to visit Rotary clubs in other countries.</li>
-                                        <li class="list-group-item">Host Friendship Exchange team members/ Inviting Exchange teams</li>
-                                        <li class="list-group-item">Register for International RI Convention</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. RAVI KHANNA
-                                    </span>
-                                    <br/>
-                                    <span class="text-muted">RTN. DR. RAJ KAMAL BHARGAVA</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. ROHIT KAPUR</span>
-                                    <hr/>
-
-                                    <h5 class="card-title text-danger">YOUTH SERVICE COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Form Interact Clubs. Guiding /mentoring the Interactors to take up social work activities and sponsor the clubs to attend Rotary District events</li>
-                                        <li class="list-group-item">Form Rotaract Clubs, guiding /mentoring the Rotaractors to take up social work activities and sponsor the clubs to attend Rotary District events</li>
-                                        <li class="list-group-item">Sponsor Rotaract Club(s) to attend Rotary District functions</li>
-                                        <li class="list-group-item">Involve Interactors / Rotaractors in special Club meetings/ Projects</li>
-                                        <li class="list-group-item">Sponsor youth(s) to attend multi-district RYLA / DILA</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-12" style="padding-top:10px;">
-                            <div class="card box-effect-small wow jackInTheBox">
-                                <div class="card-body">
-                                    <span class="text-muted">RTN. MUKTA MALHOTRA
-                                    </span>
-                                    <br/>
-                                    <span class="text-muted">RTN. RAVI KHANNA</span>
-                                    <br/>
-                                    <span class="text-muted">RTN. ANUJ KHANNA</span>
-                                    <hr/>
-
-                                    <h5 class="card-title text-danger">SPORTS COMMITTEE</h5>
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Promoting fellowship and a healthy spirit of competition, the Sports Committee strives to have regular events that are open to all members of the Club.</li>
-                                        <li class="list-group-item">Motivate members to participate in the Rotary District Cricket Tournament –organized by District time to time.</li>
-                                        <li class="list-group-item">Motivate Interact Clubs to participate in the District Interact Badminton Tournament by District every year.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    {% endfor %}
                 </div>
                 <!--End of Plans Card code-->
 
