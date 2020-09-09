@@ -1,16 +1,3 @@
-# - name: Rtn. Lalit Sawhney
-#   date: 22 March
-#   type: birth
-
-# - name: R’anne Ruchi Singh & Rtn. Vikas Singh
-#   date: 1 February
-#   type: anniversary
-
-
-- name: Rtn Dr Deepak Gahlot  
-  date: 28 August
-  type: birth
-
 - name: R'anne Ruby Singh  
   date: 3 September 
   type: birth
@@ -36,13 +23,60 @@
   type: birth
 
 - name: R’anne Neetu Ruia  
-  date: 27 October  
+  date: 27 October 
   type: birth
-
-- name: R'anne Gowthami Anisha Vallampati & Rtn Sandeep Mogalapalli  
-  date: 15 August
-  type: anniversary
-  
+ 
 - name: Rtn Jayshree Sawhney & Lalit Sawhney 
-  date: 14 October
+  date: 14 October 
   type: anniversary
+
+
+# - name: Rtn. Lalit Sawhney
+#   date: 22 March
+#   type: birth
+
+# - name: R’anne Ruchi Singh & Rtn. Vikas Singh
+#   date: 1 February
+#   type: anniversary
+
+
+# - name: Rtn Dr Deepak Gahlot  
+#   date: 28 August
+#   type: birth
+
+# - name: R'anne Ruby Singh  
+#   date: 3 September 
+#   type: birth
+
+# - name: Rtn. Rohit Kapur 
+#   date: 5 September 
+#   type: birth
+
+# - name: R'anne Gowthami Anisha Vallampati  
+#   date: 14 September 
+#   type: birth
+
+# - name: R'anne Dr Rekha Gahlot 
+#   date: 15 September 
+#   type: birth
+
+# - name: Rtn. Raj Kamal Bhargava 
+#   date: 20 September 
+#   type: birth
+
+# - name: Rtn Sonu Singh 
+#   date: 24 September 
+#   type: birth
+
+# - name: R’anne Neetu Ruia  
+#   date: 27 October  
+#   type: birth
+
+# - name: R'anne Gowthami Anisha Vallampati & Rtn Sandeep Mogalapalli  
+#   date: 15 August
+#   type: anniversary
+  
+# - name: Rtn Jayshree Sawhney & Lalit Sawhney 
+#   date: 14 October
+#   type: anniversary
+
