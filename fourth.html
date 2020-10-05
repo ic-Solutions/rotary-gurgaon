@@ -1,3 +1,5 @@
+---
+---
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -202,48 +204,21 @@ We can connect you with a club that's right for you and make it easy to get invo
     <section>
       <div class="container py-5">
         <div class="row">
+            {% for item in site.data.main-members %}
             <div class="col-12 col-md-4">
               <div class="card">
-                <img height="280" style="object-fit:cover; object-position: top" src="/club-members/Mukta-malhotra.JPG" alt="">
+                <img height="280" style="object-fit:cover; object-position: top" src="{{item.image}}" alt="">
                 <div class="card-header">
-                  <h5>President</h5>
+                  <h5>{{item.designation}}</h5>
                   <h6>Rtn Mukta Malhotra</h6>
                 </div>
                 <div class="card-body">
-                    <p><strong>Phone: </strong>9818187407</p>
-                    <p><strong>Email: </strong>muktamalhotra33@gmail.com</p>
+                    <p><strong>Phone: </strong>{{item.phone}}</p>
+                    <p><strong>Email: </strong>{{item.email}}</p>
                 </div>
               </div>
             </div>
-
-            <div class="col-12 col-md-4">
-              <div class="card">
-                <img height="280" style="object-fit:cover; object-position: top" src="/club-members/RTN.%20ANJALI%20PANDEY.JPG" alt="">
-                <div class="card-header">
-                  <h5>Secretary</h5>
-                  <h6>Rtn Anjali Pandey</h6>
-                </div>
-                <div class="card-body">
-                    <p><strong>Phone: </strong>9650208453</p>
-                    <p><strong>Email: </strong>pandeyanjali0503@gmail.com</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-              <div class="card">
-                <img height="280" style="object-fit:cover; object-position: top" src="/club-members/Raghubar-Swaroop-Atroley.jpg" alt="">
-                <div class="card-header">
-                  <h5>President Elect</h5>
-                  <h6>Rtn Raghubar Swaroop Atroley</h6>
-                </div>
-                <div class="card-body">
-                    <p><strong>Phone: </strong>9811702322</p>
-                    <p><strong>Email: </strong>rsatroley@gmail.com</p>
-                </div>
-              </div>
-            </div>
-
+            {% endfor %}
         </div>
       </div>
     </section>
