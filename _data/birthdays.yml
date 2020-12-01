@@ -1,32 +1,75 @@
-- name: R'anne Ruby Singh  
-  date: 3 September 
+# - name: R'anne Ruby Singh
+#   date: 3 September
+#   type: birth
+
+# - name: Rtn. Rohit Kapur
+#   date: 5 September
+#   type: birth
+
+# - name: R'anne Gowthami Anisha Vallampati
+#   date: 14 September
+#   type: birth
+
+# - name: R'anne Dr Rekha Gahlot
+#   date: 15 September
+#   type: birth
+
+# - name: Rtn. Raj Kamal Bhargava
+#   date: 20 September
+#   type: birth
+
+# - name: Rtn Sonu Singh
+#   date: 24 September
+#   type: birth
+
+# - name: R’anne Neetu Ruia
+#   date: 27 October
+#   type: birth
+
+# - name: Rtn Jayshree Sawhney & Lalit Sawhney
+#   date: 14 October
+#   type: anniversary
+
+- name: Mr. N.K. Jolly
+  date: 12 December
   type: birth
 
-- name: Rtn. Rohit Kapur 
-  date: 5 September 
+- name: Rtn Jayshree Sawhney
+  date: 19 December
   type: birth
 
-- name: R'anne Gowthami Anisha Vallampati  
-  date: 14 September 
+- name: Rtn Hemant Kumar Ruia
+  date: 22 December
   type: birth
 
-- name: R'anne Dr Rekha Gahlot 
-  date: 15 September 
+- name: Rtn Yiyashu Maheshwari
+  date: 31 December
   type: birth
 
-- name: Rtn. Raj Kamal Bhargava 
-  date: 20 September 
+- name: R’anne Neelima Bhargava
+  date: 15 January
   type: birth
 
-- name: Rtn Sonu Singh 
-  date: 24 September 
-  type: birth
-
-- name: R’anne Neetu Ruia  
-  date: 27 October 
-  type: birth
- 
-- name: Rtn Jayshree Sawhney & Lalit Sawhney 
-  date: 14 October 
+- name: R’anne Shivani & Rtn. Rohit Kapur
+  date: 4 December
   type: anniversary
 
+- name: Rtn Sonu Singh & Mr Daljit Singh Bais
+  date: 5 December
+  type: anniversary
+
+- name: R'anne Rashmi & Rtn Vivek Gour
+  date: 3 January
+  type: anniversary
+
+- name: R’anne Madhu & Raj Kamal Bhargava
+  date: 21 January
+  type: anniversary
+
+- name: R'anne Dr Rekha Gahlot & Rtn Dr Deepak Gahlot
+  date: 23 January
+  type: anniversary
+
+- name: R’anne Neelima & Rtn. N.K. Bhargava
+  date: 27 January
+  type: anniversary
