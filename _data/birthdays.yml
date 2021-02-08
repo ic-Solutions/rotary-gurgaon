@@ -30,46 +30,83 @@
 #   date: 14 October
 #   type: anniversary
 
-- name: Mr. N.K. Jolly
-  date: 12 December
+# - name: Mr. N.K. Jolly
+#   date: 12 December
+#   type: birth
+
+# - name: Rtn Jayshree Sawhney
+#   date: 19 December
+#   type: birth
+
+# - name: Rtn Hemant Kumar Ruia
+#   date: 22 December
+#   type: birth
+
+# - name: Rtn Yiyashu Maheshwari
+#   date: 31 December
+#   type: birth
+
+# - name: R’anne Neelima Bhargava
+#   date: 15 January
+#   type: birth
+
+# - name: R’anne Shivani & Rtn. Rohit Kapur
+#   date: 4 December
+#   type: anniversary
+
+# - name: Rtn Sonu Singh & Mr Daljit Singh Bais
+#   date: 5 December
+#   type: anniversary
+
+# - name: R'anne Rashmi & Rtn Vivek Gour
+#   date: 3 January
+#   type: anniversary
+
+# - name: R’anne Madhu & Raj Kamal Bhargava
+#   date: 21 January
+#   type: anniversary
+
+# - name: R'anne Dr Rekha Gahlot & Rtn Dr Deepak Gahlot
+#   date: 23 January
+#   type: anniversary
+
+# - name: R’anne Neelima & Rtn. N.K. Bhargava
+#   date: 27 January
+#   type: anniversary
+
+
+
+
+
+- name: Rtn. Abdul Aziz Seyid
+  date: 1 February
   type: birth
 
-- name: Rtn Jayshree Sawhney
-  date: 19 December
+- name: R’anne Madhu Bhargava
+  date: 13 February
   type: birth
 
-- name: Rtn Hemant Kumar Ruia
-  date: 22 December
-  type: birth
+- name: R’anne Aradhana Bhargava
+  date: 17 February
+  type: birth  
 
-- name: Rtn Yiyashu Maheshwari
-  date: 31 December
-  type: birth
+- name: Rtn. Mukta Malhotra
+  date: 25 February
+  type: birth  
 
-- name: R’anne Neelima Bhargava
-  date: 15 January
-  type: birth
+- name: R’anne Ruchi Singh & Rtn. Vikas Singh
+  date: 1 February
+  type: anniversary    
 
-- name: R’anne Shivani & Rtn. Rohit Kapur
-  date: 4 December
+- name: R'anne Asmita & Yiyashu Maheshwari
+  date: 10 February
+  type: anniversary  
+
+- name: R'anne Neeru Atroley & Rtn R S Atroley
+  date: 15 February
   type: anniversary
 
-- name: Rtn Sonu Singh & Mr Daljit Singh Bais
-  date: 5 December
+- name: R’anne Neetu & Rtn Hemant Kumar Ruia
+  date: 27 February
   type: anniversary
 
-- name: R'anne Rashmi & Rtn Vivek Gour
-  date: 3 January
-  type: anniversary
-
-- name: R’anne Madhu & Raj Kamal Bhargava
-  date: 21 January
-  type: anniversary
-
-- name: R'anne Dr Rekha Gahlot & Rtn Dr Deepak Gahlot
-  date: 23 January
-  type: anniversary
-
-- name: R’anne Neelima & Rtn. N.K. Bhargava
-  date: 27 January
-  type: anniversary
