@@ -4,7 +4,7 @@
 #   when: Tuesday, 8 September 2020
 #   where: Rehab Center for Blinds, Gurgaon
 
-# - title: Board & Club Meeting 
+# - title: Board & Club Meeting
 #   type: meeting
 #   number: 2
 #   when: Wednesday, 9 September 2020 at 6 pm
@@ -28,12 +28,11 @@
 #   when: Wednesday, 23 September 2020
 #   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
 
-# - title: GOV & Installation Ceremony 
+# - title: GOV & Installation Ceremony
 #   type: meeting
 #   number: 6
 #   when: Saturday, 3 October 2020
 #   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
- 
 
 - title: Club Meeting
   type: meeting
@@ -41,7 +40,7 @@
   when: Wednesday, 10 March 2021
   where: Regular Club Meeting at DLF Club 5, Gurugram
 
-  - title: Club Meeting
+- title: Club Meeting
   type: meeting
   number: 2
   when: Wednesday, 24 March 2021
