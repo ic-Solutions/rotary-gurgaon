@@ -1,36 +1,48 @@
-- title: Donation of Rations
-  type: meeting
-  number: 1
-  when: Tuesday, 8 September 2020
-  where: Rehab Center for Blinds, Gurgaon
+# - title: Donation of Rations
+#   type: meeting
+#   number: 1
+#   when: Tuesday, 8 September 2020
+#   where: Rehab Center for Blinds, Gurgaon
 
-- title: Board & Club Meeting 
-  type: meeting
-  number: 2
-  when: Wednesday, 9 September 2020 at 6 pm
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+# - title: Board & Club Meeting 
+#   type: meeting
+#   number: 2
+#   when: Wednesday, 9 September 2020 at 6 pm
+#   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
 
-- title: Donation of Furniture
-  type: meeting
-  number: 3
-  when: Saturday, 12 September 2020
-  where: Govt School, Bajghera, Gurgaon
+# - title: Donation of Furniture
+#   type: meeting
+#   number: 3
+#   when: Saturday, 12 September 2020
+#   where: Govt School, Bajghera, Gurgaon
 
-- title: Cataract Surgeries Camp
-  type: meeting
-  number: 4
-  when: Saturday, 19 September 2020
-  where: Perfect Eye and Laser Centre, Dwarka, New Delhi
+# - title: Cataract Surgeries Camp
+#   type: meeting
+#   number: 4
+#   when: Saturday, 19 September 2020
+#   where: Perfect Eye and Laser Centre, Dwarka, New Delhi
+
+# - title: Club Meeting
+#   type: meeting
+#   number: 5
+#   when: Wednesday, 23 September 2020
+#   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
+# - title: GOV & Installation Ceremony 
+#   type: meeting
+#   number: 6
+#   when: Saturday, 3 October 2020
+#   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+ 
 
 - title: Club Meeting
   type: meeting
-  number: 5
-  when: Wednesday, 23 September 2020
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+  number: 1
+  when: Wednesday, 10 March 2021
+  where: Regular Club Meeting at DLF Club 5, Gurugram
 
-- title: GOV & Installation Ceremony 
+  - title: Club Meeting
   type: meeting
-  number: 6
-  when: Saturday, 3 October 2020
-  where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
- 
+  number: 2
+  when: Wednesday, 24 March 2021
+  where: Regular Club Meeting at DLF Club 5, Gurugram

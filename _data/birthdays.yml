@@ -78,35 +78,74 @@
 
 
 
-- name: Rtn. Abdul Aziz Seyid
-  date: 1 February
+# - name: Rtn. Abdul Aziz Seyid
+#   date: 1 February
+#   type: birth
+
+# - name: R’anne Madhu Bhargava
+#   date: 13 February
+#   type: birth
+
+# - name: R’anne Aradhana Bhargava
+#   date: 17 February
+#   type: birth  
+
+# - name: Rtn. Mukta Malhotra
+#   date: 25 February
+#   type: birth  
+
+# - name: R’anne Ruchi Singh & Rtn. Vikas Singh
+#   date: 1 February
+#   type: anniversary    
+
+# - name: R'anne Asmita & Yiyashu Maheshwari
+#   date: 10 February
+#   type: anniversary  
+
+# - name: R'anne Neeru Atroley & Rtn R S Atroley
+#   date: 15 February
+#   type: anniversary
+
+# - name: R’anne Neetu & Rtn Hemant Kumar Ruia
+#   date: 27 February
+#   type: anniversary
+
+- name: R’anne R'anne Rashmi Datt
+  date: 3 March
   type: birth
 
-- name: R’anne Madhu Bhargava
-  date: 13 February
+  - name: Rtn. Neel Kamal Bhargava
+  date: 21 March
   type: birth
 
-- name: R’anne Aradhana Bhargava
-  date: 17 February
-  type: birth  
+  - name: Rtn. Lalit Sawhney
+  date: 22 March
+  type: birth
 
-- name: Rtn. Mukta Malhotra
-  date: 25 February
-  type: birth  
+  - name: R’anne Joyee Asthana
+  date: 22 March
+  type: birth
 
-- name: R’anne Ruchi Singh & Rtn. Vikas Singh
-  date: 1 February
-  type: anniversary    
+  - name: Rtn. Vikas Singh
+  date: 10 April
+  type: birth
 
-- name: R'anne Asmita & Yiyashu Maheshwari
-  date: 10 February
-  type: anniversary  
+  - name: R’anne Shivani Kapur
+  date: 15 April
+  type: birth
 
-- name: R'anne Neeru Atroley & Rtn R S Atroley
-  date: 15 February
+  - name: Rtn. Vimal Singhania
+  date: 23 April
+  type: birth
+
+  - name: Rtn Anjali Rana & Mr Kuldeep Pandey
+  date: 5 March
   type: anniversary
 
-- name: R’anne Neetu & Rtn Hemant Kumar Ruia
-  date: 27 February
+  - name: R’anne Seema & Rtn Vimal Singhania
+  date: 19 April
   type: anniversary
 
+  - name: R'anne Ruby Singh & Rtn Rakesh Kumar Singh
+  date: 25 April
+  type: anniversary
