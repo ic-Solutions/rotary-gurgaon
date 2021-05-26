@@ -106,42 +106,70 @@
 #   date: 27 February
 #   type: anniversary
 
-- name: R’anne R'anne Rashmi Datt
-  date: 3 March
+# - name: R’anne R'anne Rashmi Datt
+#   date: 3 March
+#   type: birth
+
+# - name: Rtn. Neel Kamal Bhargava
+#   date: 21 March
+#   type: birth
+
+# - name: Rtn. Lalit Sawhney
+#   date: 22 March
+#   type: birth
+
+# - name: R’anne Joyee Asthana
+#   date: 22 March
+#   type: birth
+
+# - name: Rtn. Vikas Singh
+#   date: 10 April
+#   type: birth
+
+# - name: R’anne Shivani Kapur
+#   date: 15 April
+#   type: birth
+
+# - name: Rtn. Vimal Singhania
+#   date: 23 April
+#   type: birth
+
+# - name: Rtn Anjali Rana & Mr Kuldeep Pandey
+#   date: 5 March
+#   type: anniversary
+
+# - name: R’anne Seema & Rtn Vimal Singhania
+#   date: 19 April
+#   type: anniversary
+
+# - name: R'anne Ruby Singh & Rtn Rakesh Kumar Singh
+#   date: 25 April
+#   type: anniversary
+
+- name: Rtn. Rakesh Kumar Singh
+  date: 2 May
   type: birth
 
-- name: Rtn. Neel Kamal Bhargava
-  date: 21 March
+- name: Rtn. Anjali Rana
+  date: 14 May
   type: birth
 
-- name: Rtn. Lalit Sawhney
-  date: 22 March
+- name: Mr Daljit Singh Bais
+  date: 27 May
   type: birth
 
-- name: R’anne Joyee Asthana
-  date: 22 March
+- name: Rtn. Praveen Bhargava
+  date: 28 May
   type: birth
 
-- name: Rtn. Vikas Singh
-  date: 10 April
+- name: Rtn Shobha Khatri
+  date: 14 June
   type: birth
 
-- name: R’anne Shivani Kapur
-  date: 15 April
+- name: Rtn Raghubar Swaroop Atroley
+  date: 16 June
   type: birth
 
-- name: Rtn. Vimal Singhania
-  date: 23 April
-  type: birth
-
-- name: Rtn Anjali Rana & Mr Kuldeep Pandey
-  date: 5 March
-  type: anniversary
-
-- name: R’anne Seema & Rtn Vimal Singhania
-  date: 19 April
-  type: anniversary
-
-- name: R'anne Ruby Singh & Rtn Rakesh Kumar Singh
-  date: 25 April
+- name: Rtn. Neera Jolly & Mr. N.K. Jolly
+  date: 17 May
   type: anniversary

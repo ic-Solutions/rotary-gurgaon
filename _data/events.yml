@@ -34,16 +34,26 @@
 #   when: Saturday, 3 October 2020
 #   where: DLF Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
 
+# - title: Club Meeting
+#   type: meeting
+#   number: 1
+#   when: Wednesday, 10 March 2021
+#   where: Regular Club Meeting at DLF Club 5, Gurugram
+
+# - title: Club Meeting
+#   type: meeting
+#   number: 2
+#   when: Wednesday, 24 March 2021
+#   where: Regular Club Meeting at DLF Club 5, Gurugram
+
 - title: Club Meeting
   type: meeting
   number: 1
-  when: Wednesday, 10 March 2021
-  where: Regular Club Meeting at DLF Club 5, Gurugram
+  when: Wednesday, 12 May 2021
+  where: Zoom at 6pm
 
 - title: Club Meeting
   type: meeting
   number: 2
-  when: Wednesday, 24 March 2021
-  where: Regular Club Meeting at DLF Club 5, Gurugram
-
-
+  when: Wednesday, 26 May 2021
+  where: Zoom at 6pm
