@@ -46,14 +46,32 @@
 #   when: Wednesday, 24 March 2021
 #   where: Regular Club Meeting at DLF Club 5, Gurugram
 
-- title: Club Meeting
+# - title: Club Meeting
+#   type: meeting
+#   number: 1
+#   when: Wednesday, 12 May 2021
+#   where: Zoom at 6pm
+
+# - title: Club Meeting
+#   type: meeting
+#   number: 2
+#   when: Wednesday, 26 May 2021
+#   where: Zoom at 6pm
+
+- title: Project Mask Distribution
   type: meeting
   number: 1
-  when: Wednesday, 12 May 2021
-  where: Zoom at 6pm
+  when: Thursday, 1 July 2021
+  where: Gurgaon
 
 - title: Club Meeting
   type: meeting
   number: 2
-  when: Wednesday, 26 May 2021
-  where: Zoom at 6pm
+  when: Wednesday, 14 July 2021
+  where: Zoom
+
+- title: Club Meeting
+  type: meeting
+  number: 3
+  when: Wednesday, 28 July 2021
+  where: Zoom

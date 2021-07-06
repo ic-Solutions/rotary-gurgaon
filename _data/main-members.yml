@@ -1,17 +1,17 @@
 - designation: President
-  name: Rtn Mukta Malhotra
-  phone: +91 9818187407
-  email: muktamalhotra33@gmail.com
-  image: /club-members/Mukta-Malhotra-new.JPG
-
-- designation: Secretary
-  name: Rtn Anjali Rana
-  phone: +91 9650208453
-  email: pandeyanjali0503@gmail.com
-  image: /club-members/Anjali-Pandey.jpg
-
-- designation: President Elect
   name: Rtn Abdul Aziz Seyid
   phone: +91 9818341339
   email: azizseyid@yahoo.com
   image: /club-members/Pic-Abdul-Aziz.jpg
+
+- designation: Secretary
+  name: Rtn Shobha Khatri
+  phone: +91 9818549705
+  email: shobhakhatri68@gmail.com
+  image: /club-members/shobha-khatri.jpg
+
+- designation: President Elect
+  name: Rtn Anjali Rana
+  phone: +91 9650208453
+  email: pandeyanjali0503@gmail.com
+  image: /club-members/Anjali-Pandey.jpg

@@ -146,30 +146,46 @@
 #   date: 25 April
 #   type: anniversary
 
-- name: Rtn. Rakesh Kumar Singh
-  date: 2 May
+# - name: Rtn. Rakesh Kumar Singh
+#   date: 2 May
+#   type: birth
+
+# - name: Rtn. Anjali Rana
+#   date: 14 May
+#   type: birth
+
+# - name: Mr Daljit Singh Bais
+#   date: 27 May
+#   type: birth
+
+# - name: Rtn. Praveen Bhargava
+#   date: 28 May
+#   type: birth
+
+# - name: Rtn Shobha Khatri
+#   date: 14 June
+#   type: birth
+
+# - name: Rtn Raghubar Swaroop Atroley
+#   date: 16 June
+#   type: birth
+
+# - name: Rtn. Neera Jolly & Mr. N.K. Jolly
+#   date: 17 May
+#   type: anniversary
+
+- name: R'anne Taru Bhargava
+  date: 23 July
   type: birth
 
-- name: Rtn. Anjali Rana
-  date: 14 May
+- name: R’anne Neeru Atroley
+  date: 30 July
   type: birth
 
-- name: Mr Daljit Singh Bais
-  date: 27 May
+- name: Rtn Dr Deepak Gahlot
+  date: 28 August
   type: birth
 
-- name: Rtn. Praveen Bhargava
-  date: 28 May
-  type: birth
-
-- name: Rtn Shobha Khatri
-  date: 14 June
-  type: birth
-
-- name: Rtn Raghubar Swaroop Atroley
-  date: 16 June
-  type: birth
-
-- name: Rtn. Neera Jolly & Mr. N.K. Jolly
-  date: 17 May
+- name: R'anne Gowthami Anisha Vallampati & Rtn Sandeep Mogalapalli
+  date: 15 August
   type: anniversary
