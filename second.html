@@ -197,7 +197,7 @@
 
 
                     <div class="alert alert-light text-center box-effect-small" id="projects" role="alert" style="margin-bottom:0;">
-                        <h5 style="margin-bottom:0;">PROJECTS 2020-21</h5>
+                        <h5 style="margin-bottom:0;">PROJECTS 2021-22</h5>
                     </div>
 
                     <!--Projects Card code-->
@@ -208,9 +208,13 @@
                                     <!-- <img alt="" class="card-img-top" height="500" src="project-images/karunashraya.jpg"> -->
                                     <div class="card-body">
                                         <h5 class="card-title text-danger">{{item.name}}</h5>
+                                        <h6 class="card-title text-danger">{{item.sub-name}}</h6>
                                         <ul class="list-group">
                                             {% for desc in item.description %}
                                                 <li class="list-group-item">{{desc}}</li>
+                                            {% endfor %}
+                                            {% for sub-desc in item.sub-description %}
+                                                <p class="">{{sub-desc}}</p>
                                             {% endfor %}
                                             {% if item.list %}
                                                     <ul class="ml-4 mt-2">
@@ -237,7 +241,7 @@
                     <div class="row">
                         <div class="col-12 col-md-12">
                             <div class="alert alert-light text-center box-effect-small" role="alert" style="margin-bottom:0;">
-                                <h5 style="margin-bottom:0;">PLANS FOR CLUB COMMITTEES 2020-21</h5>
+                                <h5 style="margin-bottom:0;">PLANS FOR CLUB COMMITTEES 2021-22</h5>
                             </div>
                         </div>
                     </div>
@@ -247,9 +251,9 @@
                             <div class="col-12 col-md-12" style="padding-top:10px;">
                                 <div class="card box-effect-small wow jackInTheBox">
                                     <div class="card-body">
-                                        {% for member in item.members %}
+                                        <!-- {% for member in item.members %}
                                             <h5 class="text-muted">{{member}}</h5>
-                                        {% endfor %}
+                                        {% endfor %} -->
                                      
                                         <hr/>
                                         <h5 class="card-title text-danger">{{item.name}}</h5>

@@ -1,147 +1,161 @@
 - name: CLUB ADMINISTRATION COMMITTEE
   members:
-    - Rtn Lalit Sawhney 
-    - RTN. MUKTA MALHOTRA 
-    - RTN. ABDUL AZIZ SEYID 
-    - RTN. ANJALI RANA 
+    - Rtn Lalit Sawhney
+    - RTN. MUKTA MALHOTRA
+    - RTN. ABDUL AZIZ SEYID
+    - RTN. ANJALI RANA
   description:
-    - Fullfill all District and RI administrative requirements 
-    - Promote Fellowship 
-    - Track attendance and communicate with absentee members 
+    - Fullfill all District and RI administrative requirements
+    - Promote Fellowship
+    - Track attendance and communicate with absentee members
     - Organise weekly programmes to improve attendance and fellowship.
 
-- name: HEALTH SERVICE PROJECTS COMMITTEE 
+- name: HEALTH SERVICE PROJECTS COMMITTEE
   members:
-    - Rtn Dr. Raj Kamal Bhargava 
-    - RTN. R S ATROLEY 
-    - RTN. VIMAL SINGHANIA 
-
-  description: 
-    - Identify projects, arrange for funds and execution of the projects. 
-    - Initiate and maintain dialogue with other Clubs for develop new projects 
-    - Ensure continuous support to ongoing projects of the Club 
-    - Bring in support from Corporates, other NGOs and individual etc. 
-    - Organise camps for Health Check-up, Blood Donation and Cataract Surgeries. 
- 
-- name: WINS PROJECT COMMITTEE 
-  members:
-    - RTN. ABDUL AZIZ SEYID 
-  description:
-    - Identify Schools requiring WinS Wash Stations 
-    - Identify& Provide necessary Support at schools post installation. 
-    - Ensure Star 1 status for all “WinS” schools 
-
-- name: CLUB COMMUNICATIONS COMMITTEE 
-  members:
-    - Rtn Neera Jolly 
-    - RTN. ANJALI PANDEY 
-    - RTN. VIKAS SINGH 
-
-  desription:
-    - Maintain and periodically update the Club website 
-    - Publish the Club Bulletin monthly, on a timely basis 
-    - Provide information to District about events of the Club 
- 
-- name: PUBLIC RELATIONS COMMITTEE
-  members:
-    - Rtn Hemant Kumar Ruia 
-    - RTN. ROHIT KAPUR 
-    - RTN. ABDUL AZIZ SEYID 
+    - Rtn Dr. Raj Kamal Bhargava
+    - RTN. R S ATROLEY
+    - RTN. VIMAL SINGHANIA
 
   description:
-    - Create rapport between media persons and the Club. Coordinate with the media to secure proper publicity for the club’s activities and enhance Rotary image.. 
-    - Periodically sharing Rotary history, goals and activities and events with media persons 
-    - Advise Board and all Club members on activities and programmes 
-    - Use web based promotion methodologies 
-    - Communicate with select corporate houses to bring in Rotary in their CSR programmes 
-    - Keep close contact and liaison with District PR chair. 
- 
+    - Identify projects, arrange for funds and execution of the projects.
+    - Initiate and maintain dialogue with other Clubs for develop new projects
+    - Ensure continuous support to ongoing projects of the Club
+    - Bring in support from Corporates, other NGOs and individual etc.
+    - Organise camps for Health Check-up, Blood Donation and Cataract Surgeries.
+
+- name: WINS PROJECT COMMITTEE
+  members:
+    - RTN. ABDUL AZIZ SEYID
+  description:
+    - Identify Schools requiring WinS Wash Stations
+    - Identify& Provide necessary Support at schools post installation.
+    - Ensure Star 1 status for all “WinS” schools
+
+# - name: CLUB COMMUNICATIONS COMMITTEE
+#   members:
+#     - Rtn Neera Jolly
+#     - RTN. ANJALI PANDEY
+#     - RTN. VIKAS SINGH
+
+#   desription:
+#     - Maintain and periodically update the Club website
+#     - Publish the Club Bulletin monthly, on a timely basis
+#     - Provide information to District about events of the Club
+
+# - name: PUBLIC RELATIONS COMMITTEE
+#   members:
+#     - Rtn Hemant Kumar Ruia
+#     - RTN. ROHIT KAPUR
+#     - RTN. ABDUL AZIZ SEYID
+
+#   description:
+#     - Create rapport between media persons and the Club. Coordinate with the media to secure proper publicity for the club’s activities and enhance Rotary image..
+#     - Periodically sharing Rotary history, goals and activities and events with media persons
+#     - Advise Board and all Club members on activities and programmes
+#     - Use web based promotion methodologies
+#     - Communicate with select corporate houses to bring in Rotary in their CSR programmes
+#     - Keep close contact and liaison with District PR chair.
+
+- name: PUBLIC IMAGE COMMITTEE
+  members:
+    - Rtn Hemant Kumar Ruia
+    - RTN. ROHIT KAPUR
+    - RTN. ABDUL AZIZ SEYID
+
+  description:
+    - Coverage of service projects in local print and electronic media and social media.
+    - Effective communication via website, social media and Newsletters.
+    - Encourage every Rotarian to wear badge at all Rotary events and Rotary pin in all aspects of life.
+    - Strictly follow norms from Rotary Brand Centre and ensure compliance in club branding.
+
 - name: MEMBERSHIP COMMITTEE
   members:
     - Rtn Rohit Kapur
     - RTN. MUKTA MALHOTRA
     - RTN. VIMAL KUMAR SINGHANIA
   description:
-    - Membership increase to have about 25 members on 30 June 
-    - Encourage all members to look for suitable persons in their respective circles of business and community etc. 
-    - Conduct programmes for member development 
-    - Implement member awareness activities about RI and District programmes 
-    - Assist Board in induction of new members. 
-    - Promote membership retention. 
- 
-- name: ROTARY FOUNDATION COMMITTEE 
-  members:
-    - Rtn Vivek Gour 
-    - RTN. VIMAL KUMAR SINGHANIA 
-  description:
-    - Set Club goals and targets for contributions to TRF and Polio Fund 
-    - Organise Fund Raising activities 
-    - Dissemination of information about TRF & Programmes 
-    - Work with PR Committee to promote Rotary Ideals 
+    - Conduct a Membership Health Check and survey.
+    - Club to have a minimum of 25 members and grow to 30 members.
+    - Goal of 90% membership retention.
+    - Encourage club to adopt "Each One Bring One".
+    - Membership participation in Dist. Women’s Conferences to promote women membership.
+    - Organize from time to time “New Member Orientation “training and appoint mentors for new members.
+    - Issue to each member a Club Identity Card.
 
-- name: CLUB TRAINER 
+- name: ROTARY FOUNDATION COMMITTEE
   members:
-    - RTN. DR. RAJ KAMAL BHARGAVA 
+    - Rtn Vivek Gour
+    - RTN. VIMAL KUMAR SINGHANIA
   description:
-    - Organise Pre-Induction talks for prospective members 
-    - Organise programmes for Club Members, families, Interactors and Rotaractors 
-    - Share with Members about RI Webinars 
+    - Achieve 100% PHF status for the club.
+    - Encourage members to become Major Donors.
+    - Participate in Global Grants <br>
+      - Conduct 65 Surgeries @ $130,000 by partnering RC Fort Wayne, USA.
+    - Apply for District Grant Projects for WiNS / WASH.
+
+- name: CLUB TRAINER
+  members:
+    - RTN. DR. RAJ KAMAL BHARGAVA
+  description:
+    - Organise Pre-Induction talks for prospective members
+    - Organise programmes for Club Members, families, Interactors and Rotaractors
+    - Share with Members about RI Webinars
 
 - name: POLIO PLUS COMMITTEE
   members:
-    - Rtn Dr. Raj Kamal Bhargava 
-    - RTN. VIMAL KUMAR SINGHANIA 
+    - Rtn Dr. Raj Kamal Bhargava
+    - RTN. VIMAL KUMAR SINGHANIA
   description:
-    - Organise Club's participation in all NIDs / SNID activities 
-    - Represent Club in District events for Polio Eradication 
-    - Share Club's activity plans with the PR Committee, Bulletin Committee and the Web Committee 
+    - Organise Club's participation in all NIDs / SNID activities
+    - Represent Club in District events for Polio Eradication
+    - Share Club's activity plans with the PR Committee, Bulletin Committee and the Web Committee
 
-- name: LITERACY & TEACH COMMITTEE 
+- name: LITERACY & TEACH COMMITTEE
   members:
-    - Rtn Abdul Aziz Seyid 
-    - RTN. R S ATROLEY 
-    - RTN. DR. RAJ KAMAL BHARGAVA 
+    - Rtn Abdul Aziz Seyid
+    - RTN. R S ATROLEY
+    - RTN. DR. RAJ KAMAL BHARGAVA
   description:
-    - Active Support to TEACH program 
-    - Improve quality of education in adopted schools 
-    - Advocacy of Literacy by partnership with Govt. / Other NGOs 
- 
-- name: VOCATIONAL SERVICE COMMITTEE 
+    - Active Support to TEACH program
+    - Improve quality of education in adopted schools
+    - Advocacy of Literacy by partnership with Govt. / Other NGOs
+
+- name: VOCATIONAL SERVICE COMMITTEE
   memebers:
-    - Rtn Neel Kamal Bhargava 
-    - RTN. VISHAL VARMA 
-    - RTN. ABDUL AZIZ SEYID 
+    - Rtn Neel Kamal Bhargava
+    - RTN. VISHAL VARMA
+    - RTN. ABDUL AZIZ SEYID
   description:
-    - Recognize Outstanding Vocational Achievers in the Community at Club Functions 
-    - Nominate candidates for Rotary District Vocational Awards 
-    - Create new Vocational / Training centers and Sustain existing Vocational and Sustain existing 
-    - Vocational Counseling & Training Centres 
+    - Recognize Outstanding Vocational Achievers in the Community at Club Functions
+    - Nominate candidates for Rotary District Vocational Awards
+    - Create new Vocational / Training centers and Sustain existing Vocational and Sustain existing
+    - Vocational Counseling & Training Centres
 
-- name: INTERNATIONAL SERVICE COMMITTEE 
+- name: INTERNATIONAL SERVICE COMMITTEE
   members:
-    - Rtn Vimal Singhania 
+    - Rtn Vimal Singhania
   description:
-    - Participate in Friendship Exchange Programs with Rotary Clubs in other countries by sponsor club members to visit Rotary clubs in other countries. 
-    - Host Friendship Exchange team members/ Inviting Exchange teams 
-    - Register for International RI Convention 
+    - Participate in Friendship Exchange Programs with Rotary Clubs in other countries by sponsor club members to visit Rotary clubs in other countries.
+    - Host Friendship Exchange team members/ Inviting Exchange teams
+    - Register for International RI Convention
 
-- name: YOUTH SERVICE COMMITTEE 
+- name: YOUTH SERVICE COMMITTEE
   members:
-    - Rtn Neera Jolly 
-    - RTN. DR. RAJ KAMAL BHARGAVA 
-    - RTN. ROHIT KAPUR 
+    - Rtn Neera Jolly
+    - RTN. DR. RAJ KAMAL BHARGAVA
+    - RTN. ROHIT KAPUR
   description:
-    - Form Interact Clubs. Guiding /mentoring the Interactors to take up social work activities and sponsor the clubs to attend Rotary District events 
-    - Form Rotaract Clubs, guiding /mentoring the Rotaractors to take up social work activities and sponsor the clubs to attend Rotary District events 
-    - Sponsor Rotaract Club(s) to attend Rotary District functions 
-    - Involve Interactors / Rotaractors in special Club meetings/ Projects 
-    - Sponsor youth(s) to attend multi-district RYLA / DILA 
+    - Form Interact Clubs. Guiding /mentoring the Interactors to take up social work activities and sponsor the clubs to attend Rotary District events
+    - Form Rotaract Clubs, guiding /mentoring the Rotaractors to take up social work activities and sponsor the clubs to attend Rotary District events
+    - Sponsor Rotaract Club(s) to attend Rotary District functions
+    - Involve Interactors / Rotaractors in special Club meetings/ Projects
+    - Sponsor youth(s) to attend multi-district RYLA / DILA
 
 - name: SPORTS COMMITTEE
   members:
-    - RTN. MUKTA MALHOTRA 
+    - RTN. MUKTA MALHOTRA
   description:
-    - Promoting fellowship and a healthy spirit of competition, the Sports Committee strives to have regular events that are open to all members of the Club. 
-    - Motivate members to participate in the Rotary District Cricket Tournament –organized by 
-    - District time to time. 
-    - Motivate Interact Clubs to participate in the District Interact Badminton Tournament by District every year. 
+    - Promoting fellowship and a healthy spirit of competition, the Sports Committee strives to have regular events that are open to all members of the Club.
+    - Motivate members to participate in the Rotary District Cricket Tournament –organized by
+    - District time to time.
+    - Motivate Interact Clubs to participate in the District Interact Badminton Tournament by District every year.
