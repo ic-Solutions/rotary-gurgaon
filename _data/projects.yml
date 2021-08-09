@@ -1,79 +1,88 @@
-- name: Club Service Avenue 
-  description: 
-    - Classification Survey completed and classification assigned to every member. 
-    - Club Website <a href="http://rotaryharmonyiberis.com/">www.rotaryharmonyiberis.com</a> being launched in June 2019.
-    - Monthly Bulletin has been published upto July 2020. 
-    - "Continuing efforts for bringing new members: Focus on Lady members"
-    - Club chartered on 12 November 2018 with 22 members. 
-    - Regular Club Meetings – twice in a month 
-    - Board Meeting – once in a month 
-    - Focus on strengthening fellowship and ensuring the effective functioning of the club. Striving to enroll all members for PHF membership. 
-    - Regular contacts with prospective members to attend our regular club meetings to improve membership growth. 
- 
-- name: Community Service Avenue 
+- name: Club Service Avenue
   description:
-    - 8 Blood Donation Camps organized in Rotary Year 2019-20 and 884 units were collected. This is our ongoing project. 
-    - Two Wheel Chairs have been donated on 6 Apr, for use by senior citizens in Malibu Town condominium 
-    - Cataract Surgeries will be organize in Rotary Year 2020-21 
-    - WinS & Wash – will install hand wash stations in Govt. Schools. 
-    - TEACH – helping 10 needy people for their Education. 
-    - Blood Donation / Eye Checkup / Dental Checkup Camps. 
-    - Participation in SNID/ NID. 
-    - Supporting Blind School and Special children school. 
-    - Tree Plantation. 
-    - Covers the projects and activities the club undertakes to improve the life in its community. 
-    - Installed Sanitary Napkin Vending Machine held at Govt. Model Sanskriti Sr. Sec. School Sector 43 Gurugram.  
-    - Donated 900+ garments to Earth Saviour Foundation, Gwal Pahari, Gurgaon Faridabad Road. The CEO, Earth Saviour Foundation, Mr Ravi Kalra accepted the garments. 
-    - Rotary Club of Gurgaon Harmony Iberis joined hands with other clubs of Zone 16 - RC Narnaul City, RC Rewari City and RC Rewari Main to support the Rotary Rasoi at Baba Kharag Singh Marg, Connaught Place (Near Shivaji Stadium Metro), New Delhi in the august presence of our Assistant Governor, Rtn. Ravi Gupta. 
-    - Rotary Rasoi is a landmark project of RC Narnaul City which serves tasty lunch at an attractive price of ₹ 10 per meal. 
-    - Our Club’s is embarking upon the journey of spreading education through donation of books under the Rotary TEACH Project 2019-2020. It was initiated in three schools on 11th October 2019. 
-    - The Asha Kiran Child Development program aims to bring/send back out-of-school children to schools. The objective is to facilitate these children’ access to mainstream state funded primary/elementary schools. Sending a child back to school costs Rs.2500/- for a year. 
-    - One of our members, President Lalit Sawhney has contributed Rs. 10,000 towards sponsoring 4 children under the ‘Chhoti Si Asha’ programme, in memory of his parents. 
-    - Rotary Club of Gurgaon Harmony Iberis Installed 4 Hand Wash Stations in Govt. Sr. Secondary School, Bajghera on 26 July 2019.  
-    - Wash in Schools Project - Inauguration of the Hand Wash Station at the Govt Senior Secondary School, Bajghera on 14 August 2019, by Assistant Governor Rtn. Ravi Gupta. Installation of two more Hand Wash Stations at Primary School awaiting completion of construction work. President Rtn Lalit Sawhney, Secretary Rtn Abdul Aziz, Rtn R S Atroley, the Senior School Principal and members’ spouses attended this event. 
-    - Various Blood Donation Camps across the city were conducted and all were very successful. 884 units were collected in Rotary Year 2019-20. These camps go a long way to show the commitment to society that Rotary has. 
- 
-- name: Major Club Project – The Harmony Heart Project 
-  description: 
-    - The project team worked on the co-operation with the sister Club, Rotary Club of Fort Wayne, Indiana, USA, and the MOU with the Hospital at Palwal, Haryana and the Hospital Trust at Bangalore.
-    - The Application for the Rotary International Global Grant and the MOU were developed with help from,
-  list:
-    - Rotarians from Rotary Club of Bangalore Indiranagar which has got 10,000 surgeries done in the last 10 years,  
-    - Rotary Club of Faridabad Aravalli which has provided an Operation Theatre for Heart Surgeries 
-    - Rotary Club of Delhi Mid West which had an MOU with Fortis Hospital 
-    - Rotary Club of Fort Wayne, the International partner Club, 
-    - District Grants Sub-Committee Chair,  
-    - District Rotary Foundation Chair, and 
-    - District Governor. 
- 
- 
-- name: Vocational Service Avenue 
-  description:
-    - Vocational Project for Sewing Training was conducted at Boutique International. And, Sewing Centres have been inaugurated at Khandsa Village and Dundahera Village, Gurugram. 
-    - Two more events are planned in Sikanderpur and Chakkarpur villages. 
-    - Established Sewing Center at Khandsa village to provide training and skill up gradation of the weaker section of the local and nearby communities of the society. 
-    - Will be participating in all District Seminars/ Conferences. 
- 
-- name: International Service Avenue 
-  description:
-    - Discussion on establishing sister-club relationships with foreign clubs was held. 
-    - Members felt that once the Club executes the proposed major project, it would be in a position to showcase the same to Rotary clubs abroad, for example in the USA and Singapore. 
- 
-    - Established contacts with other Rotary clubs overseas for projects. Encompasses actions taken to expand Rotary’s humanitarian reach around the globe and promote world understanding and peace. 
- 
-    - Will host Teams from other Districts visiting RI District 3011 
+    - Develop a Strategic plan for the club.
+    - Ensure 100% of members are registered on My Rotary.
+    - Set at least 18 Goals.
+    - Post at least three initiatives on Rotary Show Case (for Global viewing).
+    - Encourage Members to participate in Rotary Discussion Groups.
+    - Qualify for RI Presidential Citation and Avenues of Service Citation Awards.
+    - Participate in District Meets and Seminars.
+    - Celebrate each month of the Rotary Years as per Rotary Calendar with appropriate activities.
+    - Conduct regular meetings, board meetings and club assemblies.
+    - All goals and meeting records to be meticulously maintained / updated in appropriate repositories.
+    - Consider updating the Club Constitution and Bye Laws (if required).
 
-- name: Youth Service Avenue 
-  description: 
-    - Discussion has been held with Schools to start an Interact Club. Conduct leadership workshops for Interactors and Rotaractors. Recognizes the positive change implemented by youth and young adults through leadership development activities such as DILA, RYLA, Rotaract and Interact Club service projects, and creating international understanding with Rotary Youth Exchange. 
-    - We have received Charter Certificate of Interact Club of Sshakt - Shiv Nadar School, Gurgaon (Club Id "#220907") 
-    - More applications have been sent to RI office for Charter Certificates for Interact & Rotaract Clubs. 
- 
-- name: Areas of Focus of Rotary International Projects 
+- name: Leadership
   description:
-    - Peace and conflict prevention/resolution 
-    - Disease prevention and treatment 
-    - Water and Sanitation 
-    - Maternal and child health 
-    - Basic education and literacy 
+    - Assess and implement a Club Leadership Plan.
+    - Ensure each member has a position in the Club Board or Club Committees.
+    - Ensure each member participates in planning and execution of Club projects.
+
+- name: Community Service Avenue
+  sub-name: Service Projects related to Rotary 7 Areas of Focus
+  description:
+    - Disease Prevention and Treatment – Conduct cataract surgeries (20), Covid Awareness camps and hygiene training in Govt. schools.<br>
+      - Adopt one village in Dist. Avoidable Blindness Free Village Project.<br>
+      - Participate in Dist. Mental Health Initiative.<br>
+      - Conduct 10 Club Blood Donation Camps and participate in Zone camps.
+    - Water and Sanitation – Install and commission five (5) Hand wash stations in schools. Create Water awareness and literacy in community.<br>
+      - Participate in Rotary India -Water, Sanitation and hygiene program.
+    - Maternal and Child health- Female Hygiene talks and support good nutrition.
+    - Basic Education and Literacy- Execute RILM -TEACH programme verticals in two schools.
+    - Economic and Community Development – Livelihood based skill development via Skill Centre.
+    - Peace and Conflict Prevention- Participate in Global grants and Twin programs.
+    - Support Environment- Create awareness of solid waste management and reduce single use plastic.
+    - Support other community charitable institutions (e.g. Anand Ashram) on case by case basis.
+
+- name: Major Goals
+  description:
+    - Adopt a village in the geographical vicinity of the Club.
+    - Establish a Skill Development Center in Gurgaon in partnership with a local entity.
+    - Develop one Corporate CSR relationship and conduct the contracted activity.<br> E.g. Dist. 50 Ambulance Project.
+  sub-description:
+    - <br>N.B. Based on consideration and approvals, a pro-forma budget based on projected income and as per Rotary norms will be presented at the first club assembly to be held in the month of July 2021.
+
+- name: Major Club Project – The Harmony Heart Project
+  description:
+    - The project team worked on the co-operation with the sister Club, Rotary Club of Fort Wayne, Indiana, USA, and the MOU with the Hospital at Palwal, Haryana and the Hospital Trust at Bangalore.
+  list:
+    - The Application for the Rotary International Global Grant and the MOU were developed with help from, Rotarians from Rotary Club of Bangalore Indiranagar which has got 10,000 surgeries done in the last 10 years,
+    - Rotary Club of Faridabad Aravalli which has provided an Operation Theatre for Heart Surgeries
+    - Rotary Club of Delhi Mid West which had an MOU with Fortis Hospital
+    - Rotary Club of Fort Wayne, the International partner Club,
+    - District Grants Sub-Committee Chair,
+    - District Rotary Foundation Chair, and
+    - District Governor.
+
+- name: Vocational Service Avenue
+  description:
+    - Encourage all members to display "Rotary Code of Conduct" and "The Four Way Test" at their homes and work places.
+    - Partner with an industry association (e.g. Garment Exporters) to implement the "Four Way Test" , amongst their members.
+    - Establish a joint RCGHI / ISTD (Gurgaon) Award for Vocational Excellence in professions.
+    - Recognize and honor outstanding vocational achievers in the community.
+    - Establishment of a Skill Development Centre on a partnership basis.
+    - Participate in “50 Job Skills “guaranteed employment program of the Dist.
+
+- name: International Service Avenue
+  description:
+    - Establish “Twin Club “relationship with RC Queenstown –Singapore and RC Fort Wayne.
+    - Consider arranging visits to foreign clubs / attend meetings.
+    - Participate in international fellowship and Peace activities.
+    - Promote RI Convention 2022.
+
+- name: Youth Service Avenue
+  description:
+    - Build and grow the existing three Interact Clubs and one Rotaract Club.
+    - Establish a new Rotaract (Community based) Club.
+    - Sponsor members of the above clubs for DILA and RYLA.
+    - Ensure participation of Interactors and Rotaractors in Club meetings, events and projects.
+
+- name: Areas of Focus of Rotary International Projects
+  description:
+    - Peace and conflict prevention/resolution
+    - Disease prevention and treatment
+    - Water and Sanitation
+    - Maternal and child health
+    - Basic education and literacy
     - Economic and community development
+    - Support the environment
