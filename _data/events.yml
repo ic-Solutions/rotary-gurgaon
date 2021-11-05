@@ -58,20 +58,32 @@
 #   when: Wednesday, 26 May 2021
 #   where: Zoom at 6pm
 
-- title: Project Mask Distribution
+# - title: Project Mask Distribution
+#   type: meeting
+#   number: 1
+#   when: Thursday, 1 July 2021
+#   where: Gurgaon
+
+# - title: Club Meeting
+#   type: meeting
+#   number: 2
+#   when: Wednesday, 14 July 2021
+#   where: Zoom
+
+# - title: Club Meeting
+#   type: meeting
+#   number: 3
+#   when: Wednesday, 28 July 2021
+#   where: Zoom
+
+- title: Club Meeting
   type: meeting
   number: 1
-  when: Thursday, 1 July 2021
-  where: Gurgaon
+  when: Wednesday, 10 November 2021 at 6 pm
+  where: Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
 
 - title: Club Meeting
   type: meeting
   number: 2
-  when: Wednesday, 14 July 2021
-  where: Zoom
-
-- title: Club Meeting
-  type: meeting
-  number: 3
-  when: Wednesday, 28 July 2021
-  where: Zoom
+  when: Wednesday, 24 November 2021 at 6 pm
+  where: Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003

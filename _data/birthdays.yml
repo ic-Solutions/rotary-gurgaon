@@ -174,18 +174,58 @@
 #   date: 17 May
 #   type: anniversary
 
-- name: R'anne Taru Bhargava
-  date: 23 July
+# - name: R'anne Taru Bhargava
+#   date: 23 July
+#   type: birth
+
+# - name: R’anne Neeru Atroley
+#   date: 30 July
+#   type: birth
+
+# - name: Rtn Dr Deepak Gahlot
+#   date: 28 August
+#   type: birth
+
+# - name: R'anne Gowthami Anisha Vallampati & Rtn Sandeep Mogalapalli
+#   date: 15 August
+#   type: anniversary
+
+- name: Rtn Ravinder Singh Rathee
+  date: 2 November
   type: birth
 
-- name: R’anne Neeru Atroley
-  date: 30 July
+- name: Rtn Vivek N Gour
+  date: 10 November
   type: birth
 
-- name: Rtn Dr Deepak Gahlot
-  date: 28 August
+- name: Rtn Sandeep Mogalapalli
+  date: 10 November
   type: birth
 
-- name: R'anne Gowthami Anisha Vallampati & Rtn Sandeep Mogalapalli
-  date: 15 August
+- name: Rtn. Neera Jolly
+  date: 27 November
+  type: birth
+
+- name: R’anne Sonia Bajaj
+  date: 27 November
+  type: birth
+
+- name: R'anne Taru Bhargava & Rtn Praveen Bhargava
+  date: 10 November
+  type: anniversary
+
+- name: Dr Kritika Kumar & Dr. Rishabh Kumar
+  date: 11 November
+  type: anniversary
+
+- name: Rtn Rama Chawla & Mr Vijay Chawla
+  date: 20 November
+  type: anniversary
+
+- name: R’anne Sonia Bajaj & Rtn Rajeev Bajaj
+  date: 23 November
+  type: anniversary
+
+- name: Rtn. Anjali Rana & Mr Kuldeep Pandey
+  date: 26 November
   type: anniversary
