@@ -23,6 +23,76 @@
     <!--End of Rotary Category sub title-->
     <br />
 
+    <!-- January - 2022 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <div
+            class="alert alert-success text-center box-effect-small"
+            role="alert"
+            style="margin-bottom: 0"
+          >
+            <h5 style="margin-bottom: 0">January - 2022</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters my-4">
+      {% for item in site.data.gallery.y2022.jan %}
+      <div class="col-lg-4 col-md-6 p-2">
+        <div class="gallery-item wow fadeInUp">
+          <a
+            class="gallery-popup wow jackInTheBox"
+            href="/gallery/2022/jan/{{item}}"
+          >
+            <img
+              alt="{{item}} || rotary-gurgaon"
+              src="/gallery/2022/jan/{{item}}"
+              style="object-fit: cover; object-position: top"
+            />
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <br />
+
+    <!-- December -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <div
+            class="alert alert-success text-center box-effect-small"
+            role="alert"
+            style="margin-bottom: 0"
+          >
+            <h5 style="margin-bottom: 0">December - 2021</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters my-4">
+      {% for item in site.data.gallery.y2021.dec %}
+      <div class="col-lg-4 col-md-6 p-2">
+        <div class="gallery-item wow fadeInUp">
+          <a
+            class="gallery-popup wow jackInTheBox"
+            href="/gallery/2021/dec/{{item}}"
+          >
+            <img
+              alt="{{item}} || rotary-gurgaon"
+              src="/gallery/2021/dec/{{item}}"
+              style="object-fit: cover; object-position: top"
+            />
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <br />
+
     <!-- November -->
     <div class="container">
       <div class="row">
