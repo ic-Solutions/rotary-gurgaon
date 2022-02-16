@@ -76,14 +76,32 @@
 #   when: Wednesday, 28 July 2021
 #   where: Zoom
 
+# - title: Club Meeting
+#   type: meeting
+#   number: 1
+#   when: Wednesday, 10 November 2021 at 6 pm
+#   where: Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
+# - title: Club Meeting
+#   type: meeting
+#   number: 2
+#   when: Wednesday, 24 November 2021 at 6 pm
+#   where: Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+
 - title: Club Meeting
   type: meeting
   number: 1
-  when: Wednesday, 10 November 2021 at 6 pm
-  where: Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+  when: Wednesday, 9th February 2022
+  where: Zoom
 
 - title: Club Meeting
   type: meeting
   number: 2
-  when: Wednesday, 24 November 2021 at 6 pm
-  where: Club 5, Opposite Trinity Tower, Club Drive, DLF Phase-V, Gurugram, Haryana-122003
+  when: Monday, 14th February 2022
+  where: Zoom/ Sri Sathya Sai Sanjeevani International Centre for Child Heart Care & Research, Palwal, Haryana
+
+- title: Club Meeting
+  type: meeting
+  number: 3
+  when: Wednesday, 23rd February 2022
+  where: Zoom

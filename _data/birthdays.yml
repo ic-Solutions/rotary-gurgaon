@@ -190,42 +190,86 @@
 #   date: 15 August
 #   type: anniversary
 
-- name: Rtn Ravinder Singh Rathee
-  date: 2 November
+# - name: Rtn Ravinder Singh Rathee
+#   date: 2 November
+#   type: birth
+
+# - name: Rtn Vivek N Gour
+#   date: 10 November
+#   type: birth
+
+# - name: Rtn Sandeep Mogalapalli
+#   date: 10 November
+#   type: birth
+
+# - name: Rtn. Neera Jolly
+#   date: 27 November
+#   type: birth
+
+# - name: R’anne Sonia Bajaj
+#   date: 27 November
+#   type: birth
+
+# - name: R'anne Taru Bhargava & Rtn Praveen Bhargava
+#   date: 10 November
+#   type: anniversary
+
+# - name: Dr Kritika Kumar & Dr. Rishabh Kumar
+#   date: 11 November
+#   type: anniversary
+
+# - name: Rtn Rama Chawla & Mr Vijay Chawla
+#   date: 20 November
+#   type: anniversary
+
+# - name: R’anne Sonia Bajaj & Rtn Rajeev Bajaj
+#   date: 23 November
+#   type: anniversary
+
+# - name: Rtn. Anjali Rana & Mr Kuldeep Pandey
+#   date: 26 November
+#   type: anniversary
+
+- name: Rtn. Abdul Aziz Seyid
+  date: 1 February
   type: birth
 
-- name: Rtn Vivek N Gour
-  date: 10 November
+- name: Rtn. Dr Kritika Chopra Kumar
+  date: 7 February
   type: birth
 
-- name: Rtn Sandeep Mogalapalli
-  date: 10 November
+- name: R’anne Madhu Bhargava
+  date: 13 February
   type: birth
 
-- name: Rtn. Neera Jolly
-  date: 27 November
+- name: R’anne Shikha Agrawal
+  date: 17 February
   type: birth
 
-- name: R’anne Sonia Bajaj
-  date: 27 November
+- name: Rtn. Mukta Malhotra
+  date: 25 February
   type: birth
 
-- name: R'anne Taru Bhargava & Rtn Praveen Bhargava
-  date: 10 November
+- name: R'anne Rashmi Datt
+  date: 3 March
+  type: birth
+
+- name: Mr Kuldeep Pandey
+  date: 5 March
+  type: birth
+
+- name: Rtn. Neel Kamal Bhargava
+  date: 21 March
+  type: birth
+
+- name: R’anne Ruchi Singh & Rtn. Vikas Singh
+  date: 1 February
   type: anniversary
 
-- name: Dr Kritika Kumar & Dr. Rishabh Kumar
-  date: 11 November
+- name: R'anne Asmita & Yiyashu Maheshwari
+  date: 10 February
   type: anniversary
 
-- name: Rtn Rama Chawla & Mr Vijay Chawla
-  date: 20 November
-  type: anniversary
-
-- name: R’anne Sonia Bajaj & Rtn Rajeev Bajaj
-  date: 23 November
-  type: anniversary
-
-- name: Rtn. Anjali Rana & Mr Kuldeep Pandey
-  date: 26 November
+- name: R'anne Neeru Atroley &Rtn R S Atroley
+  date: 15 February
   type: anniversary
