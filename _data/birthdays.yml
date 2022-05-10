@@ -230,46 +230,70 @@
 #   date: 26 November
 #   type: anniversary
 
-- name: Rtn. Abdul Aziz Seyid
-  date: 1 February
+# - name: Rtn. Abdul Aziz Seyid
+#   date: 1 February
+#   type: birth
+
+# - name: Rtn. Dr Kritika Chopra Kumar
+#   date: 7 February
+#   type: birth
+
+# - name: R’anne Madhu Bhargava
+#   date: 13 February
+#   type: birth
+
+# - name: R’anne Shikha Agrawal
+#   date: 17 February
+#   type: birth
+
+# - name: Rtn. Mukta Malhotra
+#   date: 25 February
+#   type: birth
+
+# - name: R'anne Rashmi Datt
+#   date: 3 March
+#   type: birth
+
+# - name: Mr Kuldeep Pandey
+#   date: 5 March
+#   type: birth
+
+# - name: Rtn. Neel Kamal Bhargava
+#   date: 21 March
+#   type: birth
+
+# - name: R’anne Ruchi Singh & Rtn. Vikas Singh
+#   date: 1 February
+#   type: anniversary
+
+# - name: R'anne Asmita & Yiyashu Maheshwari
+#   date: 10 February
+#   type: anniversary
+
+# - name: R'anne Neeru Atroley &Rtn R S Atroley
+#   date: 15 February
+#   type: anniversary
+
+- name: Rtn. Anjali Rana
+  date: 14 May
   type: birth
 
-- name: Rtn. Dr Kritika Chopra Kumar
-  date: 7 February
+- name: Rtn Shobha Khatri
+  date: 14 June
   type: birth
 
-- name: R’anne Madhu Bhargava
-  date: 13 February
+- name: Rtn Raghubar Swaroop Atroley
+  date: 16 June
   type: birth
 
-- name: R’anne Shikha Agrawal
-  date: 17 February
+- name: R’anne Neeru Atroley – DOB
+  date: 30 July
   type: birth
 
-- name: Rtn. Mukta Malhotra
-  date: 25 February
-  type: birth
-
-- name: R'anne Rashmi Datt
-  date: 3 March
-  type: birth
-
-- name: Mr Kuldeep Pandey
-  date: 5 March
-  type: birth
-
-- name: Rtn. Neel Kamal Bhargava
-  date: 21 March
-  type: birth
-
-- name: R’anne Ruchi Singh & Rtn. Vikas Singh
-  date: 1 February
+- name: Rtn. Neera Jolly & Mr. N.K. Jolly
+  date: 17 May
   type: anniversary
 
-- name: R'anne Asmita & Yiyashu Maheshwari
-  date: 10 February
-  type: anniversary
-
-- name: R'anne Neeru Atroley &Rtn R S Atroley
-  date: 15 February
+- name: R’anne Dr. Sonia Rathee & Rtn Ravinder Singh Rathee
+  date: 7 July
   type: anniversary
